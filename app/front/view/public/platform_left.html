@@ -1,0 +1,37 @@
+<!-- 左边的导航 -->
+<div class="dievright">
+    <div id="ctl00_rzpt" class="">
+        <div class="divtitle2">
+            <div class="divtitle2_h6">热门平台入驻</div>
+            <span class="divabouen">Hot platform entry</span>
+        </div>
+        <div class="divrightLit" id="platform_nav">
+            <ul>
+            </ul>
+        </div>
+        <script>
+            // 页面加载完毕执行
+            $(document).ready(function () {
+                // 获取平台列表
+                let platformList = xhr_get('/platform/get_platform_list');
+                // console.log(platformList);
+
+                // 渲染左边的导航
+                var id = get_url_id();
+                var html = '';
+                $.each(platformList, function (key, value) {
+                    var className = '';
+                    if (!empty(id) && value.id == id) {
+                        className = 'hover_1';
+                    }
+                    html += '<li>';
+                    html += '<a href="/platform/' + value.id + '" title="' + value.title + '" id="platform_' + value.id + '" class="' + className + '">';
+                    html += '<div class="nc-right">' + value.title + '</div>';
+                    html += '</a>';
+                    html += '</li>';
+                });
+                $('#platform_nav ul').append(html);
+            });
+        </script>
+    </div>
+</div>

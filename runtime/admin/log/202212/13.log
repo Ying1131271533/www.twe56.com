@@ -1,0 +1,1100 @@
+[2022-12-13T10:14:49+08:00][sql] CONNECT:[ UseTime:0.042289s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T10:14:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012688s ]
+[2022-12-13T10:14:49+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012436s ]
+[2022-12-13T10:14:49+08:00][sql] CONNECT:[ UseTime:0.033261s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T10:14:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012399s ]
+[2022-12-13T10:14:49+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011881s ]
+[2022-12-13T10:14:50+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T10:15:50+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T10:16:04+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T10:16:08+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T10:16:13+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T10:16:21+08:00][error] [8]未定义变量: status[D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php:45]
+[2022-12-13T11:55:00+08:00][sql] CONNECT:[ UseTime:0.045729s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T11:55:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.032155s ]
+[2022-12-13T11:55:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022608s ]
+[2022-12-13T11:55:00+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.016992s ]
+[2022-12-13T11:55:17+08:00][sql] CONNECT:[ UseTime:0.032442s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T11:55:17+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013587s ]
+[2022-12-13T11:55:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016558s ]
+[2022-12-13T11:55:17+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.014484s ]
+[2022-12-13T13:18:47+08:00][sql] CONNECT:[ UseTime:0.043664s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T13:18:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015056s ]
+[2022-12-13T13:18:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011503s ]
+[2022-12-13T13:18:47+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011151s ]
+[2022-12-13T14:34:32+08:00][error] [0]Argument 2 passed to url() must be of the type array, string given, called in D:\Web\www.wse.com\runtime\admin\temp\f1b74c11c743967d434f13479f2fbf1e.php on line 187[D:\Web\www.wse.com\vendor\topthink\framework\src\helper.php:501]
+[2022-12-13T14:41:48+08:00][sql] CONNECT:[ UseTime:0.032702s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:41:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018701s ]
+[2022-12-13T14:41:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011077s ]
+[2022-12-13T14:41:48+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.021860s ]
+[2022-12-13T14:42:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:20]
+[2022-12-13T14:42:39+08:00][sql] CONNECT:[ UseTime:0.028981s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:42:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013593s ]
+[2022-12-13T14:42:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011838s ]
+[2022-12-13T14:42:39+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012442s ]
+[2022-12-13T14:44:37+08:00][sql] CONNECT:[ UseTime:0.023836s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:44:37+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014541s ]
+[2022-12-13T14:44:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012223s ]
+[2022-12-13T14:44:37+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011738s ]
+[2022-12-13T14:44:53+08:00][sql] CONNECT:[ UseTime:0.028457s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:44:53+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012266s ]
+[2022-12-13T14:44:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011121s ]
+[2022-12-13T14:44:53+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011216s ]
+[2022-12-13T14:44:58+08:00][sql] CONNECT:[ UseTime:0.037120s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:44:58+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012610s ]
+[2022-12-13T14:44:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016103s ]
+[2022-12-13T14:44:58+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012037s ]
+[2022-12-13T14:45:33+08:00][sql] CONNECT:[ UseTime:0.027947s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:45:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009443s ]
+[2022-12-13T14:45:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006209s ]
+[2022-12-13T14:45:33+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.006332s ]
+[2022-12-13T14:46:42+08:00][sql] CONNECT:[ UseTime:0.020740s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012664s ]
+[2022-12-13T14:46:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012873s ]
+[2022-12-13T14:46:42+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013203s ]
+[2022-12-13T14:46:45+08:00][sql] CONNECT:[ UseTime:0.037356s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012287s ]
+[2022-12-13T14:46:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016898s ]
+[2022-12-13T14:46:45+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011793s ]
+[2022-12-13T14:46:46+08:00][sql] CONNECT:[ UseTime:0.023488s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011058s ]
+[2022-12-13T14:46:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010463s ]
+[2022-12-13T14:46:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011578s ]
+[2022-12-13T14:46:47+08:00][sql] CONNECT:[ UseTime:0.030300s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012568s ]
+[2022-12-13T14:46:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017427s ]
+[2022-12-13T14:46:47+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.016233s ]
+[2022-12-13T14:46:49+08:00][sql] CONNECT:[ UseTime:0.016674s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.006765s ]
+[2022-12-13T14:46:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005993s ]
+[2022-12-13T14:46:49+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.006753s ]
+[2022-12-13T14:46:50+08:00][sql] CONNECT:[ UseTime:0.027766s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:50+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011436s ]
+[2022-12-13T14:46:50+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011509s ]
+[2022-12-13T14:46:50+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.016802s ]
+[2022-12-13T14:46:51+08:00][sql] CONNECT:[ UseTime:0.022239s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014631s ]
+[2022-12-13T14:46:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015899s ]
+[2022-12-13T14:46:51+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012362s ]
+[2022-12-13T14:46:52+08:00][sql] CONNECT:[ UseTime:0.022177s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.021353s ]
+[2022-12-13T14:46:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010206s ]
+[2022-12-13T14:46:52+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.010727s ]
+[2022-12-13T14:46:54+08:00][sql] CONNECT:[ UseTime:0.023636s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013346s ]
+[2022-12-13T14:46:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012620s ]
+[2022-12-13T14:46:54+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.014422s ]
+[2022-12-13T14:46:55+08:00][sql] CONNECT:[ UseTime:0.027681s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:46:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011483s ]
+[2022-12-13T14:46:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011876s ]
+[2022-12-13T14:46:55+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012913s ]
+[2022-12-13T14:47:16+08:00][sql] CONNECT:[ UseTime:0.015956s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:47:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007746s ]
+[2022-12-13T14:47:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013706s ]
+[2022-12-13T14:47:16+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.006951s ]
+[2022-12-13T14:47:26+08:00][sql] CONNECT:[ UseTime:0.012753s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:47:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007001s ]
+[2022-12-13T14:47:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009206s ]
+[2022-12-13T14:47:26+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.006907s ]
+[2022-12-13T14:48:00+08:00][sql] CONNECT:[ UseTime:0.021335s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013105s ]
+[2022-12-13T14:48:00+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.025476s ]
+[2022-12-13T14:48:01+08:00][sql] CONNECT:[ UseTime:0.029528s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017825s ]
+[2022-12-13T14:48:01+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 1 [ RunTime:0.020902s ]
+[2022-12-13T14:48:01+08:00][sql] CONNECT:[ UseTime:0.026553s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007644s ]
+[2022-12-13T14:48:01+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.017679s ]
+[2022-12-13T14:48:02+08:00][sql] CONNECT:[ UseTime:0.020346s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:02+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012594s ]
+[2022-12-13T14:48:02+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 1 [ RunTime:0.019259s ]
+[2022-12-13T14:48:04+08:00][sql] CONNECT:[ UseTime:0.014192s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007294s ]
+[2022-12-13T14:48:04+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.020206s ]
+[2022-12-13T14:48:06+08:00][sql] CONNECT:[ UseTime:0.014648s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008042s ]
+[2022-12-13T14:48:06+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 1 [ RunTime:0.024116s ]
+[2022-12-13T14:48:06+08:00][sql] CONNECT:[ UseTime:0.033120s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015527s ]
+[2022-12-13T14:48:06+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 2 [ RunTime:0.027261s ]
+[2022-12-13T14:48:07+08:00][sql] CONNECT:[ UseTime:0.024138s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012421s ]
+[2022-12-13T14:48:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012087s ]
+[2022-12-13T14:48:07+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012817s ]
+[2022-12-13T14:48:08+08:00][sql] CONNECT:[ UseTime:0.031528s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:08+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015043s ]
+[2022-12-13T14:48:08+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 2 [ RunTime:0.017629s ]
+[2022-12-13T14:48:22+08:00][sql] CONNECT:[ UseTime:0.017217s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:48:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008229s ]
+[2022-12-13T14:48:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006941s ]
+[2022-12-13T14:48:22+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.008313s ]
+[2022-12-13T14:49:11+08:00][sql] CONNECT:[ UseTime:0.022264s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:49:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013687s ]
+[2022-12-13T14:49:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022525s ]
+[2022-12-13T14:49:11+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013484s ]
+[2022-12-13T14:49:12+08:00][sql] CONNECT:[ UseTime:0.021679s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:49:12+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013025s ]
+[2022-12-13T14:49:12+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013629s ]
+[2022-12-13T14:49:22+08:00][sql] CONNECT:[ UseTime:0.013656s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:49:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008124s ]
+[2022-12-13T14:49:22+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 2 [ RunTime:0.014477s ]
+[2022-12-13T14:49:23+08:00][sql] CONNECT:[ UseTime:0.022318s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T14:49:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011710s ]
+[2022-12-13T14:49:23+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 2 [ RunTime:0.021866s ]
+[2022-12-13T14:53:09+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T15:01:24+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T15:06:03+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T15:07:24+08:00][sql] CONNECT:[ UseTime:0.022654s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012696s ]
+[2022-12-13T15:07:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011110s ]
+[2022-12-13T15:07:24+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.012125s ]
+[2022-12-13T15:07:26+08:00][sql] CONNECT:[ UseTime:0.021647s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012171s ]
+[2022-12-13T15:07:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012283s ]
+[2022-12-13T15:07:26+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.011346s ]
+[2022-12-13T15:07:32+08:00][sql] CONNECT:[ UseTime:0.019006s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011157s ]
+[2022-12-13T15:07:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012813s ]
+[2022-12-13T15:07:32+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.010771s ]
+[2022-12-13T15:07:36+08:00][sql] CONNECT:[ UseTime:0.012345s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:36+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.006674s ]
+[2022-12-13T15:07:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006502s ]
+[2022-12-13T15:07:36+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.006371s ]
+[2022-12-13T15:07:38+08:00][sql] CONNECT:[ UseTime:0.034395s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:38+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012067s ]
+[2022-12-13T15:07:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019202s ]
+[2022-12-13T15:07:38+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013633s ]
+[2022-12-13T15:07:57+08:00][sql] CONNECT:[ UseTime:0.022865s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:07:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013115s ]
+[2022-12-13T15:07:57+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016152s ]
+[2022-12-13T15:07:57+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013028s ]
+[2022-12-13T15:08:11+08:00][sql] CONNECT:[ UseTime:0.030787s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:08:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012157s ]
+[2022-12-13T15:08:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010956s ]
+[2022-12-13T15:08:11+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013892s ]
+[2022-12-13T15:08:37+08:00][sql] CONNECT:[ UseTime:0.047015s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:08:37+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014702s ]
+[2022-12-13T15:08:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018284s ]
+[2022-12-13T15:08:37+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.013661s ]
+[2022-12-13T15:08:39+08:00][sql] CONNECT:[ UseTime:0.028453s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:08:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014400s ]
+[2022-12-13T15:08:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008380s ]
+[2022-12-13T15:08:39+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.007301s ]
+[2022-12-13T15:08:46+08:00][sql] CONNECT:[ UseTime:0.025901s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:08:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016272s ]
+[2022-12-13T15:08:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015051s ]
+[2022-12-13T15:08:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.014900s ]
+[2022-12-13T15:11:08+08:00][sql] CONNECT:[ UseTime:0.022876s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:08+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016492s ]
+[2022-12-13T15:11:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020433s ]
+[2022-12-13T15:11:08+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012804s ]
+[2022-12-13T15:11:10+08:00][sql] CONNECT:[ UseTime:0.025232s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:10+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011813s ]
+[2022-12-13T15:11:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `username` LIKE '%akali%' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011884s ]
+[2022-12-13T15:11:10+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `username` LIKE '%akali%' ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011650s ]
+[2022-12-13T15:11:13+08:00][sql] CONNECT:[ UseTime:0.021963s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013290s ]
+[2022-12-13T15:11:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `username` LIKE '%akal%' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020069s ]
+[2022-12-13T15:11:13+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `username` LIKE '%akal%' ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.017639s ]
+[2022-12-13T15:11:17+08:00][sql] CONNECT:[ UseTime:0.022254s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:17+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013870s ]
+[2022-12-13T15:11:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `username` LIKE '%ruiwen%' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012202s ]
+[2022-12-13T15:11:25+08:00][sql] CONNECT:[ UseTime:0.023595s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007520s ]
+[2022-12-13T15:11:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012316s ]
+[2022-12-13T15:11:25+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.008058s ]
+[2022-12-13T15:11:26+08:00][sql] CONNECT:[ UseTime:0.013284s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007410s ]
+[2022-12-13T15:11:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007493s ]
+[2022-12-13T15:11:26+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007185s ]
+[2022-12-13T15:11:31+08:00][sql] CONNECT:[ UseTime:0.018175s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013160s ]
+[2022-12-13T15:11:31+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.025779s ]
+[2022-12-13T15:11:31+08:00][sql] CONNECT:[ UseTime:0.023282s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012612s ]
+[2022-12-13T15:11:31+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 1 [ RunTime:0.020056s ]
+[2022-12-13T15:11:33+08:00][sql] CONNECT:[ UseTime:0.021503s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:11:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014754s ]
+[2022-12-13T15:11:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012305s ]
+[2022-12-13T15:11:33+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012214s ]
+[2022-12-13T15:14:36+08:00][sql] CONNECT:[ UseTime:0.024678s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:14:36+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013398s ]
+[2022-12-13T15:14:36+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.020256s ]
+[2022-12-13T15:14:42+08:00][sql] CONNECT:[ UseTime:0.022578s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:14:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019178s ]
+[2022-12-13T15:14:42+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 1 [ RunTime:0.019427s ]
+[2022-12-13T15:14:54+08:00][sql] CONNECT:[ UseTime:0.025682s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:14:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014666s ]
+[2022-12-13T15:14:54+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014995s ]
+[2022-12-13T15:14:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015467s ]
+[2022-12-13T15:14:54+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014248s ]
+[2022-12-13T15:14:56+08:00][sql] CONNECT:[ UseTime:0.036953s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:14:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014437s ]
+[2022-12-13T15:14:56+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014104s ]
+[2022-12-13T15:14:56+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.019484s ]
+[2022-12-13T15:15:00+08:00][sql] CONNECT:[ UseTime:0.025141s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:15:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012147s ]
+[2022-12-13T15:15:00+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012090s ]
+[2022-12-13T15:15:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:15:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:16:18+08:00][sql] CONNECT:[ UseTime:0.023745s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.025488s ]
+[2022-12-13T15:16:18+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.024842s ]
+[2022-12-13T15:16:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\logic\Admin.php:37]
+[2022-12-13T15:16:29+08:00][sql] CONNECT:[ UseTime:0.019344s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011365s ]
+[2022-12-13T15:16:29+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011909s ]
+[2022-12-13T15:16:29+08:00][sql] UPDATE `admin`  SET `last_login_token` = '420a4a534442f7a754d964c10baabcdc2160a4be' , `login_number` = 52 , `last_login_time` = '1670915789' , `update_time` = 1670915789  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.010328s ]
+[2022-12-13T15:16:30+08:00][sql] CONNECT:[ UseTime:0.022846s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019690s ]
+[2022-12-13T15:16:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012936s ]
+[2022-12-13T15:16:30+08:00][sql] CONNECT:[ UseTime:0.038927s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014504s ]
+[2022-12-13T15:16:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013487s ]
+[2022-12-13T15:16:31+08:00][sql] CONNECT:[ UseTime:0.152424s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014252s ]
+[2022-12-13T15:16:31+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015330s ]
+[2022-12-13T15:16:31+08:00][sql] CONNECT:[ UseTime:0.060108s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:16:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014635s ]
+[2022-12-13T15:16:31+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016255s ]
+[2022-12-13T15:16:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012870s ]
+[2022-12-13T15:16:31+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015322s ]
+[2022-12-13T15:17:02+08:00][sql] CONNECT:[ UseTime:0.024280s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:17:02+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008961s ]
+[2022-12-13T15:17:02+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008560s ]
+[2022-12-13T15:17:02+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 1 [ RunTime:0.018196s ]
+[2022-12-13T15:28:35+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:28:35+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:28:36+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:28:36+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:28:40+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:28:45+08:00][sql] CONNECT:[ UseTime:0.020229s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:28:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007027s ]
+[2022-12-13T15:28:45+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005761s ]
+[2022-12-13T15:28:45+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'a4482c14d6c8943e744d8bef5528c0411282fa79' , `login_number` = 14 , `last_login_time` = '1670916525' , `update_time` = 1670916525  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011204s ]
+[2022-12-13T15:28:46+08:00][sql] CONNECT:[ UseTime:0.015086s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:28:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007181s ]
+[2022-12-13T15:28:46+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008686s ]
+[2022-12-13T15:28:46+08:00][sql] CONNECT:[ UseTime:0.022363s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:28:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013060s ]
+[2022-12-13T15:28:46+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012839s ]
+[2022-12-13T15:28:46+08:00][sql] CONNECT:[ UseTime:0.026337s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:28:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013914s ]
+[2022-12-13T15:28:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012961s ]
+[2022-12-13T15:28:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014699s ]
+[2022-12-13T15:28:57+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T15:29:33+08:00][sql] CONNECT:[ UseTime:0.018148s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:29:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008672s ]
+[2022-12-13T15:29:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006847s ]
+[2022-12-13T15:29:33+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.010663s ]
+[2022-12-13T15:30:05+08:00][sql] CONNECT:[ UseTime:0.037446s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009418s ]
+[2022-12-13T15:30:05+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008651s ]
+[2022-12-13T15:30:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:05+08:00][sql] CONNECT:[ UseTime:0.034245s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018333s ]
+[2022-12-13T15:30:05+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013741s ]
+[2022-12-13T15:30:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:06+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:35]
+[2022-12-13T15:30:30+08:00][sql] CONNECT:[ UseTime:0.026207s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014936s ]
+[2022-12-13T15:30:30+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015361s ]
+[2022-12-13T15:30:30+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'd54bdd91a5e6673aba70e0c5f0e0e4673eae1fb7' , `login_number` = 53 , `last_login_time` = '1670916630' , `update_time` = 1670916630  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.017550s ]
+[2022-12-13T15:30:31+08:00][sql] CONNECT:[ UseTime:0.054725s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017960s ]
+[2022-12-13T15:30:31+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010793s ]
+[2022-12-13T15:30:31+08:00][sql] CONNECT:[ UseTime:0.057110s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017830s ]
+[2022-12-13T15:30:31+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012430s ]
+[2022-12-13T15:30:31+08:00][sql] CONNECT:[ UseTime:0.015892s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:30:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007239s ]
+[2022-12-13T15:30:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007379s ]
+[2022-12-13T15:30:31+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.006359s ]
+[2022-12-13T15:34:26+08:00][sql] CONNECT:[ UseTime:0.043327s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:34:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013350s ]
+[2022-12-13T15:34:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011465s ]
+[2022-12-13T15:34:26+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013561s ]
+[2022-12-13T15:34:52+08:00][sql] CONNECT:[ UseTime:0.020398s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:34:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017211s ]
+[2022-12-13T15:34:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012244s ]
+[2022-12-13T15:34:52+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.019684s ]
+[2022-12-13T15:35:25+08:00][sql] CONNECT:[ UseTime:0.022602s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:35:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013386s ]
+[2022-12-13T15:35:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012304s ]
+[2022-12-13T15:35:25+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011735s ]
+[2022-12-13T15:35:27+08:00][error] [8]Trying to access array offset on value of type null[D:\Web\www.wse.com\app\admin\controller\Admin.php:103]
+[2022-12-13T15:35:46+08:00][error] [8]Trying to access array offset on value of type null[D:\Web\www.wse.com\app\admin\controller\Admin.php:103]
+[2022-12-13T15:37:10+08:00][sql] CONNECT:[ UseTime:0.019520s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:37:10+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011187s ]
+[2022-12-13T15:37:10+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017825s ]
+[2022-12-13T15:37:10+08:00][sql] UPDATE `admin`  SET `status` = 0 , `update_time` = 1670917030  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011883s ]
+[2022-12-13T15:37:18+08:00][sql] CONNECT:[ UseTime:0.032646s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:37:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015061s ]
+[2022-12-13T15:37:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013247s ]
+[2022-12-13T15:37:18+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013091s ]
+[2022-12-13T15:37:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:37:47+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:37:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:37:47+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:37:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:37:47+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:37:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:37:47+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:38:57+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:38:57+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:38:57+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:38:57+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:38:58+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:38:58+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:38:58+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:38:58+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:05+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:05+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:12+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:12+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:12+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:13+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:17+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:17+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:17+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:17+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:17+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:17+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:21+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:21+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:21+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:40:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:40:22+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:28+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:28+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:28+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:28+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:28+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:28+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:29+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:29+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:37+08:00][error] [8]未定义变量: user[D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:17]
+[2022-12-13T15:41:37+08:00][error] [8]未定义变量: user[D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:17]
+[2022-12-13T15:41:38+08:00][error] [8]未定义变量: user[D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:17]
+[2022-12-13T15:41:38+08:00][error] [8]未定义变量: user[D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:17]
+[2022-12-13T15:41:54+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:54+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:54+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:54+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:54+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:54+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:41:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:41:55+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-13T15:43:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:43:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:43:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:43:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:43:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:43:31+08:00][sql] CONNECT:[ UseTime:0.024123s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:43:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012545s ]
+[2022-12-13T15:43:31+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012058s ]
+[2022-12-13T15:43:31+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'f271a025a8bf57ccfd3324f993424c22023a3e43' , `login_number` = 54 , `last_login_time` = '1670917411' , `update_time` = 1670917411  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.012238s ]
+[2022-12-13T15:44:18+08:00][sql] CONNECT:[ UseTime:0.030518s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018294s ]
+[2022-12-13T15:44:18+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014790s ]
+[2022-12-13T15:44:18+08:00][sql] CONNECT:[ UseTime:0.038352s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019534s ]
+[2022-12-13T15:44:18+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013778s ]
+[2022-12-13T15:44:18+08:00][sql] CONNECT:[ UseTime:0.021092s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008251s ]
+[2022-12-13T15:44:18+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008279s ]
+[2022-12-13T15:44:19+08:00][sql] CONNECT:[ UseTime:0.014637s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007874s ]
+[2022-12-13T15:44:19+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006067s ]
+[2022-12-13T15:44:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006998s ]
+[2022-12-13T15:44:19+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.008409s ]
+[2022-12-13T15:44:33+08:00][sql] CONNECT:[ UseTime:0.034157s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012840s ]
+[2022-12-13T15:44:33+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012953s ]
+[2022-12-13T15:44:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019659s ]
+[2022-12-13T15:44:33+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.016539s ]
+[2022-12-13T15:44:45+08:00][sql] CONNECT:[ UseTime:0.049366s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013766s ]
+[2022-12-13T15:44:45+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012434s ]
+[2022-12-13T15:44:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012206s ]
+[2022-12-13T15:44:45+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012967s ]
+[2022-12-13T15:44:46+08:00][sql] CONNECT:[ UseTime:0.034343s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012279s ]
+[2022-12-13T15:44:46+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011945s ]
+[2022-12-13T15:44:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011509s ]
+[2022-12-13T15:44:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013513s ]
+[2022-12-13T15:44:47+08:00][sql] CONNECT:[ UseTime:0.023601s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007311s ]
+[2022-12-13T15:44:47+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007230s ]
+[2022-12-13T15:44:47+08:00][sql] CONNECT:[ UseTime:0.038699s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.031747s ]
+[2022-12-13T15:44:47+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018105s ]
+[2022-12-13T15:44:48+08:00][sql] CONNECT:[ UseTime:0.067417s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016462s ]
+[2022-12-13T15:44:48+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012808s ]
+[2022-12-13T15:44:48+08:00][sql] CONNECT:[ UseTime:0.024912s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:44:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007658s ]
+[2022-12-13T15:44:48+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007716s ]
+[2022-12-13T15:44:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.033609s ]
+[2022-12-13T15:44:48+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.034723s ]
+[2022-12-13T15:47:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:47:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:47:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:47:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:47:51+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:48:17+08:00][sql] CONNECT:[ UseTime:0.094139s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:17+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015822s ]
+[2022-12-13T15:48:17+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.021216s ]
+[2022-12-13T15:48:17+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011602s ]
+[2022-12-13T15:48:17+08:00][sql] UPDATE `admin`  SET `status` = 1 , `update_time` = 1670917697  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.010769s ]
+[2022-12-13T15:48:21+08:00][sql] CONNECT:[ UseTime:0.022775s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013530s ]
+[2022-12-13T15:48:21+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017640s ]
+[2022-12-13T15:48:21+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'a9de0ecf50e7abe671711cae9136b4bc01d49696' , `login_number` = 15 , `last_login_time` = '1670917701' , `update_time` = 1670917701  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.019398s ]
+[2022-12-13T15:48:22+08:00][sql] CONNECT:[ UseTime:0.020052s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007463s ]
+[2022-12-13T15:48:22+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008191s ]
+[2022-12-13T15:48:22+08:00][sql] CONNECT:[ UseTime:0.024490s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012733s ]
+[2022-12-13T15:48:22+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015022s ]
+[2022-12-13T15:48:22+08:00][sql] CONNECT:[ UseTime:0.026402s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013054s ]
+[2022-12-13T15:48:22+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013527s ]
+[2022-12-13T15:48:23+08:00][sql] CONNECT:[ UseTime:0.026627s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:48:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.031833s ]
+[2022-12-13T15:48:23+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.030987s ]
+[2022-12-13T15:48:23+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014322s ]
+[2022-12-13T15:48:23+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.025109s ]
+[2022-12-13T15:50:58+08:00][sql] CONNECT:[ UseTime:0.020956s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:50:58+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011924s ]
+[2022-12-13T15:50:58+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013781s ]
+[2022-12-13T15:50:58+08:00][sql] CONNECT:[ UseTime:0.014450s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:50:58+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008203s ]
+[2022-12-13T15:50:58+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007039s ]
+[2022-12-13T15:50:59+08:00][sql] CONNECT:[ UseTime:0.023252s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:50:59+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012406s ]
+[2022-12-13T15:50:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013355s ]
+[2022-12-13T15:50:59+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012739s ]
+[2022-12-13T15:51:54+08:00][sql] CONNECT:[ UseTime:0.014257s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:51:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007923s ]
+[2022-12-13T15:51:54+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009927s ]
+[2022-12-13T15:51:54+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012974s ]
+[2022-12-13T15:51:54+08:00][sql] UPDATE `admin`  SET `status` = 0 , `update_time` = 1670917914  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.007506s ]
+[2022-12-13T15:52:03+08:00][sql] CONNECT:[ UseTime:0.024478s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:52:03+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014193s ]
+[2022-12-13T15:52:03+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014275s ]
+[2022-12-13T15:52:03+08:00][sql] UPDATE `admin`  SET `status` = 1 , `update_time` = 1670917923  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.013971s ]
+[2022-12-13T15:53:20+08:00][sql] CONNECT:[ UseTime:0.028446s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015674s ]
+[2022-12-13T15:53:20+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013453s ]
+[2022-12-13T15:53:20+08:00][sql] CONNECT:[ UseTime:0.021116s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012576s ]
+[2022-12-13T15:53:20+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011921s ]
+[2022-12-13T15:53:21+08:00][sql] CONNECT:[ UseTime:0.020347s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009384s ]
+[2022-12-13T15:53:21+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015060s ]
+[2022-12-13T15:53:21+08:00][sql] CONNECT:[ UseTime:0.033351s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012791s ]
+[2022-12-13T15:53:21+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013879s ]
+[2022-12-13T15:53:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016752s ]
+[2022-12-13T15:53:21+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014496s ]
+[2022-12-13T15:53:35+08:00][sql] CONNECT:[ UseTime:0.029082s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:35+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015004s ]
+[2022-12-13T15:53:35+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014009s ]
+[2022-12-13T15:53:39+08:00][sql] CONNECT:[ UseTime:0.022347s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012213s ]
+[2022-12-13T15:53:39+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'jinx' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012036s ]
+[2022-12-13T15:53:39+08:00][sql] UPDATE `admin`  SET `last_login_token` = '2af4d2eab14c97aa66169490ae65399b2facb656' , `login_number` = 5 , `last_login_time` = '1670918019' , `update_time` = 1670918019  WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011703s ]
+[2022-12-13T15:53:40+08:00][sql] CONNECT:[ UseTime:0.030086s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015291s ]
+[2022-12-13T15:53:40+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016362s ]
+[2022-12-13T15:53:40+08:00][sql] CONNECT:[ UseTime:0.030496s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014136s ]
+[2022-12-13T15:53:40+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015125s ]
+[2022-12-13T15:53:41+08:00][sql] CONNECT:[ UseTime:0.051358s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.028618s ]
+[2022-12-13T15:53:41+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.029960s ]
+[2022-12-13T15:53:42+08:00][sql] CONNECT:[ UseTime:0.027908s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:53:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016819s ]
+[2022-12-13T15:53:42+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020308s ]
+[2022-12-13T15:53:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013088s ]
+[2022-12-13T15:53:42+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014656s ]
+[2022-12-13T15:54:01+08:00][sql] CONNECT:[ UseTime:0.022648s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:54:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015015s ]
+[2022-12-13T15:54:01+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014081s ]
+[2022-12-13T15:54:01+08:00][sql] CONNECT:[ UseTime:0.023666s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:54:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014233s ]
+[2022-12-13T15:54:01+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012754s ]
+[2022-12-13T15:54:01+08:00][sql] CONNECT:[ UseTime:0.022700s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:54:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009030s ]
+[2022-12-13T15:54:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008798s ]
+[2022-12-13T15:54:01+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.008680s ]
+[2022-12-13T15:54:13+08:00][sql] CONNECT:[ UseTime:0.021967s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:54:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012535s ]
+[2022-12-13T15:54:13+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010389s ]
+[2022-12-13T15:54:13+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value[D:\Web\www.wse.com\vendor\topthink\think-orm\src\db\PDOConnection.php:796]
+[2022-12-13T15:55:52+08:00][sql] CONNECT:[ UseTime:0.036955s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:55:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016071s ]
+[2022-12-13T15:55:52+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016207s ]
+[2022-12-13T15:55:52+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.022722s ]
+[2022-12-13T15:56:06+08:00][sql] CONNECT:[ UseTime:0.025980s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:56:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017812s ]
+[2022-12-13T15:56:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014926s ]
+[2022-12-13T15:56:06+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.018671s ]
+[2022-12-13T15:57:08+08:00][sql] CONNECT:[ UseTime:0.019542s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:57:08+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018811s ]
+[2022-12-13T15:57:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010941s ]
+[2022-12-13T15:57:08+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.010950s ]
+[2022-12-13T15:57:46+08:00][sql] CONNECT:[ UseTime:0.020877s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:57:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012113s ]
+[2022-12-13T15:57:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015338s ]
+[2022-12-13T15:57:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011534s ]
+[2022-12-13T15:57:48+08:00][sql] CONNECT:[ UseTime:0.025411s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:57:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012537s ]
+[2022-12-13T15:57:48+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020193s ]
+[2022-12-13T15:57:48+08:00][sql] UPDATE `admin`  SET `status` = 1 , `update_time` = 1670918268  WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.012282s ]
+[2022-12-13T15:57:51+08:00][sql] CONNECT:[ UseTime:0.020567s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:57:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012964s ]
+[2022-12-13T15:57:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011089s ]
+[2022-12-13T15:57:51+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014192s ]
+[2022-12-13T15:57:52+08:00][sql] CONNECT:[ UseTime:0.015077s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:57:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007301s ]
+[2022-12-13T15:57:52+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012763s ]
+[2022-12-13T15:57:52+08:00][sql] UPDATE `admin`  SET `status` = 0 , `update_time` = 1670918272  WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.006301s ]
+[2022-12-13T15:58:04+08:00][sql] CONNECT:[ UseTime:0.015205s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007095s ]
+[2022-12-13T15:58:04+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009784s ]
+[2022-12-13T15:58:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T15:58:04+08:00][sql] CONNECT:[ UseTime:0.015322s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013244s ]
+[2022-12-13T15:58:04+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013471s ]
+[2022-12-13T15:58:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T15:58:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:58:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:58:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T15:58:24+08:00][sql] CONNECT:[ UseTime:0.021131s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011601s ]
+[2022-12-13T15:58:24+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011088s ]
+[2022-12-13T15:58:24+08:00][sql] UPDATE `admin`  SET `last_login_token` = '15c7f73f50a1e66e773ebd3022f4c64bcc17b9f9' , `login_number` = 16 , `last_login_time` = '1670918303' , `update_time` = 1670918303  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011925s ]
+[2022-12-13T15:58:25+08:00][sql] CONNECT:[ UseTime:0.039575s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015522s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012157s ]
+[2022-12-13T15:58:25+08:00][sql] CONNECT:[ UseTime:0.028991s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015530s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011464s ]
+[2022-12-13T15:58:25+08:00][sql] CONNECT:[ UseTime:0.031574s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.026353s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019941s ]
+[2022-12-13T15:58:25+08:00][sql] CONNECT:[ UseTime:0.026979s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014608s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016517s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011850s ]
+[2022-12-13T15:58:25+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013816s ]
+[2022-12-13T15:58:30+08:00][sql] CONNECT:[ UseTime:0.065126s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T15:58:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007450s ]
+[2022-12-13T15:58:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006961s ]
+[2022-12-13T15:58:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008412s ]
+[2022-12-13T15:58:30+08:00][sql] UPDATE `admin`  SET `status` = 1 , `update_time` = 1670918310  WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.006332s ]
+[2022-12-13T16:05:23+08:00][sql] CONNECT:[ UseTime:0.021056s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:05:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012168s ]
+[2022-12-13T16:05:23+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014738s ]
+[2022-12-13T16:05:23+08:00][sql] CONNECT:[ UseTime:0.017253s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:05:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016121s ]
+[2022-12-13T16:05:23+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008288s ]
+[2022-12-13T16:06:52+08:00][sql] CONNECT:[ UseTime:0.080781s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:06:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.051304s ]
+[2022-12-13T16:06:52+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.050728s ]
+[2022-12-13T16:06:52+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.054777s ]
+[2022-12-13T16:06:57+08:00][sql] CONNECT:[ UseTime:0.054295s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:06:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.040314s ]
+[2022-12-13T16:06:57+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022199s ]
+[2022-12-13T16:06:57+08:00][sql] UPDATE `admin`  SET `status` = 0 , `update_time` = 1670918816  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.007284s ]
+[2022-12-13T16:07:13+08:00][sql] CONNECT:[ UseTime:0.021230s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012748s ]
+[2022-12-13T16:07:13+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013236s ]
+[2022-12-13T16:07:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:07:13+08:00][sql] CONNECT:[ UseTime:0.021841s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013305s ]
+[2022-12-13T16:07:13+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013232s ]
+[2022-12-13T16:07:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:07:16+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:07:23+08:00][sql] CONNECT:[ UseTime:0.019522s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012002s ]
+[2022-12-13T16:07:23+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011470s ]
+[2022-12-13T16:07:23+08:00][error] [0][D:\Web\www.wse.com\app\admin\logic\Admin.php:37]
+[2022-12-13T16:07:26+08:00][sql] CONNECT:[ UseTime:0.016593s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008844s ]
+[2022-12-13T16:07:26+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008091s ]
+[2022-12-13T16:07:26+08:00][sql] UPDATE `admin`  SET `status` = 1 , `update_time` = 1670918846  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.007426s ]
+[2022-12-13T16:07:31+08:00][sql] CONNECT:[ UseTime:0.028251s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012657s ]
+[2022-12-13T16:07:31+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019527s ]
+[2022-12-13T16:07:31+08:00][sql] UPDATE `admin`  SET `last_login_token` = '165487ac09b99291ffb65794b4a6121a494ebed3' , `login_number` = 17 , `last_login_time` = '1670918851' , `update_time` = 1670918851  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011755s ]
+[2022-12-13T16:07:32+08:00][sql] CONNECT:[ UseTime:0.012593s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008311s ]
+[2022-12-13T16:07:32+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007902s ]
+[2022-12-13T16:07:32+08:00][sql] CONNECT:[ UseTime:0.025603s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015370s ]
+[2022-12-13T16:07:32+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016196s ]
+[2022-12-13T16:07:33+08:00][sql] CONNECT:[ UseTime:0.025346s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008128s ]
+[2022-12-13T16:07:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010823s ]
+[2022-12-13T16:07:33+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007466s ]
+[2022-12-13T16:07:46+08:00][sql] CONNECT:[ UseTime:0.023819s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013987s ]
+[2022-12-13T16:07:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013998s ]
+[2022-12-13T16:07:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.018191s ]
+[2022-12-13T16:07:51+08:00][sql] CONNECT:[ UseTime:0.027491s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:07:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014552s ]
+[2022-12-13T16:07:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015120s ]
+[2022-12-13T16:07:51+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015268s ]
+[2022-12-13T16:08:01+08:00][sql] CONNECT:[ UseTime:0.023489s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:08:01+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.022457s ]
+[2022-12-13T16:08:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013534s ]
+[2022-12-13T16:08:01+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013582s ]
+[2022-12-13T16:08:03+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T16:08:49+08:00][sql] CONNECT:[ UseTime:0.039124s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:08:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012486s ]
+[2022-12-13T16:08:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012249s ]
+[2022-12-13T16:08:49+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013863s ]
+[2022-12-13T16:08:57+08:00][sql] CONNECT:[ UseTime:0.020502s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:08:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013121s ]
+[2022-12-13T16:08:57+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 6 [ RunTime:0.018858s ]
+[2022-12-13T16:09:14+08:00][sql] CONNECT:[ UseTime:0.029227s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:09:14+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015157s ]
+[2022-12-13T16:09:14+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013285s ]
+[2022-12-13T16:09:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:11:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:11:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:11:00+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:11:01+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:12:53+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:13:20+08:00][sql] CONNECT:[ UseTime:0.022276s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012681s ]
+[2022-12-13T16:13:20+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012323s ]
+[2022-12-13T16:13:20+08:00][error] [0][D:\Web\www.wse.com\app\admin\logic\Admin.php:37]
+[2022-12-13T16:13:25+08:00][sql] CONNECT:[ UseTime:0.023268s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012520s ]
+[2022-12-13T16:13:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012500s ]
+[2022-12-13T16:13:25+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012793s ]
+[2022-12-13T16:13:26+08:00][sql] CONNECT:[ UseTime:0.016091s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008971s ]
+[2022-12-13T16:13:26+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 6 [ RunTime:0.015476s ]
+[2022-12-13T16:13:28+08:00][sql] CONNECT:[ UseTime:0.025217s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:28+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015242s ]
+[2022-12-13T16:13:28+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013875s ]
+[2022-12-13T16:13:28+08:00][sql] UPDATE `admin`  SET `last_login_token` = '80a421bdb44f13a46103f56f93aa66e3c3340455' , `login_number` = 18 , `last_login_time` = '1670919208' , `update_time` = 1670919208  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.014547s ]
+[2022-12-13T16:13:29+08:00][sql] CONNECT:[ UseTime:0.014172s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007953s ]
+[2022-12-13T16:13:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008921s ]
+[2022-12-13T16:13:29+08:00][sql] CONNECT:[ UseTime:0.025072s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014324s ]
+[2022-12-13T16:13:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017118s ]
+[2022-12-13T16:13:30+08:00][sql] CONNECT:[ UseTime:0.013713s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008671s ]
+[2022-12-13T16:13:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008493s ]
+[2022-12-13T16:13:30+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.009164s ]
+[2022-12-13T16:13:40+08:00][sql] CONNECT:[ UseTime:0.014515s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:13:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008545s ]
+[2022-12-13T16:13:40+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 6 [ RunTime:0.015219s ]
+[2022-12-13T16:14:07+08:00][sql] CONNECT:[ UseTime:0.013504s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008537s ]
+[2022-12-13T16:14:07+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006766s ]
+[2022-12-13T16:14:07+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:14:07+08:00][sql] CONNECT:[ UseTime:0.025796s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013815s ]
+[2022-12-13T16:14:07+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016962s ]
+[2022-12-13T16:14:07+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:14:08+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:14:08+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:14:08+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:14:32+08:00][sql] CONNECT:[ UseTime:0.021422s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012089s ]
+[2022-12-13T16:14:32+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 6 [ RunTime:0.018840s ]
+[2022-12-13T16:14:43+08:00][sql] CONNECT:[ UseTime:0.018175s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007141s ]
+[2022-12-13T16:14:43+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008148s ]
+[2022-12-13T16:14:43+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'f627ca546d9d4a7dea2f2624b5b10885605c17bb' , `login_number` = 19 , `last_login_time` = '1670919283' , `update_time` = 1670919283  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.006713s ]
+[2022-12-13T16:14:44+08:00][sql] CONNECT:[ UseTime:0.017906s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009832s ]
+[2022-12-13T16:14:44+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007791s ]
+[2022-12-13T16:14:44+08:00][sql] CONNECT:[ UseTime:0.024966s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015439s ]
+[2022-12-13T16:14:44+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014254s ]
+[2022-12-13T16:14:45+08:00][sql] CONNECT:[ UseTime:0.017749s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.006239s ]
+[2022-12-13T16:14:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010497s ]
+[2022-12-13T16:14:45+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.005802s ]
+[2022-12-13T16:14:47+08:00][sql] CONNECT:[ UseTime:0.028840s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:14:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017583s ]
+[2022-12-13T16:14:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019537s ]
+[2022-12-13T16:14:47+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011390s ]
+[2022-12-13T16:19:49+08:00][sql] CONNECT:[ UseTime:0.036538s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:19:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018935s ]
+[2022-12-13T16:19:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012413s ]
+[2022-12-13T16:19:49+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015243s ]
+[2022-12-13T16:24:23+08:00][sql] CONNECT:[ UseTime:0.020392s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:24:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017071s ]
+[2022-12-13T16:24:23+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011615s ]
+[2022-12-13T16:24:23+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013541s ]
+[2022-12-13T16:25:56+08:00][sql] CONNECT:[ UseTime:0.017306s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:25:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015462s ]
+[2022-12-13T16:25:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009602s ]
+[2022-12-13T16:25:56+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007220s ]
+[2022-12-13T16:26:06+08:00][sql] CONNECT:[ UseTime:0.026377s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:26:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012805s ]
+[2022-12-13T16:26:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012266s ]
+[2022-12-13T16:26:06+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011942s ]
+[2022-12-13T16:27:06+08:00][sql] CONNECT:[ UseTime:0.024937s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:27:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017941s ]
+[2022-12-13T16:27:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011195s ]
+[2022-12-13T16:27:06+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011138s ]
+[2022-12-13T16:27:25+08:00][sql] CONNECT:[ UseTime:0.030854s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:27:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.010956s ]
+[2022-12-13T16:27:25+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014347s ]
+[2022-12-13T16:27:25+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.018041s ]
+[2022-12-13T16:27:34+08:00][sql] CONNECT:[ UseTime:0.041919s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:27:34+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007594s ]
+[2022-12-13T16:27:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015293s ]
+[2022-12-13T16:27:34+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007696s ]
+[2022-12-13T16:27:42+08:00][sql] CONNECT:[ UseTime:0.032340s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:27:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017741s ]
+[2022-12-13T16:27:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012338s ]
+[2022-12-13T16:27:42+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.022826s ]
+[2022-12-13T16:28:41+08:00][sql] CONNECT:[ UseTime:0.025294s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:28:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013463s ]
+[2022-12-13T16:28:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013994s ]
+[2022-12-13T16:28:41+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013053s ]
+[2022-12-13T16:29:09+08:00][sql] CONNECT:[ UseTime:0.033209s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:29:09+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012154s ]
+[2022-12-13T16:29:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011174s ]
+[2022-12-13T16:29:09+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.019134s ]
+[2022-12-13T16:29:15+08:00][sql] CONNECT:[ UseTime:0.022058s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:29:15+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.022909s ]
+[2022-12-13T16:29:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014837s ]
+[2022-12-13T16:29:15+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011869s ]
+[2022-12-13T16:29:29+08:00][sql] CONNECT:[ UseTime:0.020794s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:29:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.025057s ]
+[2022-12-13T16:29:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015609s ]
+[2022-12-13T16:29:29+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012821s ]
+[2022-12-13T16:29:41+08:00][sql] CONNECT:[ UseTime:0.112636s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:29:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013212s ]
+[2022-12-13T16:29:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018203s ]
+[2022-12-13T16:29:41+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013246s ]
+[2022-12-13T16:29:45+08:00][sql] CONNECT:[ UseTime:0.049057s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:29:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019178s ]
+[2022-12-13T16:29:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014420s ]
+[2022-12-13T16:29:45+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015816s ]
+[2022-12-13T16:30:00+08:00][sql] CONNECT:[ UseTime:0.028010s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:30:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015139s ]
+[2022-12-13T16:30:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014334s ]
+[2022-12-13T16:30:00+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014673s ]
+[2022-12-13T16:30:20+08:00][sql] CONNECT:[ UseTime:0.029201s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:30:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013474s ]
+[2022-12-13T16:30:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016359s ]
+[2022-12-13T16:30:20+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.026452s ]
+[2022-12-13T16:31:37+08:00][sql] CONNECT:[ UseTime:0.032105s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:37+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007523s ]
+[2022-12-13T16:31:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008481s ]
+[2022-12-13T16:31:37+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007924s ]
+[2022-12-13T16:31:39+08:00][sql] CONNECT:[ UseTime:0.013894s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.006620s ]
+[2022-12-13T16:31:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005700s ]
+[2022-12-13T16:31:39+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.006510s ]
+[2022-12-13T16:31:41+08:00][sql] CONNECT:[ UseTime:0.018979s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.010757s ]
+[2022-12-13T16:31:41+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 6 [ RunTime:0.025004s ]
+[2022-12-13T16:31:42+08:00][sql] CONNECT:[ UseTime:0.028453s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015708s ]
+[2022-12-13T16:31:42+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 6 [ RunTime:0.019711s ]
+[2022-12-13T16:31:43+08:00][sql] CONNECT:[ UseTime:0.021265s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007977s ]
+[2022-12-13T16:31:43+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 6 [ RunTime:0.020880s ]
+[2022-12-13T16:31:44+08:00][sql] CONNECT:[ UseTime:0.014256s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:31:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009815s ]
+[2022-12-13T16:31:44+08:00][sql] UPDATE `admin`  SET `status` = 1  WHERE  `id` = 6 [ RunTime:0.016447s ]
+[2022-12-13T16:32:05+08:00][sql] CONNECT:[ UseTime:0.027847s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:32:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015652s ]
+[2022-12-13T16:32:05+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 2 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013797s ]
+[2022-12-13T16:32:07+08:00][sql] CONNECT:[ UseTime:0.055378s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:32:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011974s ]
+[2022-12-13T16:32:07+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011641s ]
+[2022-12-13T16:33:50+08:00][sql] CONNECT:[ UseTime:0.012677s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:33:50+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008899s ]
+[2022-12-13T16:33:50+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005961s ]
+[2022-12-13T16:33:50+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.006289s ]
+[2022-12-13T16:33:51+08:00][sql] CONNECT:[ UseTime:0.012811s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:33:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.010191s ]
+[2022-12-13T16:33:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006948s ]
+[2022-12-13T16:33:51+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012878s ]
+[2022-12-13T16:36:42+08:00][sql] CONNECT:[ UseTime:0.032202s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:36:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013744s ]
+[2022-12-13T16:36:42+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013257s ]
+[2022-12-13T16:36:42+08:00][sql] UPDATE `admin`  SET `delete_time` = 1670920602 , `update_time` = 1670920602  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.013189s ]
+[2022-12-13T16:37:19+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:37:19+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:37:23+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:37:28+08:00][sql] CONNECT:[ UseTime:0.029485s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:37:28+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.020842s ]
+[2022-12-13T16:37:28+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014366s ]
+[2022-12-13T16:37:28+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'd8296c204f1cf2fc599810dc7341587877bd1414' , `login_number` = 55 , `last_login_time` = '1670920647' , `update_time` = 1670920647  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.015925s ]
+[2022-12-13T16:37:29+08:00][sql] CONNECT:[ UseTime:0.019259s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:37:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.008714s ]
+[2022-12-13T16:37:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008147s ]
+[2022-12-13T16:37:29+08:00][sql] CONNECT:[ UseTime:0.024689s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:37:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014743s ]
+[2022-12-13T16:37:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017247s ]
+[2022-12-13T16:37:29+08:00][sql] CONNECT:[ UseTime:0.023589s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:37:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012965s ]
+[2022-12-13T16:37:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012605s ]
+[2022-12-13T16:37:29+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.018699s ]
+[2022-12-13T16:37:52+08:00][sql] CONNECT:[ UseTime:0.025234s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:37:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014563s ]
+[2022-12-13T16:37:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014294s ]
+[2022-12-13T16:37:52+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013915s ]
+[2022-12-13T16:40:06+08:00][sql] CONNECT:[ UseTime:0.021816s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:40:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013420s ]
+[2022-12-13T16:40:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015157s ]
+[2022-12-13T16:40:06+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013148s ]
+[2022-12-13T16:40:32+08:00][sql] CONNECT:[ UseTime:0.035886s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:40:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012465s ]
+[2022-12-13T16:40:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016296s ]
+[2022-12-13T16:40:32+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012297s ]
+[2022-12-13T16:40:33+08:00][sql] CONNECT:[ UseTime:0.026026s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:40:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014366s ]
+[2022-12-13T16:40:33+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012174s ]
+[2022-12-13T16:40:33+08:00][sql] UPDATE `admin`  SET `delete_time` = 1670920833 , `update_time` = 1670920833  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.012289s ]
+[2022-12-13T16:44:44+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:44+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:45+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:45+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:45+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:50+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:44:54+08:00][sql] CONNECT:[ UseTime:0.035329s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:44:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012553s ]
+[2022-12-13T16:44:54+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013562s ]
+[2022-12-13T16:44:54+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'a523a36212748d0b9502e7ee371f481e1d23e163' , `login_number` = 56 , `last_login_time` = '1670921094' , `update_time` = 1670921094  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.012688s ]
+[2022-12-13T16:44:55+08:00][sql] CONNECT:[ UseTime:0.018004s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:44:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007111s ]
+[2022-12-13T16:44:55+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009955s ]
+[2022-12-13T16:44:55+08:00][sql] CONNECT:[ UseTime:0.025957s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:44:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017237s ]
+[2022-12-13T16:44:55+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014494s ]
+[2022-12-13T16:44:56+08:00][sql] CONNECT:[ UseTime:0.023333s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:44:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018548s ]
+[2022-12-13T16:44:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013272s ]
+[2022-12-13T16:44:56+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.017600s ]
+[2022-12-13T16:45:07+08:00][sql] CONNECT:[ UseTime:0.027918s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:45:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012373s ]
+[2022-12-13T16:45:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011901s ]
+[2022-12-13T16:45:07+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011812s ]
+[2022-12-13T16:45:11+08:00][sql] CONNECT:[ UseTime:0.018825s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:45:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.018313s ]
+[2022-12-13T16:45:11+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016119s ]
+[2022-12-13T16:45:11+08:00][sql] UPDATE `admin`  SET `delete_time` = 1670921111 , `update_time` = 1670921111  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.009998s ]
+[2022-12-13T16:45:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:45:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:45:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:45:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:45:19+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:25+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:48:29+08:00][sql] CONNECT:[ UseTime:0.030654s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014449s ]
+[2022-12-13T16:48:29+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.027645s ]
+[2022-12-13T16:48:29+08:00][sql] UPDATE `admin`  SET `last_login_token` = '63569ec020cc716f8481c9d7e9ca6a50f91fcc55' , `login_number` = 57 , `last_login_time` = '1670921309' , `update_time` = 1670921309  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.019313s ]
+[2022-12-13T16:48:30+08:00][sql] CONNECT:[ UseTime:0.013758s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013848s ]
+[2022-12-13T16:48:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010208s ]
+[2022-12-13T16:48:30+08:00][sql] CONNECT:[ UseTime:0.027435s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.023516s ]
+[2022-12-13T16:48:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013443s ]
+[2022-12-13T16:48:31+08:00][sql] CONNECT:[ UseTime:0.038949s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011289s ]
+[2022-12-13T16:48:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011155s ]
+[2022-12-13T16:48:31+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012065s ]
+[2022-12-13T16:48:54+08:00][sql] CONNECT:[ UseTime:0.025800s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013837s ]
+[2022-12-13T16:48:54+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015720s ]
+[2022-12-13T16:48:54+08:00][sql] CONNECT:[ UseTime:0.021822s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013705s ]
+[2022-12-13T16:48:54+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017363s ]
+[2022-12-13T16:48:55+08:00][sql] CONNECT:[ UseTime:0.023063s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:48:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012568s ]
+[2022-12-13T16:48:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012994s ]
+[2022-12-13T16:48:55+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013554s ]
+[2022-12-13T16:49:05+08:00][sql] CONNECT:[ UseTime:0.027973s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:49:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016868s ]
+[2022-12-13T16:49:05+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 6 [ RunTime:0.020643s ]
+[2022-12-13T16:49:11+08:00][sql] CONNECT:[ UseTime:0.015703s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:49:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009365s ]
+[2022-12-13T16:49:11+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009746s ]
+[2022-12-13T16:49:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:49:11+08:00][sql] CONNECT:[ UseTime:0.020268s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:49:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014246s ]
+[2022-12-13T16:49:11+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018676s ]
+[2022-12-13T16:49:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:36]
+[2022-12-13T16:49:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:49:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:49:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:49:19+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2022-12-13T16:50:19+08:00][sql] CONNECT:[ UseTime:0.025154s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:50:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013838s ]
+[2022-12-13T16:50:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013722s ]
+[2022-12-13T16:50:19+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015716s ]
+[2022-12-13T16:50:22+08:00][sql] CONNECT:[ UseTime:0.031274s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:50:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016705s ]
+[2022-12-13T16:50:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014778s ]
+[2022-12-13T16:50:22+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015509s ]
+[2022-12-13T16:50:25+08:00][sql] CONNECT:[ UseTime:0.023932s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:50:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013270s ]
+[2022-12-13T16:50:25+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012276s ]
+[2022-12-13T16:50:25+08:00][sql] UPDATE `admin`  SET `delete_time` = 1670921425 , `update_time` = 1670921425  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.013867s ]
+[2022-12-13T16:51:28+08:00][sql] CONNECT:[ UseTime:0.022803s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:51:28+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013563s ]
+[2022-12-13T16:51:28+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'ying' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013751s ]
+[2022-12-13T16:51:28+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'b137e21296e6159e336ff1e22f2071eb19d9dbe6' , `login_number` = 20 , `last_login_time` = '1670921488' , `update_time` = 1670921488  WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.013172s ]
+[2022-12-13T16:51:29+08:00][sql] CONNECT:[ UseTime:0.022323s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:51:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012678s ]
+[2022-12-13T16:51:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012951s ]
+[2022-12-13T16:51:29+08:00][sql] CONNECT:[ UseTime:0.024409s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:51:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016473s ]
+[2022-12-13T16:51:29+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 6 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013330s ]
+[2022-12-13T16:51:29+08:00][sql] CONNECT:[ UseTime:0.020853s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:51:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011401s ]
+[2022-12-13T16:51:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015525s ]
+[2022-12-13T16:51:29+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012485s ]
+[2022-12-13T16:56:47+08:00][sql] CONNECT:[ UseTime:0.017975s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:56:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007541s ]
+[2022-12-13T16:56:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010797s ]
+[2022-12-13T16:56:47+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.007205s ]
+[2022-12-13T16:57:48+08:00][sql] CONNECT:[ UseTime:0.013797s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:57:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007573s ]
+[2022-12-13T16:57:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008140s ]
+[2022-12-13T16:57:48+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.006859s ]
+[2022-12-13T16:57:51+08:00][sql] CONNECT:[ UseTime:0.018267s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:57:51+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011075s ]
+[2022-12-13T16:57:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009892s ]
+[2022-12-13T16:57:51+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.011575s ]
+[2022-12-13T16:59:37+08:00][sql] CONNECT:[ UseTime:0.040147s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:59:37+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011387s ]
+[2022-12-13T16:59:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010786s ]
+[2022-12-13T16:59:37+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012819s ]
+[2022-12-13T16:59:43+08:00][sql] CONNECT:[ UseTime:0.036709s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:59:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017180s ]
+[2022-12-13T16:59:43+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014259s ]
+[2022-12-13T16:59:49+08:00][sql] CONNECT:[ UseTime:0.026118s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T16:59:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012754s ]
+[2022-12-13T16:59:49+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014031s ]
+[2022-12-13T17:02:44+08:00][sql] CONNECT:[ UseTime:0.037655s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:02:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015069s ]
+[2022-12-13T17:02:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015901s ]
+[2022-12-13T17:02:44+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.020336s ]
+[2022-12-13T17:11:41+08:00][sql] CONNECT:[ UseTime:0.022990s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:11:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013423s ]
+[2022-12-13T17:11:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013021s ]
+[2022-12-13T17:11:41+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.013041s ]
+[2022-12-13T17:12:32+08:00][sql] CONNECT:[ UseTime:0.018573s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:12:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011596s ]
+[2022-12-13T17:12:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010374s ]
+[2022-12-13T17:12:32+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.016798s ]
+[2022-12-13T17:21:00+08:00][sql] CONNECT:[ UseTime:0.024766s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:21:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012270s ]
+[2022-12-13T17:21:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012650s ]
+[2022-12-13T17:21:00+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015612s ]
+[2022-12-13T17:21:13+08:00][sql] CONNECT:[ UseTime:0.014071s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:21:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007007s ]
+[2022-12-13T17:21:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005963s ]
+[2022-12-13T17:21:13+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.006257s ]
+[2022-12-13T17:21:18+08:00][sql] CONNECT:[ UseTime:0.022299s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:21:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013647s ]
+[2022-12-13T17:21:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013687s ]
+[2022-12-13T17:21:18+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.017204s ]
+[2022-12-13T17:26:41+08:00][sql] CONNECT:[ UseTime:0.033356s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:26:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.006657s ]
+[2022-12-13T17:26:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006526s ]
+[2022-12-13T17:26:41+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.009342s ]
+[2022-12-13T17:34:24+08:00][sql] CONNECT:[ UseTime:0.031226s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:34:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009691s ]
+[2022-12-13T17:34:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012923s ]
+[2022-12-13T17:34:24+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.008218s ]
+[2022-12-13T17:35:59+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:59]
+[2022-12-13T17:38:02+08:00][error] [8]Trying to access array offset on value of type null[D:\Web\www.wse.com\app\admin\logic\Admin.php:91]
+[2022-12-13T17:39:23+08:00][error] [8]Trying to access array offset on value of type null[D:\Web\www.wse.com\app\admin\logic\Admin.php:91]
+[2022-12-13T17:39:49+08:00][error] [8]Trying to access array offset on value of type null[D:\Web\www.wse.com\app\admin\logic\Admin.php:91]
+[2022-12-13T17:40:35+08:00][error] [0][D:\Web\www.wse.com\app\common\middleware\CheckParams.php:58]
+[2022-12-13T17:41:38+08:00][sql] CONNECT:[ UseTime:0.023550s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:41:38+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.026631s ]
+[2022-12-13T17:41:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011967s ]
+[2022-12-13T17:41:38+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012871s ]
+[2022-12-13T17:42:43+08:00][sql] CONNECT:[ UseTime:0.015994s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:42:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007223s ]
+[2022-12-13T17:42:43+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = ying ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007103s ]
+[2022-12-13T17:42:43+08:00][sql] INSERT INTO `admin` SET `username` = 'ying' , `real_name` = '神织音' , `phone` = '' , `wechat` = '' , `password` = 'e95c46b12fea6104f47022b15ca9c430' , `status` = 1 , `password_salt` = '2RWaj' , `create_time` = 1670924563 , `update_time` = 1670924563 [ RunTime:0.009153s ]
+[2022-12-13T17:42:44+08:00][sql] CONNECT:[ UseTime:0.023921s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:42:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014249s ]
+[2022-12-13T17:42:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014423s ]
+[2022-12-13T17:42:44+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.029357s ]
+[2022-12-13T17:46:27+08:00][sql] CONNECT:[ UseTime:0.015643s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:46:27+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.007174s ]
+[2022-12-13T17:46:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007010s ]
+[2022-12-13T17:46:27+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.008139s ]
+[2022-12-13T17:46:28+08:00][sql] CONNECT:[ UseTime:0.036616s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:46:28+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015669s ]
+[2022-12-13T17:46:28+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014869s ]
+[2022-12-13T17:47:19+08:00][sql] CONNECT:[ UseTime:0.021660s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:47:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012736s ]
+[2022-12-13T17:47:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012324s ]
+[2022-12-13T17:47:19+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012210s ]
+[2022-12-13T17:47:20+08:00][sql] CONNECT:[ UseTime:0.025044s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:47:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013129s ]
+[2022-12-13T17:47:20+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012966s ]
+[2022-12-13T17:47:35+08:00][sql] CONNECT:[ UseTime:0.020745s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:47:35+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013778s ]
+[2022-12-13T17:47:35+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 7 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011965s ]
+[2022-12-13T17:47:38+08:00][sql] CONNECT:[ UseTime:0.042600s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:47:38+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016836s ]
+[2022-12-13T17:47:38+08:00][sql] UPDATE `admin`  SET `status` = 0  WHERE  `id` = 7 [ RunTime:0.023806s ]
+[2022-12-13T17:47:39+08:00][sql] CONNECT:[ UseTime:0.018319s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:47:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.010658s ]
+[2022-12-13T17:47:39+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 7 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009472s ]
+[2022-12-13T17:53:34+08:00][sql] CONNECT:[ UseTime:0.019506s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:53:34+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011409s ]
+[2022-12-13T17:53:34+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 7 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010550s ]
+[2022-12-13T17:54:43+08:00][sql] CONNECT:[ UseTime:0.014816s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:54:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.023724s ]
+[2022-12-13T17:54:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011559s ]
+[2022-12-13T17:54:43+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.023828s ]
+[2022-12-13T17:57:55+08:00][sql] CONNECT:[ UseTime:0.022569s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:57:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013299s ]
+[2022-12-13T17:57:55+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012648s ]
+[2022-12-13T17:57:55+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.012451s ]
+[2022-12-13T17:58:04+08:00][sql] CONNECT:[ UseTime:0.023716s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-13T17:58:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012756s ]
+[2022-12-13T17:58:04+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.021153s ]

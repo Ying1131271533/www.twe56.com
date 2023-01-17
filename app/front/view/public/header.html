@@ -1,0 +1,93 @@
+<!-- 顶部 -->
+<div class="div_header">
+    <div class="content">
+        <div class="divheaderti">欢迎来到广州威速易供应链管理有限公司！</div>
+        <div class="divheali">
+            <li>
+                <a href="http://www.gdwse.com:8083/"><img src="__FRONT__/images/wse_02.jpg" /></a>
+            </li>
+            <li>
+                <a href="http://www.gdwse.com:8082/gotoRegister.htm"><img src="__FRONT__/images/wse_03.jpg" /></a>
+            </li>
+        </div>
+    </div>
+</div>
+<!-- logo位置 -->
+<div class="header_top">
+    <div class="content">
+        <div class="header_18">
+            <div class="logo">
+                <a id="header1_hlLogo"><img src="__FRONT__/images/33729d63-e64a-4b51-8727-243cc45fdc15.jpg"
+                        alt="广东威速易信息科技有限公司 ，跨境电商综合平台-会员登录，威速易一站式跨境供应链服务平台，俄罗斯海外仓、邮政小包、俄罗斯专线、速卖通无忧线上仓" /></a>
+                <!-- header | end -->
+            </div>
+            <div class="right_login">
+                <div class="telBox">
+                    <div class="bshare-custom icon-medium-plus">
+                        <div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ空间"
+                            class="bshare-qzone" href="javascript:void(0);"></a><a title="分享到新浪微博"
+                            class="bshare-sinaminiblog"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a
+                            title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台"
+                            class="bshare-more bshare-more-icon more-style-addthis"></a>
+                    </div>
+                    <script type="text/javascript" charset="utf-8" src="__FRONT__/js/buttonLite.js"></script>
+                    <script type="text/javascript" charset="utf-8" src="__FRONT__/js/bshareC0.js"></script>
+
+                    <p class="clear hetaf">
+                        <img src="__FRONT__/images/wse_09.jpg" />
+                        <span id="header1_lblHotLine" class="">020-86254345转801</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--导航菜单-->
+<div class="container_ban">
+    <div class="content">
+        <div class="divmenuleft">
+            <div id="TopNav_Nav" class="">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-9">
+                            <span class="sr-only"></span><span class="icon-bar"></span><span
+                                class="icon-bar"></span><span class="icon-bar"></span></button><a
+                            class="navbar-brand visible-xs" href="/">首 页</a>
+                    </div>
+                    <div class="collapse navbar-collapse navwrap" id="bs-example-navbar-collapse-9">
+                        <ul id="nav" class="nav navbar-nav">
+
+                        </ul>
+                    </div>
+                </nav>
+                <script>
+                    // 获取分类列表
+                    let categoryList = ajax_list('/category/get_category_list');
+                    // 递归找子级数据
+                    categoryList = get_chlidren(categoryList);
+                    // console.log(categoryList);
+                    var html = '';
+                    $.each(categoryList, function (key, value) {
+                        html += '<li>';
+                        html += '<a class="hover_1" href="' + value.url + '" target="' + value.target + '">' + value.title + '</a>';
+                        // console.log(value.children);
+                        if (!empty(value.children)) {
+                            html += '<ul>';
+                            $.each(value.children, function (k, val) {
+                                html += '<li>';
+                                html += '<a href="' + val.url + '" target="' + val.target + '">' + val.title + '</a>';
+                                html += '</li>';
+                            });
+                            html += '</ul>';
+                        }
+                        html += '</li>';
+                    });
+                    $('#nav').append(html);
+                </script>
+            </div>
+        </div>
+    </div>
+</div>

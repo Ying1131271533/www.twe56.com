@@ -1,0 +1,57 @@
+{extend name="public/base" /}
+{block name="title"}跨境平台{/block}
+{block name="load"}
+<!-- css -->
+<style>
+  .div_dtean h4 {
+    font-size: 24px;
+  }
+  #platform_list li:hover p{
+    color: #0f9f57;
+  }
+</style>
+<!-- js -->
+{/block}
+<!-- 主体内容 -->
+{block name="main"}
+<script>
+  // 轮播图
+  slides(4);
+</script>
+<!-- 中间内容开始 -->
+<div class="container">
+  <div class="row">
+
+    <!-- 左边的导航 -->
+    {include file="public/platform_left" /}
+
+    <!--内容-->
+    <div class="div_dtean">
+      <div id="ctl00_cphMain_TitleDiv" class=""></div>
+
+      <div class="">
+        <div id="ctl00_cphMain_Album" class="">
+          <div class="pdivnerp" id="platform_list">
+            <ul>
+            </ul>
+          </div>
+        </div>
+        <script>
+            // 页面加载完毕执行
+            $(document).ready(function () {
+                // 渲染列表
+                renderPlatformList('/platform/get_platform_list', 'platform')
+            });
+        </script>
+        <div class="pager text-center">
+          <button type="button" class="layui-btn" onclick="renderPlatformList('/platform/get_platform_list', 'platform')">加载更多</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--中间内容 结束-->
+{/block}

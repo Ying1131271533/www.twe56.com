@@ -1,0 +1,1073 @@
+[2022-12-24T10:31:30+08:00][sql] CONNECT:[ UseTime:0.023530s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:31:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.014430s ]
+[2022-12-24T10:31:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014922s ]
+[2022-12-24T10:31:30+08:00][sql] CONNECT:[ UseTime:0.014762s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:31:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.009405s ]
+[2022-12-24T10:31:30+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010472s ]
+[2022-12-24T10:31:31+08:00][sql] CONNECT:[ UseTime:0.012875s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:31:31+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008787s ]
+[2022-12-24T10:31:31+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.006984s ]
+[2022-12-24T10:31:31+08:00][sql] CONNECT:[ UseTime:0.013104s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:31:31+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008791s ]
+[2022-12-24T10:31:31+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008204s ]
+[2022-12-24T10:31:31+08:00][sql] CONNECT:[ UseTime:0.024515s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:31:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.016192s ]
+[2022-12-24T10:31:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014243s ]
+[2022-12-24T10:31:31+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.015368s ]
+[2022-12-24T10:33:16+08:00][sql] CONNECT:[ UseTime:0.033398s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:33:16+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.017538s ]
+[2022-12-24T10:33:16+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.020191s ]
+[2022-12-24T10:33:37+08:00][sql] CONNECT:[ UseTime:0.040952s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:33:37+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008130s ]
+[2022-12-24T10:33:37+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.008998s ]
+[2022-12-24T10:33:39+08:00][sql] CONNECT:[ UseTime:0.033588s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:33:39+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015298s ]
+[2022-12-24T10:33:39+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.024342s ]
+[2022-12-24T10:33:39+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.017365s ]
+[2022-12-24T10:33:40+08:00][sql] CONNECT:[ UseTime:0.014987s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:33:40+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008461s ]
+[2022-12-24T10:33:40+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.008315s ]
+[2022-12-24T10:34:36+08:00][sql] CONNECT:[ UseTime:0.025711s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:34:36+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022041s ]
+[2022-12-24T10:34:36+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015838s ]
+[2022-12-24T10:55:23+08:00][sql] CONNECT:[ UseTime:0.036020s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:55:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015621s ]
+[2022-12-24T10:55:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012995s ]
+[2022-12-24T10:55:25+08:00][sql] CONNECT:[ UseTime:0.047519s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:55:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016367s ]
+[2022-12-24T10:55:25+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.017915s ]
+[2022-12-24T10:55:28+08:00][sql] CONNECT:[ UseTime:0.013554s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:55:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007099s ]
+[2022-12-24T10:55:28+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.011480s ]
+[2022-12-24T10:55:30+08:00][sql] CONNECT:[ UseTime:0.020031s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T10:55:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012024s ]
+[2022-12-24T10:55:30+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.020769s ]
+[2022-12-24T11:03:21+08:00][sql] CONNECT:[ UseTime:0.023120s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019253s ]
+[2022-12-24T11:03:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013055s ]
+[2022-12-24T11:03:21+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.014918s ]
+[2022-12-24T11:03:25+08:00][sql] CONNECT:[ UseTime:0.010874s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007755s ]
+[2022-12-24T11:03:25+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.005927s ]
+[2022-12-24T11:03:26+08:00][sql] CONNECT:[ UseTime:0.030015s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018361s ]
+[2022-12-24T11:03:26+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.021992s ]
+[2022-12-24T11:03:27+08:00][sql] CONNECT:[ UseTime:0.012022s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:27+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007085s ]
+[2022-12-24T11:03:27+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.006291s ]
+[2022-12-24T11:03:28+08:00][sql] CONNECT:[ UseTime:0.012330s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008331s ]
+[2022-12-24T11:03:28+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008687s ]
+[2022-12-24T11:03:36+08:00][sql] CONNECT:[ UseTime:0.031813s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:03:36+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.019670s ]
+[2022-12-24T11:03:36+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.019308s ]
+[2022-12-24T11:04:23+08:00][sql] CONNECT:[ UseTime:0.015070s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:04:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007138s ]
+[2022-12-24T11:04:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.009048s ]
+[2022-12-24T11:28:49+08:00][sql] CONNECT:[ UseTime:0.020011s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:28:49+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012437s ]
+[2022-12-24T11:28:49+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014618s ]
+[2022-12-24T11:28:49+08:00][sql] CONNECT:[ UseTime:0.013468s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:28:49+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.010363s ]
+[2022-12-24T11:28:49+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007059s ]
+[2022-12-24T11:28:49+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007233s ]
+[2022-12-24T11:28:49+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009497s ]
+[2022-12-24T11:28:49+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007311s ]
+[2022-12-24T11:31:46+08:00][sql] CONNECT:[ UseTime:0.012906s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:31:46+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017752s ]
+[2022-12-24T11:31:46+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006921s ]
+[2022-12-24T11:31:46+08:00][sql] CONNECT:[ UseTime:0.016052s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:31:46+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008357s ]
+[2022-12-24T11:31:46+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006664s ]
+[2022-12-24T11:31:46+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006897s ]
+[2022-12-24T11:31:46+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008445s ]
+[2022-12-24T11:31:46+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007313s ]
+[2022-12-24T11:31:57+08:00][sql] CONNECT:[ UseTime:0.011883s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:31:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006957s ]
+[2022-12-24T11:31:57+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006134s ]
+[2022-12-24T11:31:57+08:00][sql] CONNECT:[ UseTime:0.027669s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:31:57+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015401s ]
+[2022-12-24T11:31:57+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015833s ]
+[2022-12-24T11:31:57+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014444s ]
+[2022-12-24T11:31:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013330s ]
+[2022-12-24T11:31:57+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012921s ]
+[2022-12-24T11:32:01+08:00][sql] CONNECT:[ UseTime:0.025884s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:32:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013415s ]
+[2022-12-24T11:32:01+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016249s ]
+[2022-12-24T11:32:01+08:00][sql] CONNECT:[ UseTime:0.107933s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:32:01+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015558s ]
+[2022-12-24T11:32:01+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015269s ]
+[2022-12-24T11:32:01+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.015490s ]
+[2022-12-24T11:32:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015338s ]
+[2022-12-24T11:32:01+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015314s ]
+[2022-12-24T11:37:32+08:00][sql] CONNECT:[ UseTime:0.023633s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:37:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014192s ]
+[2022-12-24T11:37:32+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015037s ]
+[2022-12-24T11:37:32+08:00][sql] CONNECT:[ UseTime:0.026929s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:37:32+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.016937s ]
+[2022-12-24T11:37:32+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017077s ]
+[2022-12-24T11:37:32+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.018823s ]
+[2022-12-24T11:37:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015980s ]
+[2022-12-24T11:37:32+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.016274s ]
+[2022-12-24T11:41:42+08:00][sql] CONNECT:[ UseTime:0.012312s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:41:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008014s ]
+[2022-12-24T11:41:42+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006867s ]
+[2022-12-24T11:41:42+08:00][sql] CONNECT:[ UseTime:0.013186s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:41:42+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007968s ]
+[2022-12-24T11:41:42+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010318s ]
+[2022-12-24T11:41:42+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007285s ]
+[2022-12-24T11:41:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007359s ]
+[2022-12-24T11:41:42+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007697s ]
+[2022-12-24T11:42:19+08:00][sql] CONNECT:[ UseTime:0.010947s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:19+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006458s ]
+[2022-12-24T11:42:19+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006091s ]
+[2022-12-24T11:42:19+08:00][sql] CONNECT:[ UseTime:0.019924s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:19+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012293s ]
+[2022-12-24T11:42:19+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012091s ]
+[2022-12-24T11:42:19+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012167s ]
+[2022-12-24T11:42:19+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012328s ]
+[2022-12-24T11:42:19+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.011951s ]
+[2022-12-24T11:42:21+08:00][sql] CONNECT:[ UseTime:0.013100s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:21+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013031s ]
+[2022-12-24T11:42:21+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008345s ]
+[2022-12-24T11:42:21+08:00][sql] CONNECT:[ UseTime:0.033682s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:21+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006286s ]
+[2022-12-24T11:42:21+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.005903s ]
+[2022-12-24T11:42:21+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006437s ]
+[2022-12-24T11:42:21+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007113s ]
+[2022-12-24T11:42:21+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014598s ]
+[2022-12-24T11:42:56+08:00][sql] CONNECT:[ UseTime:0.013709s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:56+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008995s ]
+[2022-12-24T11:42:56+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.017552s ]
+[2022-12-24T11:42:56+08:00][sql] CONNECT:[ UseTime:0.020629s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:42:56+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013951s ]
+[2022-12-24T11:42:56+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018699s ]
+[2022-12-24T11:42:56+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014921s ]
+[2022-12-24T11:42:56+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022528s ]
+[2022-12-24T11:42:56+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.016143s ]
+[2022-12-24T11:54:26+08:00][sql] CONNECT:[ UseTime:0.019713s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:54:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007432s ]
+[2022-12-24T11:54:26+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007180s ]
+[2022-12-24T11:54:26+08:00][sql] CONNECT:[ UseTime:0.024684s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:54:26+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006793s ]
+[2022-12-24T11:54:26+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007886s ]
+[2022-12-24T11:54:26+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009039s ]
+[2022-12-24T11:54:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009888s ]
+[2022-12-24T11:54:26+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008399s ]
+[2022-12-24T11:54:37+08:00][sql] CONNECT:[ UseTime:0.021660s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:54:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015085s ]
+[2022-12-24T11:54:37+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012628s ]
+[2022-12-24T11:54:37+08:00][sql] CONNECT:[ UseTime:0.014180s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:54:37+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009205s ]
+[2022-12-24T11:54:37+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007844s ]
+[2022-12-24T11:54:37+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007918s ]
+[2022-12-24T11:54:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015850s ]
+[2022-12-24T11:54:37+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015137s ]
+[2022-12-24T11:56:38+08:00][sql] CONNECT:[ UseTime:0.029821s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:56:38+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009274s ]
+[2022-12-24T11:56:38+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008619s ]
+[2022-12-24T11:56:38+08:00][sql] CONNECT:[ UseTime:0.030362s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:56:38+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012707s ]
+[2022-12-24T11:56:38+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006128s ]
+[2022-12-24T11:56:38+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006745s ]
+[2022-12-24T11:56:38+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006322s ]
+[2022-12-24T11:56:38+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.005864s ]
+[2022-12-24T11:57:53+08:00][sql] CONNECT:[ UseTime:0.012230s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:57:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007477s ]
+[2022-12-24T11:57:53+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006384s ]
+[2022-12-24T11:57:53+08:00][sql] CONNECT:[ UseTime:0.035226s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T11:57:53+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012201s ]
+[2022-12-24T11:57:53+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011836s ]
+[2022-12-24T11:57:53+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012392s ]
+[2022-12-24T11:57:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012622s ]
+[2022-12-24T11:57:53+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.011844s ]
+[2022-12-24T13:15:02+08:00][sql] CONNECT:[ UseTime:0.028278s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T13:15:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010460s ]
+[2022-12-24T13:15:02+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007049s ]
+[2022-12-24T13:15:02+08:00][sql] CONNECT:[ UseTime:0.023239s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T13:15:02+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013100s ]
+[2022-12-24T13:15:02+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012398s ]
+[2022-12-24T13:15:02+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.017385s ]
+[2022-12-24T13:15:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013060s ]
+[2022-12-24T13:15:02+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.016986s ]
+[2022-12-24T14:49:22+08:00][error] [8]未定义变量: params[D:\Web\www.wse.com\app\admin\logic\Role.php:73]
+[2022-12-24T14:49:42+08:00][error] [2]array_walk_recursive() expects parameter 1 to be array, string given[D:\Web\www.wse.com\app\common.php:490]
+[2022-12-24T15:05:12+08:00][sql] CONNECT:[ UseTime:0.012651s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:12+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007759s ]
+[2022-12-24T15:05:12+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007204s ]
+[2022-12-24T15:05:12+08:00][sql] CONNECT:[ UseTime:0.023165s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:12+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013085s ]
+[2022-12-24T15:05:12+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012818s ]
+[2022-12-24T15:05:12+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.013184s ]
+[2022-12-24T15:05:12+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016636s ]
+[2022-12-24T15:05:12+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014730s ]
+[2022-12-24T15:05:25+08:00][sql] CONNECT:[ UseTime:0.011993s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006670s ]
+[2022-12-24T15:05:25+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006857s ]
+[2022-12-24T15:05:25+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006446s ]
+[2022-12-24T15:05:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007307s ]
+[2022-12-24T15:05:25+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006875s ]
+[2022-12-24T15:05:25+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 1 [ RunTime:0.005945s ]
+[2022-12-24T15:05:25+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 3 [ RunTime:0.005921s ]
+[2022-12-24T15:05:25+08:00][sql] UPDATE `role`  SET `delete_time` = 1671865525 , `update_time` = 1671865525  WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL [ RunTime:0.010464s ]
+[2022-12-24T15:05:26+08:00][sql] CONNECT:[ UseTime:0.036687s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019463s ]
+[2022-12-24T15:05:26+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.018276s ]
+[2022-12-24T15:05:26+08:00][sql] CONNECT:[ UseTime:0.023404s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:26+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015036s ]
+[2022-12-24T15:05:26+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013425s ]
+[2022-12-24T15:05:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Role.php:22]
+[2022-12-24T15:05:26+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2022-12-24T15:05:54+08:00][sql] CONNECT:[ UseTime:0.021973s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:54+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015475s ]
+[2022-12-24T15:05:54+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015549s ]
+[2022-12-24T15:05:54+08:00][sql] CONNECT:[ UseTime:0.014253s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:05:54+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008182s ]
+[2022-12-24T15:05:54+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007253s ]
+[2022-12-24T15:05:54+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Role.php:22]
+[2022-12-24T15:06:30+08:00][sql] CONNECT:[ UseTime:0.012577s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:06:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007419s ]
+[2022-12-24T15:06:30+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006584s ]
+[2022-12-24T15:06:30+08:00][sql] CONNECT:[ UseTime:0.011606s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:06:30+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009289s ]
+[2022-12-24T15:06:30+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007105s ]
+[2022-12-24T15:06:30+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010649s ]
+[2022-12-24T15:06:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006716s ]
+[2022-12-24T15:06:30+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007067s ]
+[2022-12-24T15:06:34+08:00][sql] CONNECT:[ UseTime:0.015241s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:06:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008127s ]
+[2022-12-24T15:06:34+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007044s ]
+[2022-12-24T15:06:34+08:00][sql] CONNECT:[ UseTime:0.013712s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:06:34+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008941s ]
+[2022-12-24T15:06:34+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006737s ]
+[2022-12-24T15:06:34+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008661s ]
+[2022-12-24T15:06:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007330s ]
+[2022-12-24T15:06:34+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007889s ]
+[2022-12-24T15:09:57+08:00][sql] CONNECT:[ UseTime:0.015390s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:09:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007743s ]
+[2022-12-24T15:09:57+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016381s ]
+[2022-12-24T15:09:57+08:00][sql] CONNECT:[ UseTime:0.027899s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:09:57+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.017589s ]
+[2022-12-24T15:09:57+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.023616s ]
+[2022-12-24T15:09:57+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.017799s ]
+[2022-12-24T15:09:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.021827s ]
+[2022-12-24T15:09:57+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.022729s ]
+[2022-12-24T15:10:55+08:00][sql] CONNECT:[ UseTime:0.035393s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:10:55+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.027770s ]
+[2022-12-24T15:10:55+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.022573s ]
+[2022-12-24T15:10:56+08:00][sql] CONNECT:[ UseTime:0.036290s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:10:56+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014805s ]
+[2022-12-24T15:10:56+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017053s ]
+[2022-12-24T15:10:56+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.018211s ]
+[2022-12-24T15:10:56+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.021974s ]
+[2022-12-24T15:10:56+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015065s ]
+[2022-12-24T15:11:16+08:00][sql] CONNECT:[ UseTime:0.023245s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:16+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007324s ]
+[2022-12-24T15:11:16+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008315s ]
+[2022-12-24T15:11:16+08:00][sql] CONNECT:[ UseTime:0.027496s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:16+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012850s ]
+[2022-12-24T15:11:16+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.030953s ]
+[2022-12-24T15:11:16+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.023479s ]
+[2022-12-24T15:11:16+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012814s ]
+[2022-12-24T15:11:16+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015518s ]
+[2022-12-24T15:11:23+08:00][sql] CONNECT:[ UseTime:0.013850s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007457s ]
+[2022-12-24T15:11:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007373s ]
+[2022-12-24T15:11:23+08:00][sql] CONNECT:[ UseTime:0.022021s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:23+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006864s ]
+[2022-12-24T15:11:23+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.215581s ]
+[2022-12-24T15:11:23+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014715s ]
+[2022-12-24T15:11:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008687s ]
+[2022-12-24T15:11:23+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007231s ]
+[2022-12-24T15:11:46+08:00][sql] CONNECT:[ UseTime:0.027209s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:46+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017268s ]
+[2022-12-24T15:11:46+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016697s ]
+[2022-12-24T15:11:47+08:00][sql] CONNECT:[ UseTime:0.036566s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:11:47+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.024264s ]
+[2022-12-24T15:11:47+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019956s ]
+[2022-12-24T15:11:47+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.022706s ]
+[2022-12-24T15:11:47+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.021474s ]
+[2022-12-24T15:11:47+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.024493s ]
+[2022-12-24T15:12:27+08:00][sql] CONNECT:[ UseTime:0.014300s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:12:27+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007176s ]
+[2022-12-24T15:12:27+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006425s ]
+[2022-12-24T15:12:28+08:00][sql] CONNECT:[ UseTime:0.014123s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:12:28+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009666s ]
+[2022-12-24T15:12:28+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007130s ]
+[2022-12-24T15:12:28+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009826s ]
+[2022-12-24T15:12:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008131s ]
+[2022-12-24T15:12:28+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.011860s ]
+[2022-12-24T15:14:02+08:00][sql] CONNECT:[ UseTime:0.012652s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:14:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010326s ]
+[2022-12-24T15:14:02+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006502s ]
+[2022-12-24T15:14:02+08:00][sql] CONNECT:[ UseTime:0.014197s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:14:02+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.010963s ]
+[2022-12-24T15:14:02+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010577s ]
+[2022-12-24T15:14:02+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010152s ]
+[2022-12-24T15:14:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010543s ]
+[2022-12-24T15:14:02+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015140s ]
+[2022-12-24T15:14:11+08:00][sql] CONNECT:[ UseTime:0.021280s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:14:11+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014977s ]
+[2022-12-24T15:14:11+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.019450s ]
+[2022-12-24T15:14:11+08:00][sql] CONNECT:[ UseTime:0.013332s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:14:11+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007425s ]
+[2022-12-24T15:14:11+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007229s ]
+[2022-12-24T15:14:11+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010697s ]
+[2022-12-24T15:14:11+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008194s ]
+[2022-12-24T15:14:11+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007395s ]
+[2022-12-24T15:16:17+08:00][sql] CONNECT:[ UseTime:0.032575s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:16:17+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007901s ]
+[2022-12-24T15:16:17+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008125s ]
+[2022-12-24T15:16:17+08:00][sql] CONNECT:[ UseTime:0.013271s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:16:17+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.010178s ]
+[2022-12-24T15:16:17+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007162s ]
+[2022-12-24T15:16:17+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007326s ]
+[2022-12-24T15:16:17+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009519s ]
+[2022-12-24T15:16:17+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007668s ]
+[2022-12-24T15:17:09+08:00][sql] CONNECT:[ UseTime:0.036233s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:17:09+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.023923s ]
+[2022-12-24T15:17:09+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.018035s ]
+[2022-12-24T15:17:09+08:00][sql] CONNECT:[ UseTime:0.039032s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:17:09+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007420s ]
+[2022-12-24T15:17:09+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011631s ]
+[2022-12-24T15:17:09+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.016441s ]
+[2022-12-24T15:17:09+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008033s ]
+[2022-12-24T15:17:09+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009933s ]
+[2022-12-24T15:17:53+08:00][sql] CONNECT:[ UseTime:0.016890s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:17:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008726s ]
+[2022-12-24T15:17:53+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010605s ]
+[2022-12-24T15:17:53+08:00][sql] CONNECT:[ UseTime:0.011416s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:17:53+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007144s ]
+[2022-12-24T15:17:53+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006262s ]
+[2022-12-24T15:17:53+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010289s ]
+[2022-12-24T15:17:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006304s ]
+[2022-12-24T15:17:53+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007882s ]
+[2022-12-24T15:18:20+08:00][sql] CONNECT:[ UseTime:0.021654s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:18:20+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009468s ]
+[2022-12-24T15:18:20+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007116s ]
+[2022-12-24T15:18:21+08:00][sql] CONNECT:[ UseTime:0.020133s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:18:21+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013780s ]
+[2022-12-24T15:18:21+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012384s ]
+[2022-12-24T15:18:21+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012444s ]
+[2022-12-24T15:18:21+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012326s ]
+[2022-12-24T15:18:21+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014160s ]
+[2022-12-24T15:18:22+08:00][sql] CONNECT:[ UseTime:0.020669s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:18:22+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006556s ]
+[2022-12-24T15:18:22+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006653s ]
+[2022-12-24T15:18:22+08:00][sql] CONNECT:[ UseTime:0.013887s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:18:22+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.011000s ]
+[2022-12-24T15:18:22+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011757s ]
+[2022-12-24T15:18:22+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007003s ]
+[2022-12-24T15:18:22+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008042s ]
+[2022-12-24T15:18:22+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007655s ]
+[2022-12-24T15:19:40+08:00][sql] CONNECT:[ UseTime:0.024907s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:19:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014238s ]
+[2022-12-24T15:19:40+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013246s ]
+[2022-12-24T15:19:40+08:00][sql] CONNECT:[ UseTime:0.019917s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:19:40+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013684s ]
+[2022-12-24T15:19:40+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015016s ]
+[2022-12-24T15:19:40+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012360s ]
+[2022-12-24T15:19:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012984s ]
+[2022-12-24T15:19:40+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013383s ]
+[2022-12-24T15:19:42+08:00][sql] CONNECT:[ UseTime:0.029402s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:19:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013252s ]
+[2022-12-24T15:19:42+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012249s ]
+[2022-12-24T15:19:42+08:00][sql] CONNECT:[ UseTime:0.019137s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:19:42+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007201s ]
+[2022-12-24T15:19:42+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015635s ]
+[2022-12-24T15:19:42+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007373s ]
+[2022-12-24T15:19:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007211s ]
+[2022-12-24T15:19:42+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007468s ]
+[2022-12-24T15:21:25+08:00][sql] CONNECT:[ UseTime:0.014860s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016143s ]
+[2022-12-24T15:21:25+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016624s ]
+[2022-12-24T15:21:25+08:00][sql] CONNECT:[ UseTime:0.023107s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013792s ]
+[2022-12-24T15:21:25+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012718s ]
+[2022-12-24T15:21:25+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012786s ]
+[2022-12-24T15:21:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013704s ]
+[2022-12-24T15:21:25+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013413s ]
+[2022-12-24T15:21:32+08:00][sql] CONNECT:[ UseTime:0.031915s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007556s ]
+[2022-12-24T15:21:32+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007680s ]
+[2022-12-24T15:21:32+08:00][sql] CONNECT:[ UseTime:0.021068s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:32+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013145s ]
+[2022-12-24T15:21:32+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019605s ]
+[2022-12-24T15:21:32+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.021731s ]
+[2022-12-24T15:21:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013134s ]
+[2022-12-24T15:21:32+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012872s ]
+[2022-12-24T15:21:37+08:00][sql] CONNECT:[ UseTime:0.021302s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019423s ]
+[2022-12-24T15:21:37+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012503s ]
+[2022-12-24T15:21:37+08:00][sql] CONNECT:[ UseTime:0.030535s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:21:37+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.019145s ]
+[2022-12-24T15:21:37+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018820s ]
+[2022-12-24T15:21:37+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.020124s ]
+[2022-12-24T15:21:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019336s ]
+[2022-12-24T15:21:37+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.019115s ]
+[2022-12-24T15:26:11+08:00][sql] CONNECT:[ UseTime:0.027261s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:26:11+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009361s ]
+[2022-12-24T15:26:11+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013306s ]
+[2022-12-24T15:26:11+08:00][sql] CONNECT:[ UseTime:0.022149s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:26:11+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014930s ]
+[2022-12-24T15:26:11+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013020s ]
+[2022-12-24T15:26:11+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.016775s ]
+[2022-12-24T15:26:11+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013347s ]
+[2022-12-24T15:26:11+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014110s ]
+[2022-12-24T15:26:57+08:00][sql] CONNECT:[ UseTime:0.019131s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:26:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008699s ]
+[2022-12-24T15:26:57+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010029s ]
+[2022-12-24T15:26:57+08:00][sql] CONNECT:[ UseTime:0.013504s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:26:57+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007879s ]
+[2022-12-24T15:26:57+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007125s ]
+[2022-12-24T15:26:57+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007663s ]
+[2022-12-24T15:26:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007900s ]
+[2022-12-24T15:26:57+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008181s ]
+[2022-12-24T15:29:17+08:00][sql] CONNECT:[ UseTime:0.025017s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:29:17+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008114s ]
+[2022-12-24T15:29:17+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006704s ]
+[2022-12-24T15:29:17+08:00][sql] CONNECT:[ UseTime:0.020778s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:29:17+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007172s ]
+[2022-12-24T15:29:17+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006399s ]
+[2022-12-24T15:29:17+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007051s ]
+[2022-12-24T15:29:17+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006880s ]
+[2022-12-24T15:29:17+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006809s ]
+[2022-12-24T15:30:30+08:00][sql] CONNECT:[ UseTime:0.035322s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:30:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015922s ]
+[2022-12-24T15:30:30+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013309s ]
+[2022-12-24T15:30:30+08:00][sql] CONNECT:[ UseTime:0.075731s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:30:30+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.018440s ]
+[2022-12-24T15:30:30+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017949s ]
+[2022-12-24T15:30:30+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012376s ]
+[2022-12-24T15:30:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022979s ]
+[2022-12-24T15:30:30+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.022255s ]
+[2022-12-24T15:35:43+08:00][sql] CONNECT:[ UseTime:0.050825s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:35:43+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014198s ]
+[2022-12-24T15:35:43+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.022943s ]
+[2022-12-24T15:35:43+08:00][sql] CONNECT:[ UseTime:0.012171s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:35:43+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007054s ]
+[2022-12-24T15:35:43+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006592s ]
+[2022-12-24T15:35:43+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008117s ]
+[2022-12-24T15:35:43+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013636s ]
+[2022-12-24T15:35:43+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006892s ]
+[2022-12-24T15:36:01+08:00][sql] CONNECT:[ UseTime:0.039611s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:36:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012964s ]
+[2022-12-24T15:36:01+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013336s ]
+[2022-12-24T15:36:01+08:00][sql] CONNECT:[ UseTime:0.019059s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:36:01+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009565s ]
+[2022-12-24T15:36:01+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013981s ]
+[2022-12-24T15:36:01+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007462s ]
+[2022-12-24T15:36:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007475s ]
+[2022-12-24T15:36:01+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008284s ]
+[2022-12-24T15:37:39+08:00][sql] CONNECT:[ UseTime:0.026329s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:37:39+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014148s ]
+[2022-12-24T15:37:39+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015585s ]
+[2022-12-24T15:37:39+08:00][sql] CONNECT:[ UseTime:0.030186s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:37:39+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008962s ]
+[2022-12-24T15:37:39+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007218s ]
+[2022-12-24T15:37:39+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007772s ]
+[2022-12-24T15:37:39+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007414s ]
+[2022-12-24T15:37:39+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009625s ]
+[2022-12-24T15:39:34+08:00][sql] CONNECT:[ UseTime:0.011989s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:39:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006964s ]
+[2022-12-24T15:39:34+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008483s ]
+[2022-12-24T15:39:34+08:00][sql] CONNECT:[ UseTime:0.025488s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:39:34+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013107s ]
+[2022-12-24T15:39:34+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012847s ]
+[2022-12-24T15:39:34+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.017598s ]
+[2022-12-24T15:39:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015297s ]
+[2022-12-24T15:39:34+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014538s ]
+[2022-12-24T15:44:03+08:00][sql] CONNECT:[ UseTime:0.021217s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:44:03+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013207s ]
+[2022-12-24T15:44:03+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012689s ]
+[2022-12-24T15:44:03+08:00][sql] CONNECT:[ UseTime:0.029423s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:44:03+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006511s ]
+[2022-12-24T15:44:03+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006553s ]
+[2022-12-24T15:44:03+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006303s ]
+[2022-12-24T15:44:03+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019873s ]
+[2022-12-24T15:44:03+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014346s ]
+[2022-12-24T15:44:36+08:00][sql] CONNECT:[ UseTime:0.013418s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:44:36+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011900s ]
+[2022-12-24T15:44:36+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007228s ]
+[2022-12-24T15:44:36+08:00][sql] CONNECT:[ UseTime:0.027396s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:44:36+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.018394s ]
+[2022-12-24T15:44:36+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011981s ]
+[2022-12-24T15:44:36+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012586s ]
+[2022-12-24T15:44:36+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015849s ]
+[2022-12-24T15:44:36+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012867s ]
+[2022-12-24T15:45:30+08:00][sql] CONNECT:[ UseTime:0.012612s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:45:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.029053s ]
+[2022-12-24T15:45:30+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007174s ]
+[2022-12-24T15:45:30+08:00][sql] CONNECT:[ UseTime:0.013295s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:45:30+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007515s ]
+[2022-12-24T15:45:30+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007045s ]
+[2022-12-24T15:45:30+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009867s ]
+[2022-12-24T15:45:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006893s ]
+[2022-12-24T15:45:30+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006745s ]
+[2022-12-24T15:46:01+08:00][sql] CONNECT:[ UseTime:0.020525s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007121s ]
+[2022-12-24T15:46:01+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.008420s ]
+[2022-12-24T15:46:01+08:00][sql] CONNECT:[ UseTime:0.021876s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:01+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014107s ]
+[2022-12-24T15:46:01+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013903s ]
+[2022-12-24T15:46:01+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.013820s ]
+[2022-12-24T15:46:01+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013734s ]
+[2022-12-24T15:46:01+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014591s ]
+[2022-12-24T15:46:06+08:00][sql] CONNECT:[ UseTime:0.017569s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:06+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008126s ]
+[2022-12-24T15:46:06+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007240s ]
+[2022-12-24T15:46:06+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007253s ]
+[2022-12-24T15:46:06+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007192s ]
+[2022-12-24T15:46:06+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014883s ]
+[2022-12-24T15:46:06+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.007301s ]
+[2022-12-24T15:46:06+08:00][sql] UPDATE `role`  SET `delete_time` = 1671867966 , `update_time` = 1671867966  WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL [ RunTime:0.014974s ]
+[2022-12-24T15:46:07+08:00][sql] CONNECT:[ UseTime:0.027859s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:07+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009209s ]
+[2022-12-24T15:46:07+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012499s ]
+[2022-12-24T15:46:07+08:00][sql] CONNECT:[ UseTime:0.013010s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:07+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008551s ]
+[2022-12-24T15:46:07+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007303s ]
+[2022-12-24T15:46:07+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Role.php:22]
+[2022-12-24T15:46:14+08:00][sql] CONNECT:[ UseTime:0.021462s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:14+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.027744s ]
+[2022-12-24T15:46:14+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016590s ]
+[2022-12-24T15:46:14+08:00][sql] CONNECT:[ UseTime:0.013091s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:14+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008117s ]
+[2022-12-24T15:46:14+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017855s ]
+[2022-12-24T15:46:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Role.php:22]
+[2022-12-24T15:46:38+08:00][sql] CONNECT:[ UseTime:0.012778s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:38+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006328s ]
+[2022-12-24T15:46:38+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006444s ]
+[2022-12-24T15:46:38+08:00][sql] CONNECT:[ UseTime:0.026398s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:46:38+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014972s ]
+[2022-12-24T15:46:38+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015103s ]
+[2022-12-24T15:46:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Role.php:22]
+[2022-12-24T15:47:16+08:00][sql] CONNECT:[ UseTime:0.020508s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:47:16+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008424s ]
+[2022-12-24T15:47:16+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015936s ]
+[2022-12-24T15:47:16+08:00][sql] CONNECT:[ UseTime:0.014595s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:47:16+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008044s ]
+[2022-12-24T15:47:16+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008724s ]
+[2022-12-24T15:47:16+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010205s ]
+[2022-12-24T15:47:16+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008233s ]
+[2022-12-24T15:47:16+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.011863s ]
+[2022-12-24T15:47:19+08:00][sql] CONNECT:[ UseTime:0.033202s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:47:19+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.021041s ]
+[2022-12-24T15:47:19+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020815s ]
+[2022-12-24T15:47:19+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.021069s ]
+[2022-12-24T15:47:19+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.021442s ]
+[2022-12-24T15:47:19+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.027356s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.020792s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.020952s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.020946s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.021086s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.020879s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.024265s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.020814s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.020953s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.020715s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 12 [ RunTime:0.021959s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.020420s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.028695s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.024061s ]
+[2022-12-24T15:47:19+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.021177s ]
+[2022-12-24T15:47:20+08:00][sql] CONNECT:[ UseTime:0.022594s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:47:20+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010733s ]
+[2022-12-24T15:47:20+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007088s ]
+[2022-12-24T15:47:20+08:00][sql] CONNECT:[ UseTime:0.023057s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:47:20+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007458s ]
+[2022-12-24T15:47:20+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006725s ]
+[2022-12-24T15:47:20+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008686s ]
+[2022-12-24T15:47:20+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008250s ]
+[2022-12-24T15:47:20+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009569s ]
+[2022-12-24T15:48:55+08:00][sql] CONNECT:[ UseTime:0.025602s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:48:55+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012440s ]
+[2022-12-24T15:48:55+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.017886s ]
+[2022-12-24T15:50:48+08:00][sql] CONNECT:[ UseTime:0.024028s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:50:48+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.016295s ]
+[2022-12-24T15:50:48+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.014717s ]
+[2022-12-24T15:50:52+08:00][sql] CONNECT:[ UseTime:0.043768s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:50:52+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.032013s ]
+[2022-12-24T15:50:52+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.030953s ]
+[2022-12-24T15:50:53+08:00][sql] CONNECT:[ UseTime:0.017903s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:50:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016727s ]
+[2022-12-24T15:50:53+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016068s ]
+[2022-12-24T15:50:54+08:00][sql] CONNECT:[ UseTime:0.013445s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:50:54+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007557s ]
+[2022-12-24T15:50:54+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007098s ]
+[2022-12-24T15:50:54+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007924s ]
+[2022-12-24T15:50:54+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007143s ]
+[2022-12-24T15:50:54+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008798s ]
+[2022-12-24T15:52:09+08:00][sql] CONNECT:[ UseTime:0.023076s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:09+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019003s ]
+[2022-12-24T15:52:09+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014185s ]
+[2022-12-24T15:52:09+08:00][sql] CONNECT:[ UseTime:0.027984s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:09+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008569s ]
+[2022-12-24T15:52:09+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007880s ]
+[2022-12-24T15:52:09+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012016s ]
+[2022-12-24T15:52:09+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011264s ]
+[2022-12-24T15:52:09+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009139s ]
+[2022-12-24T15:52:21+08:00][sql] CONNECT:[ UseTime:0.014245s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:21+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008072s ]
+[2022-12-24T15:52:21+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014410s ]
+[2022-12-24T15:52:21+08:00][sql] CONNECT:[ UseTime:0.024533s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:21+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012798s ]
+[2022-12-24T15:52:21+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009006s ]
+[2022-12-24T15:52:21+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007815s ]
+[2022-12-24T15:52:21+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009527s ]
+[2022-12-24T15:52:21+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007761s ]
+[2022-12-24T15:52:25+08:00][sql] CONNECT:[ UseTime:0.025659s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.010555s ]
+[2022-12-24T15:52:25+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.010066s ]
+[2022-12-24T15:52:26+08:00][sql] CONNECT:[ UseTime:0.019529s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008687s ]
+[2022-12-24T15:52:26+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006908s ]
+[2022-12-24T15:52:26+08:00][sql] CONNECT:[ UseTime:0.031723s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:26+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.018152s ]
+[2022-12-24T15:52:26+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.018051s ]
+[2022-12-24T15:52:26+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.021312s ]
+[2022-12-24T15:52:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019559s ]
+[2022-12-24T15:52:26+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.018879s ]
+[2022-12-24T15:52:46+08:00][sql] CONNECT:[ UseTime:0.021706s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:46+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016266s ]
+[2022-12-24T15:52:46+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012533s ]
+[2022-12-24T15:52:47+08:00][sql] CONNECT:[ UseTime:0.012123s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:52:47+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006633s ]
+[2022-12-24T15:52:47+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007403s ]
+[2022-12-24T15:52:47+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006980s ]
+[2022-12-24T15:52:47+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008503s ]
+[2022-12-24T15:52:47+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008508s ]
+[2022-12-24T15:53:42+08:00][sql] CONNECT:[ UseTime:0.026500s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:53:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007207s ]
+[2022-12-24T15:53:42+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014249s ]
+[2022-12-24T15:53:43+08:00][sql] CONNECT:[ UseTime:0.026393s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:53:43+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.011764s ]
+[2022-12-24T15:53:43+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009716s ]
+[2022-12-24T15:53:43+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.015911s ]
+[2022-12-24T15:53:43+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011399s ]
+[2022-12-24T15:53:43+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.010290s ]
+[2022-12-24T15:57:40+08:00][sql] CONNECT:[ UseTime:0.110987s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:57:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014908s ]
+[2022-12-24T15:57:40+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014881s ]
+[2022-12-24T15:57:40+08:00][sql] CONNECT:[ UseTime:0.032774s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T15:57:40+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012314s ]
+[2022-12-24T15:57:40+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016159s ]
+[2022-12-24T15:57:40+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012554s ]
+[2022-12-24T15:57:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012424s ]
+[2022-12-24T15:57:40+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012621s ]
+[2022-12-24T16:00:37+08:00][sql] CONNECT:[ UseTime:0.035736s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:00:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009006s ]
+[2022-12-24T16:00:37+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007969s ]
+[2022-12-24T16:00:37+08:00][sql] CONNECT:[ UseTime:0.013668s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:00:37+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007956s ]
+[2022-12-24T16:00:37+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006596s ]
+[2022-12-24T16:00:37+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009939s ]
+[2022-12-24T16:00:37+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007296s ]
+[2022-12-24T16:00:37+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007616s ]
+[2022-12-24T16:01:32+08:00][sql] CONNECT:[ UseTime:0.023712s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015440s ]
+[2022-12-24T16:01:32+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014667s ]
+[2022-12-24T16:01:32+08:00][sql] CONNECT:[ UseTime:0.029999s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:32+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007673s ]
+[2022-12-24T16:01:32+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006362s ]
+[2022-12-24T16:01:32+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.010563s ]
+[2022-12-24T16:01:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009408s ]
+[2022-12-24T16:01:32+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008148s ]
+[2022-12-24T16:01:34+08:00][sql] CONNECT:[ UseTime:0.032674s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018041s ]
+[2022-12-24T16:01:34+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014575s ]
+[2022-12-24T16:01:34+08:00][sql] CONNECT:[ UseTime:0.011884s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:34+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.005887s ]
+[2022-12-24T16:01:34+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012955s ]
+[2022-12-24T16:01:34+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.011804s ]
+[2022-12-24T16:01:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006546s ]
+[2022-12-24T16:01:34+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012729s ]
+[2022-12-24T16:01:41+08:00][sql] CONNECT:[ UseTime:0.029298s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:41+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015259s ]
+[2022-12-24T16:01:41+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014157s ]
+[2022-12-24T16:01:41+08:00][sql] CONNECT:[ UseTime:0.025571s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:01:41+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.019435s ]
+[2022-12-24T16:01:41+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014385s ]
+[2022-12-24T16:01:41+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014156s ]
+[2022-12-24T16:01:41+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014863s ]
+[2022-12-24T16:01:41+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.019230s ]
+[2022-12-24T16:02:18+08:00][sql] CONNECT:[ UseTime:0.029846s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:02:18+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017014s ]
+[2022-12-24T16:02:18+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.014355s ]
+[2022-12-24T16:02:18+08:00][sql] CONNECT:[ UseTime:0.011113s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:02:18+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006522s ]
+[2022-12-24T16:02:18+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007188s ]
+[2022-12-24T16:02:18+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.006375s ]
+[2022-12-24T16:02:18+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006783s ]
+[2022-12-24T16:02:18+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006286s ]
+[2022-12-24T16:02:23+08:00][sql] CONNECT:[ UseTime:0.023979s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:02:23+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015758s ]
+[2022-12-24T16:02:23+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012898s ]
+[2022-12-24T16:02:23+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014483s ]
+[2022-12-24T16:02:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019941s ]
+[2022-12-24T16:02:23+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.019567s ]
+[2022-12-24T16:02:23+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.013287s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.013983s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.013786s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.011870s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.012439s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.012420s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.012343s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.012072s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.012223s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.015802s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.012019s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.014893s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.011944s ]
+[2022-12-24T16:02:23+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.012005s ]
+[2022-12-24T16:02:25+08:00][sql] CONNECT:[ UseTime:0.024290s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:02:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008305s ]
+[2022-12-24T16:02:25+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013225s ]
+[2022-12-24T16:02:25+08:00][sql] CONNECT:[ UseTime:0.014044s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:02:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007281s ]
+[2022-12-24T16:02:25+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007217s ]
+[2022-12-24T16:02:25+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009573s ]
+[2022-12-24T16:02:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008592s ]
+[2022-12-24T16:02:25+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006851s ]
+[2022-12-24T16:03:22+08:00][sql] CONNECT:[ UseTime:0.027979s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:22+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.017481s ]
+[2022-12-24T16:03:22+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014532s ]
+[2022-12-24T16:03:22+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.021372s ]
+[2022-12-24T16:03:22+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018946s ]
+[2022-12-24T16:03:22+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.023711s ]
+[2022-12-24T16:03:22+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.016202s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 1 [ RunTime:0.017274s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 3 [ RunTime:0.020736s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.021916s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.027691s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.014473s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.013728s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.015421s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.014519s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.016696s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.015507s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.015692s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.014628s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.016923s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.014848s ]
+[2022-12-24T16:03:22+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.015768s ]
+[2022-12-24T16:03:24+08:00][sql] CONNECT:[ UseTime:0.086074s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:24+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008516s ]
+[2022-12-24T16:03:24+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006150s ]
+[2022-12-24T16:03:24+08:00][sql] CONNECT:[ UseTime:0.040859s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:24+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007249s ]
+[2022-12-24T16:03:24+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013756s ]
+[2022-12-24T16:03:24+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008478s ]
+[2022-12-24T16:03:24+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007370s ]
+[2022-12-24T16:03:24+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007750s ]
+[2022-12-24T16:03:27+08:00][sql] CONNECT:[ UseTime:0.012373s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:27+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009428s ]
+[2022-12-24T16:03:27+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006296s ]
+[2022-12-24T16:03:27+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007407s ]
+[2022-12-24T16:03:27+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013898s ]
+[2022-12-24T16:03:27+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.006351s ]
+[2022-12-24T16:03:27+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.006512s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.006185s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.006482s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.007118s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.005824s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.008648s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.006378s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.006342s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.007875s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.006120s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 12 [ RunTime:0.009680s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.005671s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.006723s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.007166s ]
+[2022-12-24T16:03:27+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.012263s ]
+[2022-12-24T16:03:28+08:00][sql] CONNECT:[ UseTime:0.018957s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015639s ]
+[2022-12-24T16:03:28+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015027s ]
+[2022-12-24T16:03:28+08:00][sql] CONNECT:[ UseTime:0.013767s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:28+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007864s ]
+[2022-12-24T16:03:28+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007072s ]
+[2022-12-24T16:03:28+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008971s ]
+[2022-12-24T16:03:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007529s ]
+[2022-12-24T16:03:28+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.010967s ]
+[2022-12-24T16:03:40+08:00][sql] CONNECT:[ UseTime:0.023134s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:40+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.021090s ]
+[2022-12-24T16:03:40+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012615s ]
+[2022-12-24T16:03:40+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.013038s ]
+[2022-12-24T16:03:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012586s ]
+[2022-12-24T16:03:40+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013032s ]
+[2022-12-24T16:03:40+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.015718s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.012206s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.012582s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.013134s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.011894s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.012927s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.011908s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.011961s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.016311s ]
+[2022-12-24T16:03:40+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.012586s ]
+[2022-12-24T16:03:41+08:00][sql] CONNECT:[ UseTime:0.022717s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:41+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014201s ]
+[2022-12-24T16:03:41+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.019639s ]
+[2022-12-24T16:03:42+08:00][sql] CONNECT:[ UseTime:0.026477s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:03:42+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.022417s ]
+[2022-12-24T16:03:42+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019865s ]
+[2022-12-24T16:03:42+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.012903s ]
+[2022-12-24T16:03:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017983s ]
+[2022-12-24T16:03:42+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015500s ]
+[2022-12-24T16:04:07+08:00][sql] CONNECT:[ UseTime:0.025381s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:04:07+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007609s ]
+[2022-12-24T16:04:07+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007890s ]
+[2022-12-24T16:04:07+08:00][sql] CONNECT:[ UseTime:0.013314s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:04:07+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007066s ]
+[2022-12-24T16:04:07+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011263s ]
+[2022-12-24T16:04:07+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009061s ]
+[2022-12-24T16:04:07+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007728s ]
+[2022-12-24T16:04:07+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009291s ]
+[2022-12-24T16:04:24+08:00][sql] CONNECT:[ UseTime:0.023620s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:04:24+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014361s ]
+[2022-12-24T16:04:24+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013239s ]
+[2022-12-24T16:04:24+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.013480s ]
+[2022-12-24T16:04:24+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013411s ]
+[2022-12-24T16:04:24+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015241s ]
+[2022-12-24T16:04:24+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.012544s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.013357s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.014304s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.012252s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.015929s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.013405s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.014541s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.012292s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.013658s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.012406s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.013932s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.014118s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.013882s ]
+[2022-12-24T16:04:24+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.021093s ]
+[2022-12-24T16:04:25+08:00][sql] CONNECT:[ UseTime:0.023451s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:04:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.006371s ]
+[2022-12-24T16:04:25+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010053s ]
+[2022-12-24T16:04:25+08:00][sql] CONNECT:[ UseTime:0.015728s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:04:25+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.013439s ]
+[2022-12-24T16:04:25+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007877s ]
+[2022-12-24T16:04:25+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008949s ]
+[2022-12-24T16:04:25+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008086s ]
+[2022-12-24T16:04:25+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.009036s ]
+[2022-12-24T16:05:04+08:00][sql] CONNECT:[ UseTime:0.013551s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:05:04+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008133s ]
+[2022-12-24T16:05:04+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006274s ]
+[2022-12-24T16:05:04+08:00][sql] CONNECT:[ UseTime:0.015928s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:05:04+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.009826s ]
+[2022-12-24T16:05:04+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010755s ]
+[2022-12-24T16:05:04+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008028s ]
+[2022-12-24T16:05:04+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016634s ]
+[2022-12-24T16:05:04+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.010717s ]
+[2022-12-24T16:06:13+08:00][sql] CONNECT:[ UseTime:0.015155s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:06:13+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009940s ]
+[2022-12-24T16:06:13+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.009772s ]
+[2022-12-24T16:06:14+08:00][sql] CONNECT:[ UseTime:0.026614s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:06:14+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015493s ]
+[2022-12-24T16:06:14+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014386s ]
+[2022-12-24T16:06:14+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014964s ]
+[2022-12-24T16:06:14+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016114s ]
+[2022-12-24T16:06:14+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.019917s ]
+[2022-12-24T16:06:46+08:00][sql] CONNECT:[ UseTime:0.024736s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:06:46+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014501s ]
+[2022-12-24T16:06:46+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.021805s ]
+[2022-12-24T16:06:47+08:00][sql] CONNECT:[ UseTime:0.024279s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:06:47+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.014290s ]
+[2022-12-24T16:06:47+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013728s ]
+[2022-12-24T16:06:47+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.015040s ]
+[2022-12-24T16:06:47+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011822s ]
+[2022-12-24T16:06:47+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.022953s ]
+[2022-12-24T16:08:31+08:00][sql] CONNECT:[ UseTime:0.020004s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:08:31+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012248s ]
+[2022-12-24T16:08:31+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011958s ]
+[2022-12-24T16:08:31+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014290s ]
+[2022-12-24T16:08:31+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012905s ]
+[2022-12-24T16:08:31+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.015635s ]
+[2022-12-24T16:08:31+08:00][sql] DELETE FROM `role_node` WHERE  `role_id` = 1 [ RunTime:0.015784s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 2 [ RunTime:0.011280s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 4 [ RunTime:0.011382s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 5 [ RunTime:0.012194s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 6 [ RunTime:0.011522s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 7 [ RunTime:0.011722s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 8 [ RunTime:0.021697s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 9 [ RunTime:0.013638s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 10 [ RunTime:0.012055s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 11 [ RunTime:0.011006s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 13 [ RunTime:0.011298s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 14 [ RunTime:0.014455s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 15 [ RunTime:0.013802s ]
+[2022-12-24T16:08:31+08:00][sql] REPLACE INTO `role_node` SET `role_id` = 1 , `node_id` = 16 [ RunTime:0.012904s ]
+[2022-12-24T16:08:32+08:00][sql] CONNECT:[ UseTime:0.019581s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:08:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013529s ]
+[2022-12-24T16:08:32+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.011212s ]
+[2022-12-24T16:08:32+08:00][sql] CONNECT:[ UseTime:0.018283s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:08:32+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.012045s ]
+[2022-12-24T16:08:32+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.023429s ]
+[2022-12-24T16:08:32+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008080s ]
+[2022-12-24T16:08:32+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017086s ]
+[2022-12-24T16:08:32+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.014398s ]
+[2022-12-24T16:20:39+08:00][sql] CONNECT:[ UseTime:0.037441s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:39+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007881s ]
+[2022-12-24T16:20:39+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.009862s ]
+[2022-12-24T16:20:39+08:00][sql] CONNECT:[ UseTime:0.028958s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:39+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.020923s ]
+[2022-12-24T16:20:39+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.028080s ]
+[2022-12-24T16:20:39+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014424s ]
+[2022-12-24T16:20:39+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022432s ]
+[2022-12-24T16:20:39+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.016584s ]
+[2022-12-24T16:20:39+08:00][sql] CONNECT:[ UseTime:0.014730s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:39+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012114s ]
+[2022-12-24T16:20:39+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007632s ]
+[2022-12-24T16:20:56+08:00][sql] CONNECT:[ UseTime:0.033073s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:56+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.023353s ]
+[2022-12-24T16:20:56+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.020829s ]
+[2022-12-24T16:20:56+08:00][sql] CONNECT:[ UseTime:0.048497s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:56+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.024487s ]
+[2022-12-24T16:20:56+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.021253s ]
+[2022-12-24T16:20:56+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.019773s ]
+[2022-12-24T16:20:56+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.023856s ]
+[2022-12-24T16:20:56+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.024202s ]
+[2022-12-24T16:20:57+08:00][sql] CONNECT:[ UseTime:0.026600s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:20:57+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010658s ]
+[2022-12-24T16:20:57+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010069s ]
+[2022-12-24T16:21:33+08:00][sql] CONNECT:[ UseTime:0.034267s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:33+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019441s ]
+[2022-12-24T16:21:33+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.023108s ]
+[2022-12-24T16:21:33+08:00][sql] CONNECT:[ UseTime:0.012812s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:33+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.006817s ]
+[2022-12-24T16:21:33+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013896s ]
+[2022-12-24T16:21:33+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008873s ]
+[2022-12-24T16:21:33+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007028s ]
+[2022-12-24T16:21:33+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.010049s ]
+[2022-12-24T16:21:33+08:00][sql] CONNECT:[ UseTime:0.022809s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:33+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016684s ]
+[2022-12-24T16:21:33+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012985s ]
+[2022-12-24T16:21:53+08:00][sql] CONNECT:[ UseTime:0.018644s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009993s ]
+[2022-12-24T16:21:53+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010777s ]
+[2022-12-24T16:21:53+08:00][sql] CONNECT:[ UseTime:0.013691s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:53+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008933s ]
+[2022-12-24T16:21:53+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008673s ]
+[2022-12-24T16:21:53+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.013305s ]
+[2022-12-24T16:21:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018657s ]
+[2022-12-24T16:21:53+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008110s ]
+[2022-12-24T16:21:53+08:00][sql] CONNECT:[ UseTime:0.067135s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:21:53+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015974s ]
+[2022-12-24T16:21:53+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016330s ]
+[2022-12-24T16:25:02+08:00][sql] CONNECT:[ UseTime:0.026241s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015498s ]
+[2022-12-24T16:25:02+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.016370s ]
+[2022-12-24T16:25:02+08:00][sql] CONNECT:[ UseTime:0.027386s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:02+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015963s ]
+[2022-12-24T16:25:02+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012682s ]
+[2022-12-24T16:25:02+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.014154s ]
+[2022-12-24T16:25:02+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016555s ]
+[2022-12-24T16:25:02+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.017754s ]
+[2022-12-24T16:25:03+08:00][sql] CONNECT:[ UseTime:0.022990s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:03+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007279s ]
+[2022-12-24T16:25:03+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006782s ]
+[2022-12-24T16:25:23+08:00][sql] CONNECT:[ UseTime:0.014953s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007112s ]
+[2022-12-24T16:25:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007370s ]
+[2022-12-24T16:25:23+08:00][sql] CONNECT:[ UseTime:0.014556s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:23+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008928s ]
+[2022-12-24T16:25:23+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013019s ]
+[2022-12-24T16:25:23+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.009180s ]
+[2022-12-24T16:25:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012483s ]
+[2022-12-24T16:25:23+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.012556s ]
+[2022-12-24T16:25:23+08:00][sql] CONNECT:[ UseTime:0.025212s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011669s ]
+[2022-12-24T16:25:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010774s ]
+[2022-12-24T16:25:26+08:00][sql] CONNECT:[ UseTime:0.014306s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:26+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.007104s ]
+[2022-12-24T16:25:26+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.007318s ]
+[2022-12-24T16:25:27+08:00][sql] CONNECT:[ UseTime:0.020091s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:27+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008517s ]
+[2022-12-24T16:25:27+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.011386s ]
+[2022-12-24T16:25:27+08:00][sql] CONNECT:[ UseTime:0.028699s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:27+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.019863s ]
+[2022-12-24T16:25:27+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016286s ]
+[2022-12-24T16:25:27+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.022542s ]
+[2022-12-24T16:25:27+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.014569s ]
+[2022-12-24T16:25:27+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013708s ]
+[2022-12-24T16:25:28+08:00][sql] CONNECT:[ UseTime:0.042061s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:25:28+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.010334s ]
+[2022-12-24T16:25:28+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006165s ]
+[2022-12-24T16:26:58+08:00][sql] CONNECT:[ UseTime:0.035492s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:26:58+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018339s ]
+[2022-12-24T16:26:58+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.015369s ]
+[2022-12-24T16:26:58+08:00][sql] CONNECT:[ UseTime:0.022293s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:26:58+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.023379s ]
+[2022-12-24T16:26:58+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009438s ]
+[2022-12-24T16:26:58+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008581s ]
+[2022-12-24T16:26:58+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.015158s ]
+[2022-12-24T16:26:58+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013628s ]
+[2022-12-24T16:27:15+08:00][sql] CONNECT:[ UseTime:0.019234s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009379s ]
+[2022-12-24T16:27:15+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.012476s ]
+[2022-12-24T16:27:15+08:00][sql] CONNECT:[ UseTime:0.015043s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.008333s ]
+[2022-12-24T16:27:15+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008239s ]
+[2022-12-24T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.008152s ]
+[2022-12-24T16:27:15+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009864s ]
+[2022-12-24T16:27:15+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.008019s ]
+[2022-12-24T16:27:27+08:00][sql] CONNECT:[ UseTime:3.415445s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:27+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.009975s ]
+[2022-12-24T16:27:27+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.010732s ]
+[2022-12-24T16:27:30+08:00][sql] CONNECT:[ UseTime:2.400516s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:30+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.016279s ]
+[2022-12-24T16:27:30+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.246993s ]
+[2022-12-24T16:27:30+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.019194s ]
+[2022-12-24T16:27:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013101s ]
+[2022-12-24T16:27:30+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.013266s ]
+[2022-12-24T16:27:42+08:00][sql] CONNECT:[ UseTime:0.021839s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013099s ]
+[2022-12-24T16:27:42+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.013420s ]
+[2022-12-24T16:27:42+08:00][sql] CONNECT:[ UseTime:0.038239s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:42+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.016428s ]
+[2022-12-24T16:27:42+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019957s ]
+[2022-12-24T16:27:42+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.018161s ]
+[2022-12-24T16:27:42+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.019204s ]
+[2022-12-24T16:27:42+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.016180s ]
+[2022-12-24T16:27:55+08:00][sql] CONNECT:[ UseTime:0.023262s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:55+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012044s ]
+[2022-12-24T16:27:55+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.011180s ]
+[2022-12-24T16:27:55+08:00][sql] CONNECT:[ UseTime:0.799013s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:27:55+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.019197s ]
+[2022-12-24T16:27:55+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.020458s ]
+[2022-12-24T16:27:55+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.019023s ]
+[2022-12-24T16:27:55+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.023997s ]
+[2022-12-24T16:27:55+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.032268s ]
+[2022-12-24T16:28:23+08:00][sql] CONNECT:[ UseTime:0.778149s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:28:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013139s ]
+[2022-12-24T16:28:23+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.007432s ]
+[2022-12-24T16:28:23+08:00][sql] CONNECT:[ UseTime:0.115631s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:28:23+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.015576s ]
+[2022-12-24T16:28:23+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013877s ]
+[2022-12-24T16:28:23+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.017924s ]
+[2022-12-24T16:28:23+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007720s ]
+[2022-12-24T16:28:23+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007246s ]
+[2022-12-24T16:29:14+08:00][sql] CONNECT:[ UseTime:0.012004s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:29:14+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008349s ]
+[2022-12-24T16:29:14+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006173s ]
+[2022-12-24T16:29:14+08:00][sql] CONNECT:[ UseTime:0.020421s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:29:14+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.010086s ]
+[2022-12-24T16:29:14+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.009813s ]
+[2022-12-24T16:29:14+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.007866s ]
+[2022-12-24T16:29:14+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008569s ]
+[2022-12-24T16:29:14+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.007974s ]
+[2022-12-24T16:29:26+08:00][sql] CONNECT:[ UseTime:0.026373s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:29:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.008224s ]
+[2022-12-24T16:29:26+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.009391s ]
+[2022-12-24T16:29:26+08:00][sql] CONNECT:[ UseTime:0.044834s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:29:26+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.025396s ]
+[2022-12-24T16:29:26+08:00][sql] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.022401s ]
+[2022-12-24T16:29:26+08:00][sql] SHOW FULL COLUMNS FROM `role_node` [ RunTime:0.021033s ]
+[2022-12-24T16:29:26+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.021869s ]
+[2022-12-24T16:29:26+08:00][sql] SELECT `node`.*,`pivot`.`role_id` AS `pivot__role_id`,`pivot`.`node_id` AS `pivot__node_id` FROM `node` INNER JOIN `role_node` `pivot` ON `pivot`.`node_id`=`node`.`id` WHERE (  `pivot`.`role_id` = '1' ) AND `node`.`delete_time` IS NULL [ RunTime:0.022528s ]
+[2022-12-24T16:41:40+08:00][sql] CONNECT:[ UseTime:0.012343s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-24T16:41:40+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.007215s ]
+[2022-12-24T16:41:40+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL [ RunTime:0.006764s ]

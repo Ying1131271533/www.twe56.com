@@ -1,0 +1,12 @@
+[2023-01-15T00:13:40+08:00][sql] CONNECT:[ UseTime:0.018585s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-15T00:13:40+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.013021s ]
+[2023-01-15T00:13:40+08:00][sql] CONNECT:[ UseTime:0.033261s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-15T00:13:40+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.022327s ]
+[2023-01-15T00:13:40+08:00][sql] SELECT COUNT(*) AS think_count FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.021577s ]
+[2023-01-15T00:13:40+08:00][sql] SELECT * FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.020999s ]
+[2023-01-15T00:13:41+08:00][sql] CONNECT:[ UseTime:0.027178s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-15T00:13:41+08:00][sql] SHOW FULL COLUMNS FROM `news` [ RunTime:0.019015s ]
+[2023-01-15T00:13:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017618s ]
+[2023-01-15T00:13:41+08:00][sql] SELECT * FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.017238s ]
+[2023-01-15T00:13:41+08:00][sql] CONNECT:[ UseTime:0.028663s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-15T00:13:41+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.017776s ]

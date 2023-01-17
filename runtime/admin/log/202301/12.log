@@ -1,0 +1,181 @@
+[2023-01-12T10:10:55+08:00][sql] CONNECT:[ UseTime:0.023836s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:10:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012778s ]
+[2023-01-12T10:10:55+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012768s ]
+[2023-01-12T10:10:55+08:00][sql] CONNECT:[ UseTime:0.027893s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:10:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017414s ]
+[2023-01-12T10:10:55+08:00][sql] SELECT * FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016716s ]
+[2023-01-12T10:10:55+08:00][sql] CONNECT:[ UseTime:0.042647s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:10:55+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018665s ]
+[2023-01-12T10:10:55+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.020735s ]
+[2023-01-12T10:10:55+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.019082s ]
+[2023-01-12T10:10:55+08:00][sql] CONNECT:[ UseTime:0.028088s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:10:55+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.017313s ]
+[2023-01-12T10:10:55+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL ORDER BY `sort` ASC [ RunTime:0.017011s ]
+[2023-01-12T10:10:58+08:00][sql] CONNECT:[ UseTime:0.026074s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:10:58+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.022737s ]
+[2023-01-12T10:10:58+08:00][sql] SELECT `id`,`title`,`parent_id` FROM `category` WHERE `category`.`delete_time` IS NULL ORDER BY `sort` [ RunTime:0.015278s ]
+[2023-01-12T10:17:26+08:00][sql] CONNECT:[ UseTime:0.017938s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:17:26+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.010800s ]
+[2023-01-12T10:17:26+08:00][sql] SELECT * FROM `customer_service` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.010436s ]
+[2023-01-12T10:18:44+08:00][sql] CONNECT:[ UseTime:0.020824s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:18:44+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.013635s ]
+[2023-01-12T10:18:44+08:00][sql] SELECT `id` FROM `customer_service` WHERE  `name` = '坂田业务' LIMIT 1 [ RunTime:0.012727s ]
+[2023-01-12T10:18:44+08:00][sql] INSERT INTO `customer_service` SET `name` = '坂田业务' , `real_name` = '' , `qq` = 2850153404 , `wechat` = '' , `phone` = '' , `description` = '' , `sort` = 0 , `status` = 1 , `create_time` = 1673489924 [ RunTime:0.012757s ]
+[2023-01-12T10:18:45+08:00][sql] CONNECT:[ UseTime:0.025594s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:18:45+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.016480s ]
+[2023-01-12T10:18:45+08:00][sql] SELECT * FROM `customer_service` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.016149s ]
+[2023-01-12T10:19:05+08:00][sql] CONNECT:[ UseTime:0.028277s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:19:05+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.017517s ]
+[2023-01-12T10:19:05+08:00][sql] SELECT `id` FROM `customer_service` WHERE  `name` = '俄罗斯海外仓' LIMIT 1 [ RunTime:0.016108s ]
+[2023-01-12T10:19:05+08:00][sql] INSERT INTO `customer_service` SET `name` = '俄罗斯海外仓' , `real_name` = '' , `qq` = 3002847061 , `wechat` = '' , `phone` = '' , `description` = '' , `sort` = 0 , `status` = 1 , `create_time` = 1673489945 [ RunTime:0.016872s ]
+[2023-01-12T10:19:06+08:00][sql] CONNECT:[ UseTime:0.027012s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T10:19:06+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.016915s ]
+[2023-01-12T10:19:06+08:00][sql] SELECT * FROM `customer_service` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.028072s ]
+[2023-01-12T15:16:08+08:00][sql] CONNECT:[ UseTime:0.042658s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T15:16:08+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018371s ]
+[2023-01-12T15:16:08+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.018407s ]
+[2023-01-12T15:16:08+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.019237s ]
+[2023-01-12T15:16:09+08:00][sql] CONNECT:[ UseTime:0.027287s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T15:16:09+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.011457s ]
+[2023-01-12T15:16:09+08:00][sql] SELECT * FROM `customer_service` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.011307s ]
+[2023-01-12T17:09:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2023-01-12T17:09:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2023-01-12T17:09:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2023-01-12T17:09:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:26]
+[2023-01-12T17:09:08+08:00][sql] CONNECT:[ UseTime:0.020038s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:08+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012269s ]
+[2023-01-12T17:09:08+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011934s ]
+[2023-01-12T17:09:08+08:00][sql] UPDATE `admin`  SET `last_login_token` = '35cfc44654df5ab5cfd457b3ac41984370547d25' , `login_number` = 70 , `last_login_time` = '1673514548' , `update_time` = 1673514548  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011810s ]
+[2023-01-12T17:09:08+08:00][sql] CONNECT:[ UseTime:0.020806s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:08+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013109s ]
+[2023-01-12T17:09:08+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.013042s ]
+[2023-01-12T17:09:08+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.013043s ]
+[2023-01-12T17:09:10+08:00][sql] CONNECT:[ UseTime:0.028598s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:10+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.018763s ]
+[2023-01-12T17:09:10+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.018125s ]
+[2023-01-12T17:09:10+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.018522s ]
+[2023-01-12T17:09:13+08:00][sql] CONNECT:[ UseTime:0.018604s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:13+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.011843s ]
+[2023-01-12T17:09:13+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.011076s ]
+[2023-01-12T17:09:13+08:00][sql] SHOW FULL COLUMNS FROM `admin_role` [ RunTime:0.011526s ]
+[2023-01-12T17:09:13+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.011177s ]
+[2023-01-12T17:09:13+08:00][sql] SELECT `admin`.*,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`role_id` AS `pivot__role_id` FROM `admin` INNER JOIN `admin_role` `pivot` ON `pivot`.`admin_id`=`admin`.`id` WHERE (  `pivot`.`role_id` IN ('1','2','3') ) AND `admin`.`delete_time` IS NULL [ RunTime:0.011164s ]
+[2023-01-12T17:09:14+08:00][sql] CONNECT:[ UseTime:0.028192s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:14+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019530s ]
+[2023-01-12T17:09:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017176s ]
+[2023-01-12T17:09:14+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.018638s ]
+[2023-01-12T17:09:14+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:09:16+08:00][sql] CONNECT:[ UseTime:0.017286s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.013659s ]
+[2023-01-12T17:09:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010417s ]
+[2023-01-12T17:09:16+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.010914s ]
+[2023-01-12T17:09:16+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:09:18+08:00][sql] CONNECT:[ UseTime:0.020400s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:18+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.013377s ]
+[2023-01-12T17:09:18+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL ORDER BY `sort` ASC [ RunTime:0.012590s ]
+[2023-01-12T17:09:19+08:00][sql] CONNECT:[ UseTime:0.014854s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.010632s ]
+[2023-01-12T17:09:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.007017s ]
+[2023-01-12T17:09:19+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.007370s ]
+[2023-01-12T17:09:19+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:09:20+08:00][sql] CONNECT:[ UseTime:0.027585s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:20+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.017361s ]
+[2023-01-12T17:09:20+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.017360s ]
+[2023-01-12T17:09:20+08:00][sql] SHOW FULL COLUMNS FROM `admin_role` [ RunTime:0.017682s ]
+[2023-01-12T17:09:20+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017439s ]
+[2023-01-12T17:09:20+08:00][sql] SELECT `admin`.*,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`role_id` AS `pivot__role_id` FROM `admin` INNER JOIN `admin_role` `pivot` ON `pivot`.`admin_id`=`admin`.`id` WHERE (  `pivot`.`role_id` IN ('1','2','3') ) AND `admin`.`delete_time` IS NULL [ RunTime:0.017882s ]
+[2023-01-12T17:09:21+08:00][sql] CONNECT:[ UseTime:0.020504s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.012012s ]
+[2023-01-12T17:09:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012675s ]
+[2023-01-12T17:09:21+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.013190s ]
+[2023-01-12T17:09:21+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:09:22+08:00][sql] CONNECT:[ UseTime:0.033473s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:22+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022101s ]
+[2023-01-12T17:09:22+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL ORDER BY `sort` ASC [ RunTime:0.017833s ]
+[2023-01-12T17:09:22+08:00][sql] CONNECT:[ UseTime:0.021357s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:22+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.015245s ]
+[2023-01-12T17:09:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014919s ]
+[2023-01-12T17:09:22+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.012855s ]
+[2023-01-12T17:09:22+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:09:30+08:00][sql] CONNECT:[ UseTime:0.034317s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:30+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.022385s ]
+[2023-01-12T17:09:30+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.020027s ]
+[2023-01-12T17:09:30+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.021418s ]
+[2023-01-12T17:09:30+08:00][sql] CONNECT:[ UseTime:0.029612s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:09:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.019399s ]
+[2023-01-12T17:09:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015337s ]
+[2023-01-12T17:09:30+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.014977s ]
+[2023-01-12T17:09:30+08:00][error] [0]Call to a member function toArray() on array[D:\Web\www.wse.com\app\admin\logic\Admin.php:98]
+[2023-01-12T17:10:09+08:00][sql] CONNECT:[ UseTime:0.040735s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:09+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.016227s ]
+[2023-01-12T17:10:09+08:00][sql] SELECT `id` FROM `node` WHERE  `show` = 1 ORDER BY `sort` ASC [ RunTime:0.015074s ]
+[2023-01-12T17:10:09+08:00][sql] SELECT * FROM `node` WHERE  `id` IN (42,80,73,69,58,1,35,19,4,31,2,47,52,8,63,3,18,13,72,79,30,41,68,57) ORDER BY `sort` [ RunTime:0.017006s ]
+[2023-01-12T17:10:10+08:00][sql] CONNECT:[ UseTime:0.032040s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:10+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.022449s ]
+[2023-01-12T17:10:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017257s ]
+[2023-01-12T17:10:10+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.018249s ]
+[2023-01-12T17:10:15+08:00][sql] CONNECT:[ UseTime:0.040055s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:15+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.020838s ]
+[2023-01-12T17:10:15+08:00][sql] SELECT `id`,`title`,`parent_id` FROM `category` WHERE `category`.`delete_time` IS NULL ORDER BY `sort` [ RunTime:0.018656s ]
+[2023-01-12T17:10:16+08:00][sql] CONNECT:[ UseTime:0.029928s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:16+08:00][sql] SHOW FULL COLUMNS FROM `slides` [ RunTime:0.011160s ]
+[2023-01-12T17:10:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `slides` WHERE `slides`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010693s ]
+[2023-01-12T17:10:16+08:00][sql] SELECT * FROM `slides` WHERE `slides`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.011048s ]
+[2023-01-12T17:10:16+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.011272s ]
+[2023-01-12T17:10:16+08:00][sql] SELECT * FROM `category` WHERE (  `id` IN (1,2,11,18,6,3,4) ) AND `category`.`delete_time` IS NULL [ RunTime:0.011148s ]
+[2023-01-12T17:10:17+08:00][sql] CONNECT:[ UseTime:0.017938s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:17+08:00][sql] SHOW FULL COLUMNS FROM `product` [ RunTime:0.011344s ]
+[2023-01-12T17:10:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `product` WHERE `product`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.010817s ]
+[2023-01-12T17:10:17+08:00][sql] SELECT * FROM `product` WHERE `product`.`delete_time` IS NULL ORDER BY `id` ASC,`sort` ASC LIMIT 0,20 [ RunTime:0.010608s ]
+[2023-01-12T17:10:19+08:00][sql] CONNECT:[ UseTime:0.011372s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:19+08:00][sql] SHOW FULL COLUMNS FROM `platform` [ RunTime:0.006734s ]
+[2023-01-12T17:10:19+08:00][sql] SELECT COUNT(*) AS think_count FROM `platform` WHERE `platform`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.006732s ]
+[2023-01-12T17:10:19+08:00][sql] SELECT * FROM `platform` WHERE `platform`.`delete_time` IS NULL ORDER BY `id` ASC,`sort` ASC LIMIT 0,20 [ RunTime:0.006423s ]
+[2023-01-12T17:10:20+08:00][sql] CONNECT:[ UseTime:0.026614s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:20+08:00][sql] SHOW FULL COLUMNS FROM `article_cate` [ RunTime:0.017011s ]
+[2023-01-12T17:10:20+08:00][sql] SELECT `id`,`cate_name`,`sort` FROM `article_cate` WHERE `article_cate`.`delete_time` IS NULL ORDER BY `sort` [ RunTime:0.017202s ]
+[2023-01-12T17:10:21+08:00][sql] CONNECT:[ UseTime:0.021526s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:21+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.012447s ]
+[2023-01-12T17:10:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `article` WHERE `article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012034s ]
+[2023-01-12T17:10:21+08:00][sql] SELECT * FROM `article` WHERE `article`.`delete_time` IS NULL ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013884s ]
+[2023-01-12T17:10:21+08:00][sql] SHOW FULL COLUMNS FROM `article_cate` [ RunTime:0.012993s ]
+[2023-01-12T17:10:21+08:00][sql] SELECT * FROM `article_cate` WHERE (  `id` = 1 ) AND `article_cate`.`delete_time` IS NULL [ RunTime:0.012702s ]
+[2023-01-12T17:10:22+08:00][sql] CONNECT:[ UseTime:0.029708s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:22+08:00][sql] SHOW FULL COLUMNS FROM `news` [ RunTime:0.022320s ]
+[2023-01-12T17:10:22+08:00][sql] SELECT COUNT(*) AS think_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017803s ]
+[2023-01-12T17:10:22+08:00][sql] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.020165s ]
+[2023-01-12T17:10:22+08:00][sql] SHOW FULL COLUMNS FROM `news_cate` [ RunTime:0.018385s ]
+[2023-01-12T17:10:22+08:00][sql] SELECT * FROM `news_cate` WHERE (  `id` = 1 ) AND `news_cate`.`delete_time` IS NULL [ RunTime:0.019459s ]
+[2023-01-12T17:10:23+08:00][sql] CONNECT:[ UseTime:0.024979s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:23+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.016391s ]
+[2023-01-12T17:10:23+08:00][sql] SELECT `id`,`cate_name`,`sort` FROM `about_cate` WHERE `about_cate`.`delete_time` IS NULL ORDER BY `sort` [ RunTime:0.015018s ]
+[2023-01-12T17:10:24+08:00][sql] CONNECT:[ UseTime:0.025713s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:24+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.016061s ]
+[2023-01-12T17:10:24+08:00][sql] SELECT * FROM `customer_service` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.016002s ]
+[2023-01-12T17:10:26+08:00][sql] CONNECT:[ UseTime:0.019438s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:26+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.012120s ]
+[2023-01-12T17:10:26+08:00][sql] SELECT `id`,`cate_name`,`sort` FROM `about_cate` WHERE `about_cate`.`delete_time` IS NULL ORDER BY `sort` [ RunTime:0.011066s ]
+[2023-01-12T17:10:26+08:00][sql] CONNECT:[ UseTime:0.025191s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:26+08:00][sql] SHOW FULL COLUMNS FROM `about` [ RunTime:0.013803s ]
+[2023-01-12T17:10:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `about` WHERE `about`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013598s ]
+[2023-01-12T17:10:26+08:00][sql] SELECT * FROM `about` WHERE `about`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.013360s ]
+[2023-01-12T17:10:26+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.013521s ]
+[2023-01-12T17:10:26+08:00][sql] SELECT * FROM `about_cate` WHERE (  `id` IN (2,1) ) AND `about_cate`.`delete_time` IS NULL [ RunTime:0.012779s ]
+[2023-01-12T17:10:28+08:00][sql] CONNECT:[ UseTime:0.026710s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:28+08:00][sql] SHOW FULL COLUMNS FROM `role` [ RunTime:0.017394s ]
+[2023-01-12T17:10:28+08:00][sql] SELECT * FROM `role` WHERE `role`.`delete_time` IS NULL [ RunTime:0.017096s ]
+[2023-01-12T17:10:28+08:00][sql] SHOW FULL COLUMNS FROM `admin_role` [ RunTime:0.017299s ]
+[2023-01-12T17:10:28+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.017213s ]
+[2023-01-12T17:10:28+08:00][sql] SELECT `admin`.*,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`role_id` AS `pivot__role_id` FROM `admin` INNER JOIN `admin_role` `pivot` ON `pivot`.`admin_id`=`admin`.`id` WHERE (  `pivot`.`role_id` IN ('1','2','3') ) AND `admin`.`delete_time` IS NULL [ RunTime:0.021409s ]
+[2023-01-12T17:10:29+08:00][sql] CONNECT:[ UseTime:0.018903s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:29+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.012103s ]
+[2023-01-12T17:10:29+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL ORDER BY `sort` ASC [ RunTime:0.012071s ]
+[2023-01-12T17:10:30+08:00][sql] CONNECT:[ UseTime:0.027070s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:30+08:00][sql] SHOW FULL COLUMNS FROM `slides` [ RunTime:0.020468s ]
+[2023-01-12T17:10:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `slides` WHERE `slides`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.015280s ]
+[2023-01-12T17:10:30+08:00][sql] SELECT * FROM `slides` WHERE `slides`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.016287s ]
+[2023-01-12T17:10:30+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.015887s ]
+[2023-01-12T17:10:30+08:00][sql] SELECT * FROM `category` WHERE (  `id` IN (1,2,11,18,6,3,4) ) AND `category`.`delete_time` IS NULL [ RunTime:0.015825s ]
+[2023-01-12T17:10:34+08:00][sql] CONNECT:[ UseTime:0.019620s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-12T17:10:34+08:00][sql] SHOW FULL COLUMNS FROM `node` [ RunTime:0.011415s ]
+[2023-01-12T17:10:34+08:00][sql] SELECT `id`,`name`,`title`,`parent_id` FROM `node` WHERE `node`.`delete_time` IS NULL ORDER BY `sort` ASC [ RunTime:0.011646s ]

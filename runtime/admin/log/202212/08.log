@@ -1,0 +1,409 @@
+[2022-12-08T15:45:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:45:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:45:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:45:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:45:56+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:55:32+08:00][sql] CONNECT:[ UseTime:0.000907s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T15:55:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001465s ]
+[2022-12-08T15:55:39+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:57:17+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:57:48+08:00][sql] CONNECT:[ UseTime:0.000761s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T15:57:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001293s ]
+[2022-12-08T15:58:56+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T15:58:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001173s ]
+[2022-12-08T15:59:00+08:00][sql] CONNECT:[ UseTime:0.000998s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T15:59:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001205s ]
+[2022-12-08T15:59:05+08:00][sql] CONNECT:[ UseTime:0.000686s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T15:59:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001183s ]
+[2022-12-08T15:59:30+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:59:30+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:59:30+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:59:30+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T15:59:31+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:09+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:09+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:10+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:10+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:10+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:03:40+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:24]
+[2022-12-08T16:03:41+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:24]
+[2022-12-08T16:03:41+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:24]
+[2022-12-08T16:03:41+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:24]
+[2022-12-08T16:03:41+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:24]
+[2022-12-08T16:04:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:27+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:39+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:39+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:04:39+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:05:41+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:39]
+[2022-12-08T16:06:22+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:06:26+08:00][sql] CONNECT:[ UseTime:0.000992s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:06:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.003096s ]
+[2022-12-08T16:06:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:07:09+08:00][sql] CONNECT:[ UseTime:0.000630s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:07:09+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001145s ]
+[2022-12-08T16:07:09+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:07:26+08:00][sql] CONNECT:[ UseTime:0.000620s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:07:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001167s ]
+[2022-12-08T16:07:26+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:10:42+08:00][sql] CONNECT:[ UseTime:0.001594s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:10:42+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001351s ]
+[2022-12-08T16:10:42+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:10:44+08:00][sql] CONNECT:[ UseTime:0.000982s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:10:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001475s ]
+[2022-12-08T16:10:44+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:11:02+08:00][sql] CONNECT:[ UseTime:0.000637s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:11:02+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001127s ]
+[2022-12-08T16:11:02+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:11:25+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:11:25+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001166s ]
+[2022-12-08T16:11:25+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:12:21+08:00][sql] CONNECT:[ UseTime:0.000605s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:12:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001374s ]
+[2022-12-08T16:12:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:13:43+08:00][sql] CONNECT:[ UseTime:0.000645s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:13:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001149s ]
+[2022-12-08T16:13:43+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:13:47+08:00][sql] CONNECT:[ UseTime:0.000784s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:13:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000648s ]
+[2022-12-08T16:13:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:14:43+08:00][sql] CONNECT:[ UseTime:0.000739s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:14:43+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000605s ]
+[2022-12-08T16:14:43+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:15:04+08:00][sql] CONNECT:[ UseTime:0.000634s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:15:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000566s ]
+[2022-12-08T16:15:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:15:11+08:00][sql] CONNECT:[ UseTime:0.000636s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:15:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000565s ]
+[2022-12-08T16:15:11+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:15:18+08:00][sql] CONNECT:[ UseTime:0.000661s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:15:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000550s ]
+[2022-12-08T16:15:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:15:54+08:00][sql] CONNECT:[ UseTime:0.001059s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:15:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000674s ]
+[2022-12-08T16:15:54+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:15:55+08:00][sql] CONNECT:[ UseTime:0.000627s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:15:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000548s ]
+[2022-12-08T16:15:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:16:29+08:00][sql] CONNECT:[ UseTime:0.000794s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:16:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000821s ]
+[2022-12-08T16:16:29+08:00][error] [0]{"id":1,"username":"akali","real_name":"阿卡丽","phone":"","wechat":"","status":1}[D:\Web\www.wse.com\app\admin\controller\Admin.php:57]
+[2022-12-08T16:27:03+08:00][sql] CONNECT:[ UseTime:0.001024s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:27:03+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000669s ]
+[2022-12-08T16:27:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:27:03+08:00][error] [0]Cannot access protected property app\common\lib\exception\Miss::$code[D:\Web\www.wse.com\app\admin\ExceptionHandle.php:56]
+[2022-12-08T16:27:46+08:00][sql] CONNECT:[ UseTime:0.000633s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:27:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000546s ]
+[2022-12-08T16:27:46+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:30:32+08:00][sql] CONNECT:[ UseTime:0.000593s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:30:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000547s ]
+[2022-12-08T16:30:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:30:49+08:00][sql] CONNECT:[ UseTime:0.000626s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:30:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000580s ]
+[2022-12-08T16:30:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:30:49+08:00][error] [0]Object of class think\response\Json could not be converted to string[D:\Web\www.wse.com\app\common.php:23]
+[2022-12-08T16:33:29+08:00][sql] CONNECT:[ UseTime:0.000635s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:33:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000537s ]
+[2022-12-08T16:33:29+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:35:15+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:35:18+08:00][sql] CONNECT:[ UseTime:0.000687s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:35:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001553s ]
+[2022-12-08T16:35:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:36:03+08:00][sql] CONNECT:[ UseTime:0.000661s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:36:03+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000570s ]
+[2022-12-08T16:36:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:36:07+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:36:12+08:00][sql] CONNECT:[ UseTime:0.000630s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:36:12+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000552s ]
+[2022-12-08T16:36:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:36:14+08:00][sql] CONNECT:[ UseTime:0.000600s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:36:14+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000661s ]
+[2022-12-08T16:36:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:37:15+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:37:15+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000599s ]
+[2022-12-08T16:37:15+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:37:30+08:00][sql] CONNECT:[ UseTime:0.000801s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:37:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000573s ]
+[2022-12-08T16:37:30+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:37:34+08:00][sql] CONNECT:[ UseTime:0.000628s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:37:34+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000577s ]
+[2022-12-08T16:37:34+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:37:49+08:00][sql] CONNECT:[ UseTime:0.000646s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:37:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001108s ]
+[2022-12-08T16:37:49+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:39:38+08:00][sql] CONNECT:[ UseTime:0.000691s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:39:38+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001692s ]
+[2022-12-08T16:39:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:39:55+08:00][sql] CONNECT:[ UseTime:0.001004s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:39:55+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001493s ]
+[2022-12-08T16:39:55+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:43:04+08:00][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:43:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000647s ]
+[2022-12-08T16:43:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:45:23+08:00][sql] CONNECT:[ UseTime:0.000748s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:45:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000564s ]
+[2022-12-08T16:45:23+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:45:48+08:00][sql] CONNECT:[ UseTime:0.000614s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:45:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000617s ]
+[2022-12-08T16:45:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:46:21+08:00][sql] CONNECT:[ UseTime:0.000735s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:46:21+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000666s ]
+[2022-12-08T16:46:21+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:46:33+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:46:33+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000696s ]
+[2022-12-08T16:46:33+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:47:16+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:47:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000570s ]
+[2022-12-08T16:47:16+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:47:24+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:47:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000576s ]
+[2022-12-08T16:47:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:47:56+08:00][sql] CONNECT:[ UseTime:0.000673s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:47:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000668s ]
+[2022-12-08T16:47:56+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:48:02+08:00][sql] CONNECT:[ UseTime:0.000643s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:48:02+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000611s ]
+[2022-12-08T16:48:02+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:48:12+08:00][sql] CONNECT:[ UseTime:0.000639s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:48:12+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000560s ]
+[2022-12-08T16:48:12+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:48:32+08:00][sql] CONNECT:[ UseTime:0.000654s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:48:32+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000611s ]
+[2022-12-08T16:48:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:50:05+08:00][sql] CONNECT:[ UseTime:0.000699s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:50:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000574s ]
+[2022-12-08T16:50:05+08:00][error] [0][D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:51:30+08:00][sql] CONNECT:[ UseTime:0.000677s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:51:30+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001289s ]
+[2022-12-08T16:51:34+08:00][sql] CONNECT:[ UseTime:0.000674s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:51:34+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000586s ]
+[2022-12-08T16:54:19+08:00][sql] CONNECT:[ UseTime:0.000680s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:54:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000645s ]
+[2022-12-08T16:54:23+08:00][sql] CONNECT:[ UseTime:0.000999s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:54:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001394s ]
+[2022-12-08T16:54:31+08:00][sql] CONNECT:[ UseTime:0.020158s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:54:31+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000601s ]
+[2022-12-08T16:54:31+08:00][error] [8]未定义变量: admin[D:\Web\www.wse.com\app\admin\controller\Admin.php:56]
+[2022-12-08T16:54:34+08:00][sql] CONNECT:[ UseTime:0.000688s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:54:34+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000630s ]
+[2022-12-08T16:55:48+08:00][sql] CONNECT:[ UseTime:0.020267s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:55:48+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000641s ]
+[2022-12-08T16:56:23+08:00][sql] CONNECT:[ UseTime:0.000634s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T16:56:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000859s ]
+[2022-12-08T16:56:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:56:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:56:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:56:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:56:24+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:57:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:57:47+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:57:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:57:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T16:57:48+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:03:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:03:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:03:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:03:38+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:03:39+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:04:31+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:04:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:04:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:04:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:04:32+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:06:44+08:00][sql] CONNECT:[ UseTime:0.000913s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:06:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000787s ]
+[2022-12-08T17:06:44+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000399s ]
+[2022-12-08T17:06:44+08:00][sql] UPDATE `admin`  SET `last_login_token` = '9cda316935f86e932d2b1473adfd0e20dcb84b07' , `login_number` = 15 , `last_login_time` = '1670490404' , `update_time` = 1670490404  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000800s ]
+[2022-12-08T17:06:46+08:00][sql] CONNECT:[ UseTime:0.000782s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:06:46+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001005s ]
+[2022-12-08T17:06:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000313s ]
+[2022-12-08T17:06:46+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000217s ]
+[2022-12-08T17:07:13+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:07:14+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:07:24+08:00][sql] CONNECT:[ UseTime:0.000800s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:07:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001073s ]
+[2022-12-08T17:07:24+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000309s ]
+[2022-12-08T17:07:24+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'c09c7e38a8c108c0aa18821edbb4b4a946d40b73' , `login_number` = 16 , `last_login_time` = '1670490444' , `update_time` = 1670490444  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000269s ]
+[2022-12-08T17:07:27+08:00][sql] CONNECT:[ UseTime:0.001221s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:07:27+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001044s ]
+[2022-12-08T17:07:27+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000219s ]
+[2022-12-08T17:07:27+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000197s ]
+[2022-12-08T17:09:45+08:00][sql] CONNECT:[ UseTime:0.000821s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:09:45+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000657s ]
+[2022-12-08T17:09:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000235s ]
+[2022-12-08T17:09:45+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000217s ]
+[2022-12-08T17:09:49+08:00][sql] CONNECT:[ UseTime:0.000624s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:09:49+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000953s ]
+[2022-12-08T17:09:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000361s ]
+[2022-12-08T17:09:49+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000250s ]
+[2022-12-08T17:09:57+08:00][sql] CONNECT:[ UseTime:0.000702s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:09:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000582s ]
+[2022-12-08T17:09:57+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001498s ]
+[2022-12-08T17:09:57+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000904s ]
+[2022-12-08T17:09:58+08:00][sql] CONNECT:[ UseTime:0.000627s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:09:58+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000607s ]
+[2022-12-08T17:09:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000597s ]
+[2022-12-08T17:09:58+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000525s ]
+[2022-12-08T17:10:04+08:00][sql] CONNECT:[ UseTime:0.001038s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:10:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000622s ]
+[2022-12-08T17:10:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000246s ]
+[2022-12-08T17:10:04+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000205s ]
+[2022-12-08T17:11:05+08:00][sql] CONNECT:[ UseTime:0.000955s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:11:05+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001500s ]
+[2022-12-08T17:11:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000295s ]
+[2022-12-08T17:11:05+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000233s ]
+[2022-12-08T17:11:35+08:00][sql] CONNECT:[ UseTime:0.001162s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:11:35+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001060s ]
+[2022-12-08T17:11:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000496s ]
+[2022-12-08T17:11:35+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000354s ]
+[2022-12-08T17:11:54+08:00][sql] CONNECT:[ UseTime:0.000988s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:11:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000740s ]
+[2022-12-08T17:11:54+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000324s ]
+[2022-12-08T17:11:54+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000242s ]
+[2022-12-08T17:12:08+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:12:18+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:12:35+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:12:37+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:12:37+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000670s ]
+[2022-12-08T17:12:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000336s ]
+[2022-12-08T17:12:37+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000268s ]
+[2022-12-08T17:14:52+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:15:26+08:00][sql] CONNECT:[ UseTime:0.001585s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:15:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001366s ]
+[2022-12-08T17:15:26+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000468s ]
+[2022-12-08T17:16:24+08:00][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:16:24+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000734s ]
+[2022-12-08T17:17:29+08:00][sql] CONNECT:[ UseTime:0.000728s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:17:29+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000604s ]
+[2022-12-08T17:17:50+08:00][sql] CONNECT:[ UseTime:0.001207s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:17:50+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001188s ]
+[2022-12-08T17:17:52+08:00][sql] CONNECT:[ UseTime:0.000703s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:17:52+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000584s ]
+[2022-12-08T17:17:54+08:00][sql] CONNECT:[ UseTime:0.001538s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:17:54+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000815s ]
+[2022-12-08T17:18:07+08:00][sql] CONNECT:[ UseTime:0.000905s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:18:07+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000809s ]
+[2022-12-08T17:18:40+08:00][sql] CONNECT:[ UseTime:0.000796s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:18:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000558s ]
+[2022-12-08T17:18:57+08:00][sql] CONNECT:[ UseTime:0.000848s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:18:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000726s ]
+[2022-12-08T17:19:44+08:00][sql] CONNECT:[ UseTime:0.000735s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:19:44+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000598s ]
+[2022-12-08T17:20:00+08:00][sql] CONNECT:[ UseTime:0.001008s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:20:00+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001014s ]
+[2022-12-08T17:20:08+08:00][sql] CONNECT:[ UseTime:0.000642s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:20:08+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000563s ]
+[2022-12-08T17:20:09+08:00][sql] CONNECT:[ UseTime:0.000610s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:20:09+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000559s ]
+[2022-12-08T17:21:16+08:00][sql] CONNECT:[ UseTime:0.000654s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:21:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000558s ]
+[2022-12-08T17:25:26+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:25:26+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000702s ]
+[2022-12-08T17:25:26+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000254s ]
+[2022-12-08T17:25:26+08:00][sql] UPDATE `admin`  SET `last_login_token` = '0c61a9de21a17440383c5608b8a556c8ba8fcd06' , `login_number` = 17 , `last_login_time` = '1670491526' , `update_time` = 1670491526  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000285s ]
+[2022-12-08T17:37:12+08:00][sql] CONNECT:[ UseTime:0.000816s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:37:12+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000690s ]
+[2022-12-08T17:37:12+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000281s ]
+[2022-12-08T17:37:12+08:00][sql] UPDATE `admin`  SET `last_login_token` = '93ff1ebb2932b974c013a9fad1ea1e9dcf7b15a6' , `login_number` = 18 , `last_login_time` = '1670492232' , `update_time` = 1670492232  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000274s ]
+[2022-12-08T17:38:35+08:00][sql] CONNECT:[ UseTime:0.000715s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:38:35+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000625s ]
+[2022-12-08T17:38:35+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000255s ]
+[2022-12-08T17:38:35+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'd30fd3c4d6604433c5bd9fbc374188c90b2611a1' , `login_number` = 19 , `last_login_time` = '1670492315' , `update_time` = 1670492315  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000268s ]
+[2022-12-08T17:38:40+08:00][sql] CONNECT:[ UseTime:0.000610s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:38:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000546s ]
+[2022-12-08T17:38:40+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000273s ]
+[2022-12-08T17:38:40+08:00][sql] UPDATE `admin`  SET `last_login_token` = '7cbab7b9cd73917998f1fb75b1141045466e5fc0' , `login_number` = 20 , `last_login_time` = '1670492320' , `update_time` = 1670492320  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000258s ]
+[2022-12-08T17:41:16+08:00][sql] CONNECT:[ UseTime:0.001099s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:41:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000697s ]
+[2022-12-08T17:41:16+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000335s ]
+[2022-12-08T17:41:16+08:00][sql] UPDATE `admin`  SET `last_login_token` = '021852c08e9840cf76ff3b0fde405ccc2ad13c90' , `login_number` = 21 , `last_login_time` = '1670492474' , `update_time` = 1670492474  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000319s ]
+[2022-12-08T17:42:11+08:00][sql] CONNECT:[ UseTime:0.000663s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:42:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000613s ]
+[2022-12-08T17:42:11+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000296s ]
+[2022-12-08T17:42:11+08:00][sql] UPDATE `admin`  SET `last_login_token` = '193db30a848b36be621b83a390b9b1f57e16585c' , `login_number` = 22 , `last_login_time` = '1670492531' , `update_time` = 1670492531  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.001405s ]
+[2022-12-08T17:43:03+08:00][sql] CONNECT:[ UseTime:0.000908s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:43:03+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000615s ]
+[2022-12-08T17:43:03+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000241s ]
+[2022-12-08T17:43:03+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'cc294c48741fd2442da598297abf86b8887bad1d' , `login_number` = 23 , `last_login_time` = '1670492581' , `update_time` = 1670492581  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000235s ]
+[2022-12-08T17:43:36+08:00][sql] CONNECT:[ UseTime:0.000915s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:43:36+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000784s ]
+[2022-12-08T17:43:36+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000298s ]
+[2022-12-08T17:43:36+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'b0851420e05fa5e98397a8a7677bc7e106ed6dc4' , `login_number` = 24 , `last_login_time` = '1670492616' , `update_time` = 1670492616  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000288s ]
+[2022-12-08T17:44:47+08:00][sql] CONNECT:[ UseTime:0.001611s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:44:47+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000747s ]
+[2022-12-08T17:44:47+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000279s ]
+[2022-12-08T17:44:47+08:00][sql] UPDATE `admin`  SET `last_login_token` = '9e2e921cdd52893b1a96befd3e00b0933ab4d2d7' , `login_number` = 25 , `last_login_time` = '1670492687' , `update_time` = 1670492687  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000265s ]
+[2022-12-08T17:46:40+08:00][sql] CONNECT:[ UseTime:0.000918s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:46:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000653s ]
+[2022-12-08T17:46:40+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000256s ]
+[2022-12-08T17:46:40+08:00][sql] UPDATE `admin`  SET `last_login_token` = '46d10bdcb28e0b0dbde497207c6644fdf3137fc5' , `login_number` = 26 , `last_login_time` = '1670492800' , `update_time` = 1670492800  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000253s ]
+[2022-12-08T17:47:41+08:00][sql] CONNECT:[ UseTime:0.001512s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:47:41+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001628s ]
+[2022-12-08T17:47:41+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000266s ]
+[2022-12-08T17:47:41+08:00][sql] UPDATE `admin`  SET `last_login_token` = '3e215bd32179e7fc33392434e921185bd52eb926' , `login_number` = 27 , `last_login_time` = '1670492861' , `update_time` = 1670492861  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000256s ]
+[2022-12-08T17:48:06+08:00][sql] CONNECT:[ UseTime:0.001052s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:48:06+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000924s ]
+[2022-12-08T17:48:06+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000434s ]
+[2022-12-08T17:48:06+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'cfc6051cdd7cb3310afe815c3a9807c3432b18fe' , `login_number` = 28 , `last_login_time` = '1670492886' , `update_time` = 1670492886  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000257s ]
+[2022-12-08T17:49:56+08:00][sql] CONNECT:[ UseTime:0.000891s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:49:56+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000860s ]
+[2022-12-08T17:49:56+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000330s ]
+[2022-12-08T17:49:56+08:00][sql] UPDATE `admin`  SET `last_login_token` = '6e0e88a2e0f471eecab51a01acbf21221ac09a3b' , `login_number` = 29 , `last_login_time` = '1670492994' , `update_time` = 1670492994  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000363s ]
+[2022-12-08T17:51:16+08:00][sql] CONNECT:[ UseTime:0.000666s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:51:16+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000591s ]
+[2022-12-08T17:51:16+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000245s ]
+[2022-12-08T17:51:16+08:00][sql] UPDATE `admin`  SET `last_login_token` = '95be136dae8156df0f6d1ed7aa253b174c247884' , `login_number` = 30 , `last_login_time` = '1670493076' , `update_time` = 1670493076  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000623s ]
+[2022-12-08T17:52:19+08:00][sql] CONNECT:[ UseTime:0.001247s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:52:19+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000993s ]
+[2022-12-08T17:52:19+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001138s ]
+[2022-12-08T17:52:19+08:00][sql] UPDATE `admin`  SET `last_login_token` = '9fda970b3cb63862161dfe0c487040206c63ab47' , `login_number` = 31 , `last_login_time` = '1670493137' , `update_time` = 1670493137  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000526s ]
+[2022-12-08T17:53:04+08:00][sql] CONNECT:[ UseTime:0.001096s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:53:04+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.001001s ]
+[2022-12-08T17:53:04+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000416s ]
+[2022-12-08T17:53:04+08:00][sql] UPDATE `admin`  SET `last_login_token` = '3b03e6ad9850ecc507fd59f5dce8e2b4902d2670' , `login_number` = 32 , `last_login_time` = '1670493184' , `update_time` = 1670493184  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000415s ]
+[2022-12-08T17:55:12+08:00][sql] CONNECT:[ UseTime:0.001865s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:55:12+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000822s ]
+[2022-12-08T17:55:12+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000377s ]
+[2022-12-08T17:55:12+08:00][sql] UPDATE `admin`  SET `last_login_token` = '9d4bf5d14ebf945a30ce11fd497c047af03f6ba4' , `login_number` = 33 , `last_login_time` = '1670493312' , `update_time` = 1670493312  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000319s ]
+[2022-12-08T17:55:40+08:00][sql] CONNECT:[ UseTime:0.000788s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:55:40+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000624s ]
+[2022-12-08T17:55:40+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000268s ]
+[2022-12-08T17:55:40+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'c40fe2d8dda27ea02566d61269aa49b45a65fe8b' , `login_number` = 34 , `last_login_time` = '1670493340' , `update_time` = 1670493340  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000238s ]
+[2022-12-08T17:55:58+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:55:58+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000581s ]
+[2022-12-08T17:55:58+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000249s ]
+[2022-12-08T17:55:58+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'd0252cf60d4a1e3edbcd4f7725fb2339c4348b06' , `login_number` = 35 , `last_login_time` = '1670493358' , `update_time` = 1670493358  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000259s ]
+[2022-12-08T17:56:58+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:57:07+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T17:57:23+08:00][sql] CONNECT:[ UseTime:0.000835s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:57:23+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000939s ]
+[2022-12-08T17:57:23+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000271s ]
+[2022-12-08T17:57:57+08:00][sql] CONNECT:[ UseTime:0.000626s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T17:57:57+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000697s ]
+[2022-12-08T17:57:57+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`update_time`,`delete_time` FROM `admin` WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000228s ]
+[2022-12-08T18:02:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T18:02:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T18:02:03+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T18:02:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T18:02:04+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]
+[2022-12-08T18:02:09+08:00][sql] CONNECT:[ UseTime:0.000784s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T18:02:09+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000651s ]
+[2022-12-08T18:02:09+08:00][sql] SELECT * FROM `admin` WHERE (  `username` = 'akali' ) AND `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000284s ]
+[2022-12-08T18:02:09+08:00][sql] UPDATE `admin`  SET `last_login_token` = 'c3526f6f7e8eeedc3de949fb8083613c6d8867a8' , `login_number` = 36 , `last_login_time` = '1670493729' , `update_time` = 1670493729  WHERE (  `id` = 1 ) AND `admin`.`delete_time` IS NULL [ RunTime:0.000299s ]
+[2022-12-08T18:02:11+08:00][sql] CONNECT:[ UseTime:0.000669s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T18:02:11+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000564s ]
+[2022-12-08T18:02:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000225s ]
+[2022-12-08T18:02:11+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000197s ]
+[2022-12-08T18:03:18+08:00][sql] CONNECT:[ UseTime:0.000698s ] mysql:host=localhost;port=3306;dbname=www_gdwse_com;charset=utf8
+[2022-12-08T18:03:18+08:00][sql] SHOW FULL COLUMNS FROM `admin` [ RunTime:0.000646s ]
+[2022-12-08T18:03:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `admin` WHERE `admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000198s ]
+[2022-12-08T18:03:18+08:00][sql] SELECT `id`,`username`,`real_name`,`phone`,`wechat`,`status`,`login_number`,`last_login_ip`,`last_login_time`,`update_time`,`create_time`,`delete_time` FROM `admin` WHERE `admin`.`delete_time` IS NULL ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000199s ]
+[2022-12-08T18:03:25+08:00][error] [0][D:\Web\www.wse.com\app\admin\middleware\IsLogin.php:23]

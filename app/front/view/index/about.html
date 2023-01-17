@@ -1,0 +1,83 @@
+{extend name="public/base" /}
+{block name="title"}关于威速易{/block}
+{block name="load"}
+<!-- css -->
+<!-- js -->
+{/block}
+<!-- 主体内容 -->
+{block name="main"}
+<script>
+  // 轮播图
+  slides(2);
+</script>
+<!-- 中间内容开始 -->
+
+<div class="container">
+  <div class="row">
+    <!--内容-->
+    <div id="ctl00_cphMain_ContentDiv" class="" style="color: #555">
+      <div class="product_3">
+        <div style="text-align: left; line-height: 2">
+          <div class="pageContent">
+            <div>
+              <div class="div_dcon">
+                <div class="content">
+
+                  <!-- 左边的导航 -->
+                  <!-- {include file="public/company_left" /} -->
+                  <script>
+                    // $(".divrightLit ul")
+                    //   .children()
+                    //   .eq(0)
+                    //   .find("a")
+                    //   .addClass("hover_1");
+                  </script>
+
+                  <!-- 右侧 -->
+                  <div class="div_dtean" id="About">
+                    <div id="ctl00_cphMain_TitleDiv">
+                      <div class="pdivnewsheader">
+                        <h5>
+                          <a href="" id="about_title"></a>
+                        </h5>
+
+                        <!-- 位置 -->
+                        <div class="hidden_m">
+                          <img alt="" src="__FRONT__/images/wse_diz.png" />
+                          <a href="/" id="locathost">你当前的位置：首 页 &gt; &gt;</a>
+                          <a href="/about/2" id="about_cate">关于威速易&gt; &gt;</a>
+                          <a href="" class="hover_1"></a>
+                        </div>
+
+                      </div>
+                      <div id="content" style="line-height: 30px; text-indent: 30px">
+                      </div>
+                    </div>
+                    <!--内容-->
+                  </div>
+                  <script>
+                    // 页面加载完毕执行
+                    $(document).ready(function () {
+                      var about = ajax_read('/about/info');
+                      console.log(about);
+                      $('#about_title, .hidden_m .hover_1').text(about.title);
+                      $('#about_title, .hidden_m .hover_1').attr('href', '/about/' + about.id);
+                      $('#content').html(HtmlUtil.htmlDecode(about.desc.content));
+                      // // 左侧导航选中class
+                      $('#about_' + about.id).addClass('hover_1');
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--中间内容 结束-->
+{/block}

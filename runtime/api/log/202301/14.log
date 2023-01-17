@@ -1,0 +1,164 @@
+[2023-01-14T09:24:41+08:00][sql] CONNECT:[ UseTime:0.028708s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T09:24:41+08:00][sql] SHOW FULL COLUMNS FROM `about` [ RunTime:0.017535s ]
+[2023-01-14T09:24:41+08:00][sql] SELECT `id`,`title`,`author`,`image`,`description`,`view`,`about_cate_id` FROM `about` WHERE (  `status` = 1  AND `id` = 2 ) AND `about`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.017117s ]
+[2023-01-14T09:24:41+08:00][sql] SHOW FULL COLUMNS FROM `about_desc` [ RunTime:0.019894s ]
+[2023-01-14T09:24:41+08:00][sql] SELECT `content`,`about_id` FROM `about_desc` WHERE (  `about_id` = 2 ) AND `about_desc`.`delete_time` IS NULL [ RunTime:0.018610s ]
+[2023-01-14T09:24:41+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.019988s ]
+[2023-01-14T09:24:41+08:00][sql] SELECT `id`,`cate_name` FROM `about_cate` WHERE (  `id` = 1 ) AND `about_cate`.`delete_time` IS NULL [ RunTime:0.017003s ]
+[2023-01-14T09:24:41+08:00][sql] UPDATE `about`  SET `view` = `view` + 1  WHERE (  `id` = 2 ) AND `about`.`delete_time` IS NULL [ RunTime:0.025532s ]
+[2023-01-14T09:25:39+08:00][sql] CONNECT:[ UseTime:0.030411s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T09:25:39+08:00][sql] SHOW FULL COLUMNS FROM `about` [ RunTime:0.012719s ]
+[2023-01-14T09:25:39+08:00][sql] SELECT `id`,`title`,`author`,`image`,`description`,`view`,`about_cate_id` FROM `about` WHERE (  `status` = 1  AND `id` = 2 ) AND `about`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.012605s ]
+[2023-01-14T09:25:39+08:00][sql] SHOW FULL COLUMNS FROM `about_desc` [ RunTime:0.012136s ]
+[2023-01-14T09:25:39+08:00][sql] SELECT `content`,`about_id` FROM `about_desc` WHERE (  `about_id` = 2 ) AND `about_desc`.`delete_time` IS NULL [ RunTime:0.013186s ]
+[2023-01-14T09:25:39+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.013620s ]
+[2023-01-14T09:25:39+08:00][sql] SELECT `id`,`cate_name` FROM `about_cate` WHERE (  `id` = 1 ) AND `about_cate`.`delete_time` IS NULL [ RunTime:0.010956s ]
+[2023-01-14T09:25:39+08:00][sql] UPDATE `about`  SET `view` = `view` + 1  WHERE (  `id` = 2 ) AND `about`.`delete_time` IS NULL [ RunTime:0.024407s ]
+[2023-01-14T09:25:50+08:00][sql] CONNECT:[ UseTime:0.037483s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T09:25:50+08:00][sql] SHOW FULL COLUMNS FROM `about` [ RunTime:0.019526s ]
+[2023-01-14T09:25:50+08:00][sql] SELECT `id`,`title`,`author`,`image`,`description`,`view`,`about_cate_id` FROM `about` WHERE (  `status` = 1  AND `id` = 2 ) AND `about`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.019140s ]
+[2023-01-14T09:25:50+08:00][sql] SHOW FULL COLUMNS FROM `about_desc` [ RunTime:0.025920s ]
+[2023-01-14T09:25:50+08:00][sql] SELECT `content`,`about_id` FROM `about_desc` WHERE (  `about_id` = 2 ) AND `about_desc`.`delete_time` IS NULL [ RunTime:0.021897s ]
+[2023-01-14T09:25:50+08:00][sql] SHOW FULL COLUMNS FROM `about_cate` [ RunTime:0.019491s ]
+[2023-01-14T09:25:50+08:00][sql] SELECT `id`,`cate_name` FROM `about_cate` WHERE (  `id` = 1 ) AND `about_cate`.`delete_time` IS NULL [ RunTime:0.027377s ]
+[2023-01-14T09:25:50+08:00][sql] UPDATE `about`  SET `view` = `view` + 1  WHERE (  `id` = 2 ) AND `about`.`delete_time` IS NULL [ RunTime:0.031660s ]
+[2023-01-14T10:23:04+08:00][sql] CONNECT:[ UseTime:0.047162s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T10:23:04+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.025220s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT `id`,`parent_id`,`title`,`url`,`image`,`target`,`create_time`,`delete_time` FROM `category` WHERE (  `status` = 1  AND `show` = 1 ) AND `category`.`delete_time` IS NULL ORDER BY `sort` ASC,`id` ASC [ RunTime:0.021720s ]
+[2023-01-14T10:23:04+08:00][sql] CONNECT:[ UseTime:0.026399s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T10:23:04+08:00][sql] SHOW FULL COLUMNS FROM `slides` [ RunTime:0.019058s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT `id`,`title`,`image`,`url` FROM `slides` WHERE (  `category_id` = 1  AND `status` = 1 ) AND `slides`.`delete_time` IS NULL ORDER BY `sort` ASC,`id` ASC [ RunTime:0.014720s ]
+[2023-01-14T10:23:04+08:00][sql] CONNECT:[ UseTime:0.039190s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T10:23:04+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.018154s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016963s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT * FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.018443s ]
+[2023-01-14T10:23:04+08:00][sql] CONNECT:[ UseTime:0.026854s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T10:23:04+08:00][sql] SHOW FULL COLUMNS FROM `news` [ RunTime:0.016588s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014983s ]
+[2023-01-14T10:23:04+08:00][sql] SELECT * FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.015248s ]
+[2023-01-14T10:23:05+08:00][sql] CONNECT:[ UseTime:0.027512s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T10:23:05+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.015659s ]
+[2023-01-14T10:23:05+08:00][sql] SELECT `id`,`name`,`qq`,`wechat`,`phone`,`description`,`sort`,`status`,`create_time` FROM `customer_service` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.015238s ]
+[2023-01-14T11:23:08+08:00][sql] CONNECT:[ UseTime:0.020937s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:23:08+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.012228s ]
+[2023-01-14T11:23:08+08:00][sql] CONNECT:[ UseTime:0.025828s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:23:08+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.015378s ]
+[2023-01-14T11:23:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.014683s ]
+[2023-01-14T11:23:08+08:00][sql] SELECT * FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.016666s ]
+[2023-01-14T11:23:08+08:00][sql] CONNECT:[ UseTime:0.019850s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:23:08+08:00][sql] SHOW FULL COLUMNS FROM `news` [ RunTime:0.012591s ]
+[2023-01-14T11:23:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011511s ]
+[2023-01-14T11:23:08+08:00][sql] SELECT * FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.012483s ]
+[2023-01-14T11:23:08+08:00][sql] CONNECT:[ UseTime:0.019696s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:23:08+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.013466s ]
+[2023-01-14T11:52:29+08:00][sql] CONNECT:[ UseTime:0.021974s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:52:29+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.013832s ]
+[2023-01-14T11:52:29+08:00][sql] CONNECT:[ UseTime:0.025584s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:52:29+08:00][sql] SHOW FULL COLUMNS FROM `article` [ RunTime:0.016587s ]
+[2023-01-14T11:52:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.016198s ]
+[2023-01-14T11:52:29+08:00][sql] SELECT * FROM `article` WHERE (  `status` = 1 ) AND `article`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.016551s ]
+[2023-01-14T11:52:29+08:00][sql] CONNECT:[ UseTime:0.024284s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:52:29+08:00][sql] SHOW FULL COLUMNS FROM `news` [ RunTime:0.013490s ]
+[2023-01-14T11:52:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.013735s ]
+[2023-01-14T11:52:29+08:00][sql] SELECT * FROM `news` WHERE (  `status` = 1 ) AND `news`.`delete_time` IS NULL ORDER BY `sort` DESC,`id` DESC LIMIT 0,6 [ RunTime:0.013702s ]
+[2023-01-14T11:52:29+08:00][sql] CONNECT:[ UseTime:0.030535s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T11:52:29+08:00][sql] SHOW FULL COLUMNS FROM `customer_service` [ RunTime:0.019085s ]
+[2023-01-14T15:29:26+08:00][error] [100]公司名不能为空[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:30:15+08:00][error] [100]公司名不能为空[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:33:18+08:00][error] [100]公司名不能为空[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:34:32+08:00][error] [100]公司名不能为空[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:35:44+08:00][error] [100]验证码长度不符合要求 4[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:35:59+08:00][error] [100]验证码长度不符合要求 4[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:36:09+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:43:45+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:44:10+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:44:19+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:45:14+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:47:11+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:47:23+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:48:10+08:00][error] [100]验证码长度不符合要求 4[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:48:21+08:00][error] [100]验证码不能为空[D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:50:57+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:51:03+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:55:09+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:55:14+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:55:44+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:56:21+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T15:56:32+08:00][sql] CONNECT:[ UseTime:0.028332s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T15:56:32+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.017776s ]
+[2023-01-14T15:56:32+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.017703s ]
+[2023-01-14T15:56:55+08:00][sql] CONNECT:[ UseTime:0.028741s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T15:56:55+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.018142s ]
+[2023-01-14T15:56:55+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.017894s ]
+[2023-01-14T15:58:46+08:00][sql] CONNECT:[ UseTime:0.020117s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T15:58:46+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.012305s ]
+[2023-01-14T15:58:46+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.012399s ]
+[2023-01-14T15:59:37+08:00][sql] CONNECT:[ UseTime:0.026204s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T15:59:37+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.016498s ]
+[2023-01-14T15:59:37+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.016220s ]
+[2023-01-14T15:59:37+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:17]
+[2023-01-14T15:59:45+08:00][sql] CONNECT:[ UseTime:0.041298s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T15:59:45+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.018427s ]
+[2023-01-14T15:59:45+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.017992s ]
+[2023-01-14T15:59:45+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:17]
+[2023-01-14T16:00:00+08:00][sql] CONNECT:[ UseTime:0.027156s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:00:00+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.017124s ]
+[2023-01-14T16:00:00+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.016347s ]
+[2023-01-14T16:00:00+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:17]
+[2023-01-14T16:01:17+08:00][sql] CONNECT:[ UseTime:0.020398s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:01:17+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.027243s ]
+[2023-01-14T16:01:17+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.218785s ]
+[2023-01-14T16:01:17+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:17]
+[2023-01-14T16:02:52+08:00][sql] CONNECT:[ UseTime:0.021251s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:02:52+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.012331s ]
+[2023-01-14T16:02:52+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.011422s ]
+[2023-01-14T16:02:52+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:17]
+[2023-01-14T16:07:29+08:00][sql] CONNECT:[ UseTime:0.020673s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:07:29+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.011662s ]
+[2023-01-14T16:07:29+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.010880s ]
+[2023-01-14T16:07:29+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:18]
+[2023-01-14T16:07:35+08:00][sql] CONNECT:[ UseTime:0.022917s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:07:35+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.017639s ]
+[2023-01-14T16:07:35+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.014693s ]
+[2023-01-14T16:07:35+08:00][error] [0]Too few arguments to function think\captcha\Captcha::__construct(), 0 passed in D:\Web\www.wse.com\app\api\controller\User.php on line 20 and exactly 2 expected[D:\Web\www.wse.com\vendor\topthink\think-captcha\src\Captcha.php:69]
+[2023-01-14T16:08:28+08:00][sql] CONNECT:[ UseTime:0.021990s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:08:28+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.013840s ]
+[2023-01-14T16:08:28+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.012763s ]
+[2023-01-14T16:08:28+08:00][error] [0]Call to undefined method think\captcha\facade\Captcha::check()[D:\Web\www.wse.com\app\api\controller\User.php:22]
+[2023-01-14T16:08:42+08:00][sql] CONNECT:[ UseTime:0.031227s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:08:42+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.019504s ]
+[2023-01-14T16:08:42+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.018769s ]
+[2023-01-14T16:08:42+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:19]
+[2023-01-14T16:11:38+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:11:46+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:12:30+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:18:13+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:18:37+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:18:55+08:00][sql] CONNECT:[ UseTime:0.025694s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:18:55+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.015467s ]
+[2023-01-14T16:18:55+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.014622s ]
+[2023-01-14T16:19:11+08:00][sql] CONNECT:[ UseTime:0.020546s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:19:11+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.014855s ]
+[2023-01-14T16:19:11+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.011891s ]
+[2023-01-14T16:19:34+08:00][sql] CONNECT:[ UseTime:0.023797s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:19:34+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.013550s ]
+[2023-01-14T16:19:34+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.012777s ]
+[2023-01-14T16:20:25+08:00][sql] CONNECT:[ UseTime:0.029760s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:20:25+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.019127s ]
+[2023-01-14T16:20:25+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.017403s ]
+[2023-01-14T16:22:29+08:00][sql] CONNECT:[ UseTime:0.023408s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:22:29+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.016935s ]
+[2023-01-14T16:22:29+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.014487s ]
+[2023-01-14T16:31:03+08:00][sql] CONNECT:[ UseTime:0.028326s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:31:03+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.018138s ]
+[2023-01-14T16:31:03+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.017774s ]
+[2023-01-14T16:31:22+08:00][error] [100]验证码错误![D:\Web\www.wse.com\app\common\middleware\CheckParams.php:61]
+[2023-01-14T16:32:01+08:00][sql] CONNECT:[ UseTime:0.025343s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:32:01+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.016096s ]
+[2023-01-14T16:32:01+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.015779s ]
+[2023-01-14T16:32:01+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:20]
+[2023-01-14T16:32:01+08:00][error] [0]Return value of think\exception\Handle::getExtendData() must be of the type array, null returned[D:\Web\www.wse.com\vendor\topthink\framework\src\think\exception\Handle.php:318]
+[2023-01-14T16:32:10+08:00][sql] CONNECT:[ UseTime:0.024097s ] mysql:host=106.52.77.54;port=3306;dbname=www_gdwse_com;charset=utf8
+[2023-01-14T16:32:10+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.017172s ]
+[2023-01-14T16:32:10+08:00][sql] SELECT `id` FROM `user` WHERE  `username` = 'akali' LIMIT 1 [ RunTime:0.011018s ]
+[2023-01-14T16:32:10+08:00][error] [0][D:\Web\www.wse.com\app\api\controller\User.php:20]

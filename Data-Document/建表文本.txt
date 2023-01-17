@@ -1,0 +1,399 @@
+
+admin - 管理员
+
+id int id
+username char(25) 管理员名称
+real_name char(25) null 真实名字
+password char(32) 密码
+password_salt char(5) 密码盐
+phone char(25) null 手机
+wechat char(50) null 微信
+status tinyint(1) 1 登录状态：0 禁止 1 正常
+last_login_token char(50) null 上次登录Token
+login_number int 0 登录次数
+last_login_ip char(20) null 上次登录IP
+last_login_time char(20) null 上次登录时间
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+role - 角色
+
+id int id
+name char(25) 角色名称
+explain char(50) 角色说明
+
+
+node - 节点
+
+id int id
+parent_id int 父级id
+node char(45) 节点
+name char(25) 名称
+view char(50) 视图
+level tinyint(1) 层级 0 开始
+icon char(50) null 图标
+sort smallint 无符号 排序
+status tinyint(1) 状态：0 关闭 1 开启
+
+
+
+user - 用户
+
+id int id
+username char(25) 用户名
+nickname char(25) null 昵称
+password char(32) 密码
+phone char(25) null 手机
+email char(50) null 邮箱
+wechat char(50) null 微信
+introduction char(255) null 简介
+status tinyint(1) 1 登录状态：0 禁止 1 正常
+login_number int 0 登录次数
+last_login_ip char(20) null 上次登录IP
+last_login_time char(20) null 上次登录时间
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+category - 分类
+
+id int id
+parent_id int id 父级id
+name char(25) 分类名称
+url char(255) null 链接
+img char(100) null 图标图片
+sort smallint 0 排序
+target char(10) _blank 链接打开方式：默认打开新窗口
+show tinyint(1) 是否在导航栏：0 否 1 是
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+article_cate - 文章分类
+
+id int id
+cate_name char(25) 分类名称
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+article - 文章
+
+id int id
+article_cate_id int 分类id
+author char(25) null 作者
+title char(80) 文章标题
+thmub char(100) 封面
+description char(255) 描述
+view int 0 浏览数
+url char(255) 链接
+sort smallint 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+article_desc - 文章内容
+
+id int id
+content mediumtext 内容
+delete_time int null 删除时间
+article_id int id
+
+
+news_cate - 新闻分类
+
+id int id
+cate_name char(25) 分类名称
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+news - 新闻
+
+id int id
+article_cate_id int 分类id
+author char(25) null 作者
+title char(80) 文章标题
+thmub char(100) 封面
+description char(255) 描述
+view int 0 浏览数
+url char(255) 链接
+sort smallint 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+news_desc - 新闻内容
+
+id int id
+content mediumtext 内容
+delete_time int null 删除时间
+article_id int id
+
+
+about_cate - 关于我们分类
+
+id int id
+cate_name char(25) 分类名称
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+about - 关于我们
+
+id int id
+author char(25) null 作者
+title char(80) 文章标题
+image char(100) 封面
+description char(255) 描述
+view int 0 浏览数
+url char(255) null 链接
+sort int 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+about_cate_id int 分类id
+
+
+about_desc - 关于我们内容
+
+id int id
+content mediumtext 内容
+delete_time int null 删除时间
+about_id int id
+
+
+
+slide - 轮播图
+
+id int id
+title char(50) null 标题
+image char(100) 图片
+url char(255) null 链接
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+category_id int id 分类id
+
+
+
+customer_service - 在线客服
+
+id int id
+name char(25) 客服名称
+real_name char(15) null 客服真实姓名
+qq bigint(15) QQ号码
+wechat char(50) null 微信
+phone char(20) null 手机号码
+description char(255) null 客服描述
+sort int 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+create_time int 创建时间
+
+
+
+
+product - 公司产品
+
+id int id
+title char(50) 标题
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+product_desc - 公司产品内容
+
+id int id
+content mediumtext 内容
+delete_time int null 删除时间
+about_id int id 关联id
+
+
+
+platform - 跨境平台入驻
+
+id int id
+title char(50) 标题
+image char(100) 图片
+view int 浏览数
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+platform_desc - 跨境平台内容
+
+id int id
+content text 内容
+delete_time int null 删除时间
+product_id int 关联id
+
+
+
+
+user - 用户
+
+id int id
+username char(25) 用户名
+password char(32) 密码
+password_salt char(5) 密码盐
+company_name char(50) 公司名或者个人姓名
+nickname char(25) null 昵称
+contact char(25) 联系方式
+contact_type char(25) 联系方式类型 qq、淘宝、Facebook、line、微信
+email char(50) null 邮箱
+telephone char(25) 联系电话
+invitation_user_id int null 邀请用户id
+license char(100) null 营业执照
+idcard_front char(100) null 身份证正面照
+idcard_back char(100) null 身份证反面照
+status tinyint(1) 1 登录状态：0 禁止 1 正常
+login_number int 0 登录次数
+last_login_ip char(20) null 上次登录IP
+last_login_time char(20) null 上次登录时间
+last_login_token char(20) null 上次登录时间
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
