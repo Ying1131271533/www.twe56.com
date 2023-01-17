@@ -215,7 +215,7 @@ function ajax_list(url, is_token = false) {
 // 原生xhr请求
 function xhr_get(url) {
     var xhr = new XMLHttpRequest();
-    xhr.open("get", "http://api.wse.com" + url, false);
+    xhr.open("get", api_domain + url, false);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded;charset=UTF-8");
     xhr.send(null);
     // xhr.send('"id=id&username=akali"');

@@ -1,5 +1,5 @@
 // api域名
-let api_domain = 'http://api.wse.com'
+let api_domain = 'http://api.twe56.com'
 // ajax全局设置头部信息
 /* $(document).ready(function () {
     let url = window.location.href, token = null;
@@ -381,7 +381,7 @@ var HtmlUtil = {
 // 获取地址的id
 function get_url_id() {
     // 正则匹配地址栏最后的数字
-    var id = location.href.match(/\d+/g)[0];
+    var id = location.href.match(/\d+/g)[1];
     if (empty(id)) {
         layer.msg('地址参数出错！，请刷新页面', { icon: 2 });
         return false;
@@ -414,7 +414,7 @@ function get_chlidren(data = [], parent_id = 0) {
 // 获取验证码
 function get_captcha(id = 'captcha_img', uniqid = 'uniqid') {
     let data;
-    var url = 'http://api.wse.com/captcha/create_verify';
+    var url = api_domain+'/captcha/create_verify';
     $.ajax({
         type: "GET",
         contentType: "application/x-www-form-urlencoded",

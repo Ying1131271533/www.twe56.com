@@ -39,7 +39,6 @@ class Auth
     // 检查用户是否有访问该节点的权限
     public function check($id = null, $controller = '', $action = '')
     {
-
         // 是否开启权限控制
         if ($this->_config['on'] === false) {
             return true;
@@ -86,8 +85,10 @@ class Auth
 
         // 获取权限数组
         if ($this->_config['type'] === 1) {
+            // 数据库获取
             $access = $this->getAccess($id);
         } else {
+            // 缓存获取
             $access = Token::getUser()['access'];
         }
         
@@ -96,7 +97,8 @@ class Auth
             return false;
         }
         
-        // dump($controller ."/" .$action);die;
+        // halt(!in_array($controller . '/' . $action, $access));
+        // halt($controller . '/' . $action);
         // 判断是否拥有访问该节点的权限
         if (!in_array($controller . '/' . $action, $access)) {
             return false;
@@ -171,6 +173,12 @@ class Auth
 
         // 找出管理员所拥有的节点信息
         $node = $this->getNode($nodeId);
+        
+        // 把权限数组全部转小写
+        foreach ($node as $key => $value) {
+            $node[$key] = strtolower($value);
+        }
+
         return $node;
     }
 

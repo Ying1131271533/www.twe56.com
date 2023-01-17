@@ -23,7 +23,8 @@ return [
             'tag_prefix' => 'tag:',
             // 序列化机制 例如 ['serialize', 'unserialize']
             'serialize'  => [],
-        ],// redis缓存
+        ],
+        // redis缓存
         'redis'    => [
             // 驱动方式
             'type'     => 'redis',
@@ -34,7 +35,7 @@ return [
             // 端口
             'port'     => config('app.redis.port'),
             // 库
-            'select'   => 0,
+            'select'   => 2,
             // 过期时间
             // 'expire'   => null,
             'expire'   => cache_time('one_month'),

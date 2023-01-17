@@ -94,18 +94,18 @@ class Admin extends BaseValidate
     }
 
     // 用了这里就显示不出来字段的中文别名了
-    // public function sceneUpdate()
-    // {
-    //     // 添加管理员时，增加username的唯一性
-    //     return $this->only([
-    //         'id',
-    //         'username',
-    //         'real_name',
-    //         'phone',
-    //         'wechat',
-    //         'password',
-    //         'password_confirm',
-    //         'status',
-    //     ])->append('username', 'unique:admin');
-    // }
+    /* public function sceneUpdate()
+    {
+        // 添加管理员时，增加username的唯一性
+        return $this->only([
+            'id',
+            'username',
+            'real_name',
+            'phone',
+            'wechat',
+            'password',
+            'password_confirm',
+            'status',
+        ])->append('username', 'unique:admin');
+    } */
 }
