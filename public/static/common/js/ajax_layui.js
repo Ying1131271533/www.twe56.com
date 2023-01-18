@@ -129,10 +129,10 @@ function layui_form_delete(obj, url) {
  * @param  obj      upload      layui的上传文件对象
  * @param  string 	name        接收图片的input名称
  */
-function layui_upload_image(upload, name = 'image') {
+function layui_upload_image(upload, name = 'image', id = 'upload') {
     //执行实例
     var uploadInst = upload.render({
-        elem: '#upload-img' // 绑定元素
+        elem: '#'+id+'-img' // 绑定元素
         , url: '/upload/file' // 上传接口
         , method: 'POST'  // 可选项。HTTP类型，默认post
         , data: { type: 'images' } // 可选项。额外的参数，如：{id: 123, abc: 'xxx'}
@@ -141,7 +141,7 @@ function layui_upload_image(upload, name = 'image') {
         , before: function (obj) {
             // 预读本地文件示例，不支持ie8
             obj.preview(function (index, file, result) {
-                $('#upload-preview').attr('src', result); // 图片链接（base64）
+                $('#'+id+'-preview').attr('src', result); // 图片链接（base64）
             });
             // layer.msg('上传中', {icon: 16, time: 0});
         }
