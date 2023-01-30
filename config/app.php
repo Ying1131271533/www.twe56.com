@@ -68,7 +68,7 @@ return [
         'password' => '',
         'password' => 'Ym-12]i4!gDal^Jc/3@n.c^Mh',
         'port' => 6379,
-        'select' => 0,
+        'select' => 2,
     ],
 
     // memcache连接配置
