@@ -17,7 +17,7 @@ let api_domain = 'http://api.twe56.com'
     });
 }); */
 
-// 获取时间
+// 获取时间戳
 function time() {
     let tmp = Date.parse(new Date()).toString();
     tmp = tmp.substr(0, 10);
@@ -192,7 +192,7 @@ function getUserById(uid) {
     $.ajax({
         type: "POST",
         contentType: "application/x-www-form-urlencoded",
-        url: api_domain+'/user/get_user_by_id',
+        url: api_domain + '/user/get_user_by_id',
         data: { id: uid },
         beforeSend: function (request) {
             request.setRequestHeader("access-token", getApiToken());
@@ -223,7 +223,7 @@ function getUser() {
     $.ajax({
         type: "POST",
         contentType: "application/x-www-form-urlencoded",
-        url: api_domain+'/user/getUserByToken',
+        url: api_domain + '/user/getUserByToken',
         async: false,
         beforeSend: function (request) {
             request.setRequestHeader("access-token", getApiToken());
@@ -414,7 +414,7 @@ function get_chlidren(data = [], parent_id = 0) {
 // 获取验证码
 function get_captcha(id = 'captcha_img', uniqid = 'uniqid') {
     let data;
-    var url = api_domain+'/captcha/create_verify';
+    var url = api_domain + '/captcha/create_verify';
     $.ajax({
         type: "GET",
         contentType: "application/x-www-form-urlencoded",
@@ -425,8 +425,52 @@ function get_captcha(id = 'captcha_img', uniqid = 'uniqid') {
                 layer.msg(res.msg, { icon: 2, time: 500 });
             }
             $('#' + id).attr('src', res.data.content);
-            $('input[name="'+uniqid+'"]').val(res.data.uniqid);
+            $('input[name="' + uniqid + '"]').val(res.data.uniqid);
         }
     });
 
+}
+
+
+
+
+/**
+ * @description:  オラ!オラ!オラ!オラ!⎛⎝≥⏝⏝≤⎛⎝
+ * @author: 神织知更
+ * @time: 2022/04/06 15:57
+ *
+ * 表单的input分配值 未完成
+ *
+ * @param  obj      data    数据
+ */
+function input_assign_value(data = null) {
+    for (let key in data) {
+        var length = $('#' + key).length;
+        if (length > 0) {
+            if ($('#' + key).is("input")) {
+                $('#' + key).val(data[key]);
+                var type = $('#' + key).attr('type');
+                if (type == 'radio' && key == 'status') {
+                    $('input[name="status"][value="' + data[key] + '"]').attr('checked', true);
+                }
+            }
+            if ($('#' + key).is("select")) {
+
+            }
+            if ($('#' + key).is("textarea")) {
+
+            }
+        };
+    }
+
+}
+
+// 赋值
+function assign(data) {
+    $.each(data, function (key, value) {
+        console.log('#assign-' + key);
+        if ($('#assign-' + key).length > 0) {
+            $('#assign-' + key).text(value);
+        }
+    });
 }

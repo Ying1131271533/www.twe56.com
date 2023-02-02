@@ -2,6 +2,7 @@
 namespace app\admin\controller;
 
 use app\admin\logic\Admin as AdminLogic;
+use app\admin\logic\Auth;
 use app\BaseController;
 use app\common\lib\exception\Miss;
 use app\common\lib\Token;
@@ -94,5 +95,15 @@ class Admin extends BaseController
     {
         $user = Token::getUser();
         return success($user);
+    }
+
+    // 获取用户拥有的显示节点
+    public function getShowNode()
+    {
+        $admin = Token::getUser();
+        $auth = new Auth();
+        $showNode = $auth->getShowNode($admin);
+        $showNode = get_child($showNode->toArray());
+        return success($showNode);
     }
 }
