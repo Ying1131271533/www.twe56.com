@@ -27,13 +27,13 @@ class Home
             'date'     => date('Y-m-d H:i:s'),
             // 数据统计
             'count'    => [
-                ['获取文章数', ArticleModel::where('status', 1)->count()],
-                ['获取新闻数', NewsModel::where('status', 1)->count()],
-                ['获取会员数', UserModel::count()],
+                ['文章数', ArticleModel::where('status', 1)->count()],
+                ['新闻数', NewsModel::where('status', 1)->count()],
+                ['会员数', UserModel::count()],
                 ['评论数', '--'],
-                ['获取公司产品', ProductModel::count()],
-                ['获取跨境平台数', PlatformModel::count()],
-                ['获取客服数', CustomerServiceModel::count()],
+                ['公司产品数', ProductModel::count()],
+                ['跨境平台数', PlatformModel::count()],
+                ['客服数', CustomerServiceModel::count()],
             ],
             // 系统信息
             'system'   => [
