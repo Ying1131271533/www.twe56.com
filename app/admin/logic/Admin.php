@@ -44,7 +44,7 @@ class Admin
 
         // 如果IsLogin中间件那里使用了账号异地登录的话，就删除redis的token
         // 删除上次的token
-        // $this->redis->delete(config('redis.token_pre') . $admin['last_login_token']);
+        // $this->redis->delete(config('redis.token_admin') . $admin['last_login_token']);
 
         // 生成token
         $token = Str::createToken($admin['username']);
@@ -70,7 +70,7 @@ class Admin
         }
         
         // 保存token，设置过期时间：一个月
-        $this->redis->set(config('redis.token_pre') . $token, $data, cache_time('one_month'));
+        $this->redis->set(config('redis.token_admin') . $token, $data, cache_time('one_month'));
 
         // 返回token
         return $token;

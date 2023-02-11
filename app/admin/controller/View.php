@@ -287,6 +287,29 @@ class View
     {
         return FacadeView::fetch('platform/update');
     }
+
+	/************************ 用户管理 ************************/
+	
+    public function userIndex()
+    {
+        return FacadeView::fetch('user/index');
+    }
+    
+    public function userSave()
+    {
+        return FacadeView::fetch('user/save');
+    }
+
+    public function userUpdate()
+    {
+        return FacadeView::fetch('user/update');
+    }
+
+    public function userPassword()
+    {
+        return FacadeView::fetch('user/password');
+    }
+	
 	
 }
 

@@ -132,7 +132,7 @@ abstract class BaseController
 
     public function getUser()
     {
-        return $this->redis->get(config('redis.token_pre') . $this->getToken());
+        return $this->redis->get(config('redis.token_admin') . $this->getToken());
     }
 
     public function getUid()

@@ -13,7 +13,7 @@ class Token
 
     public function getUser()
     {
-        return Redis::get(config('redis.token_pre') . $this->getToken());
+        return Redis::get(config('redis.token_admin') . $this->getToken());
     }
 
     public function getUid()
@@ -23,6 +23,6 @@ class Token
 
     public function deleteToken()
     {
-        return Redis::delete(config('redis.token_pre') . $this->getToken());
+        return Redis::delete(config('redis.token_admin') . $this->getToken());
     }
 }
