@@ -2,6 +2,7 @@
 <div class="div_header">
     <div class="content">
         <div class="divheaderti">欢迎来到深圳市特稳国际物流有限公司！</div>
+        
         <div class="divheali">
             <li>
                 <a href="/login"><img src="__FRONT__/images/wse_02.jpg" /></a>
@@ -10,6 +11,14 @@
                 <a href="/register"><img src="__FRONT__/images/wse_03.jpg" /></a>
             </li>
         </div>
+
+        <script>
+            if (user) {
+                var html = '<li><a href="javascript:;" id="username">欢迎您，'+user.username+'</a></li>'+
+                '<li><a href="javascript:logout();">退出</a></li>';
+                $('.divheali').html(html);
+            }
+        </script>
     </div>
 </div>
 <!-- logo位置 -->
@@ -17,12 +26,15 @@
     <div class="content">
         <div class="header_18">
             <div class="logo">
-                <a id="header1_hlLogo"><img src="__FRONT__/images/log.png" alt="深圳市特稳国际物流有限公司 ，跨境电商综合平台-会员登录，威速易一站式跨境供应链服务平台，俄罗斯海外仓、邮政小包、俄罗斯专线、速卖通无忧线上仓" /></a>
+                <a id="header1_hlLogo"><img src="__FRONT__/images/logo.jpg"
+                        alt="深圳市特稳国际物流有限公司 ，跨境电商综合平台-会员登录，特稳物流一站式跨境供应链服务平台，俄罗斯海外仓、邮政小包、俄罗斯专线、速卖通无忧线上仓" /></a>
                 <!-- header | end -->
             </div>
+
             <div class="right_login">
                 <div class="telBox">
-                    <div class="bshare-custom icon-medium-plus">
+                    <!-- 分享div -->
+                    <!-- <div class="bshare-custom icon-medium-plus">
                         <div class="bsPromo bsPromo2"></div>
                         <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ空间"
                             class="bshare-qzone" href="javascript:void(0);"></a><a title="分享到新浪微博"
@@ -31,14 +43,15 @@
                             class="bshare-more bshare-more-icon more-style-addthis"></a>
                     </div>
                     <script type="text/javascript" charset="utf-8" src="__FRONT__/js/buttonLite.js"></script>
-                    <script type="text/javascript" charset="utf-8" src="__FRONT__/js/bshareC0.js"></script>
+                    <script type="text/javascript" charset="utf-8" src="__FRONT__/js/bshareC0.js"></script> -->
 
                     <p class="clear hetaf">
                         <img src="__FRONT__/images/wse_09.jpg" />
-                        <span id="header1_lblHotLine" class="">020-86254345转801</span>
+                        <span id="header1_lblHotLine" class="">13802418534</span>
                     </p>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

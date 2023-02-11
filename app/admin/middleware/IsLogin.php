@@ -7,7 +7,7 @@ use app\common\lib\exception\Fail;
 use app\common\lib\exception\Forbidden;
 use app\common\lib\exception\Jump;
 use app\common\lib\exception\Miss;
-use app\common\lib\Token;
+use app\common\lib\facade\Token;
 use app\common\model\Admin as AdminModel;
 
 class IsLogin extends BaseController

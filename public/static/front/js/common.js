@@ -128,3 +128,29 @@ function upload_image(id) {
     });
 
 }
+
+// 退出登录
+function logout() {
+    $.ajax({
+        type: "GET",
+        contentType: "application/x-www-form-urlencoded",
+        url: api_domain + '/user/logout',
+        async: false,
+        beforeSend: function (request) {
+            request.setRequestHeader("access-token", getApiToken());
+        },
+        success: function (res) {
+            if (res.code === config('failed')) {
+                layer.msg(res.msg);
+                return false;
+            }
+
+            if (res.code === config('success') || res.code === config('goto')) {
+                layer.msg(res.msg, { time: 500 }, function () {
+                    $.removeCookie('api_login_token', { path: '/' });
+                    $(window).attr('location', '/');
+                });
+            }
+        }
+    });
+}

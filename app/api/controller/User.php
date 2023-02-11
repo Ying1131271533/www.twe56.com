@@ -2,7 +2,7 @@
 namespace app\api\controller;
 
 use app\api\logic\User as UserLogic;
-use app\common\lib\ApiToken;
+use app\common\lib\facade\ApiToken;
 use app\common\model\User as UserModel;
 use app\Request;
 

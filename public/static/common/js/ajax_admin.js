@@ -12,7 +12,7 @@ function ajax_change_status(obj) {
     var value = $(obj).attr("data-value") == 1 ? 0 : 1; // 要修改的值
     var field = $(obj).attr("data-field"); // 字段名称
     var db = $(obj).attr("data-db"); // 表名
-
+    var cache_keys = $(obj).attr("data-cache_keys") ? $(obj).attr("data-cache_keys") : ''; // 缓存key
     $.ajax({
         type: "PATCH",
         contentType: "application/x-www-form-urlencoded",
@@ -22,6 +22,7 @@ function ajax_change_status(obj) {
             field: field,
             value: value,
             db: db,
+            cache_keys: cache_keys,
         },
         beforeSend: function (request) {
             request.setRequestHeader("access-token", getToken());

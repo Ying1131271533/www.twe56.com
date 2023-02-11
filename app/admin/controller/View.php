@@ -3,7 +3,7 @@ namespace app\admin\controller;
 
 use think\facade\View as FacadeView;
 use app\admin\logic\Auth;
-use app\common\lib\Token;
+use app\common\lib\facade\Token;
 
 class View
 {

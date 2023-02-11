@@ -40,7 +40,10 @@ class Data
             }
 
             // 获取数据所有的缓存key
-            $cacheKeys = $redis->keys($data['db'] . ':' . $data['id'] . '*');
+            $cacheKeys = !empty($data['cache_keys']) 
+            ? [$data['cache_keys']] 
+            : $redis->keys($data['db'] . ':' . $data['id'] . '*');
+
             // 删除缓存
             if (!empty($cacheKeys)) {
                 $redis->drclearTag($cacheKeys);

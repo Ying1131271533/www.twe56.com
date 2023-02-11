@@ -2,7 +2,7 @@
 namespace app\api\logic;
 
 use app\common\lib\exception\Fail;
-use app\common\lib\ApiToken;
+use app\common\lib\facade\ApiToken;
 use app\common\lib\exception\Miss;
 use app\common\lib\facade\Redis;
 use app\common\lib\Hashids;

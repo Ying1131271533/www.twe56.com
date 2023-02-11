@@ -4,7 +4,7 @@ namespace app\api\middleware;
 
 use app\common\lib\exception\Forbidden;
 use app\common\lib\exception\Jump;
-use app\common\lib\ApiToken;
+use app\common\lib\facade\ApiToken;
 use app\common\model\Admin as AdminModel;
 
 class IsLogin
@@ -18,7 +18,7 @@ class IsLogin
         }
 
         // 使用token获取用户信息
-        $user = ApiToken::getUser($token);
+        $user = ApiToken::getUser();
         if (empty($user)) {
             throw new Jump('登录过期，请重新登录！~');
         }

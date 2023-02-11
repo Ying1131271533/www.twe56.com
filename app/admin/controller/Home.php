@@ -1,7 +1,7 @@
 <?php
 namespace app\admin\controller;
 
-use app\common\lib\Token;
+use app\common\lib\facade\Token;
 use app\common\model\Article as ArticleModel;
 use app\common\model\CustomerService as CustomerServiceModel;
 use app\common\model\News as NewsModel;

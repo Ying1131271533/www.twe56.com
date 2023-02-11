@@ -5,7 +5,7 @@ use app\admin\logic\Admin as AdminLogic;
 use app\admin\logic\Auth;
 use app\BaseController;
 use app\common\lib\exception\Miss;
-use app\common\lib\Token;
+use app\common\lib\facade\Token;
 use app\common\model\Admin as AdminModel;
 use think\App;
 

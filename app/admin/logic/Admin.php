@@ -4,7 +4,7 @@ namespace app\admin\logic;
 use app\common\lib\exception\Fail;
 use app\common\lib\exception\Forbidden;
 use app\common\lib\exception\Miss;
-use app\common\lib\Token;
+use app\common\lib\facade\Token;
 use app\common\logic\lib\Redis;
 use app\common\logic\lib\Str;
 use app\common\model\Admin as AdminModel;

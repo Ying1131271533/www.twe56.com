@@ -295,6 +295,58 @@ delete_time int null 删除时间
 
 
 
+logistics_cate - 物流分类
+
+id int id
+name char(25) 分类名称
+sort smallint 0 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+cargo_attributes 货物属性
+
+id int id
+name char(50) 属性名称
+
+
+logistics - 物流
+
+id int id
+logistics_cate_id int 分类id
+country_id int 国家id
+title char(80) 物流标题
+thmub char(100) 封面
+description char(255) 描述
+recommend tinyint(1) 推荐：0 否 1 是
+minimum_age smallint 最低时效
+maximum age smallint 最高时效
+price duoble(10, 2) 价格
+discount_price duoble(10, 2) 折扣价格
+weight float(10, 2) 重量
+weight_unit char(10) 重量单位
+advantage char(100) 优势 
+sort smallint 排序
+status tinyint(1) 状态：0 禁止 1 正常
+update_time int 更新时间
+create_time int 创建时间
+delete_time int null 删除时间
+
+
+
+logistics_desc - 物流内容
+
+id int id
+content mediumtext 内容
+delete_time int null 删除时间
+logistics_id int id
+
+
+
+
+
 
 
 

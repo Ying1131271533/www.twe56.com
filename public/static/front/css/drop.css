@@ -33,7 +33,7 @@
 #nav li ul li a {display: block;}
 #nav li ul li a:hover {
   color: #FFF;
-  background:#04d238;
+  background:#0244a1;
   }
 #nav li ul li img{ margin-top:3px}
 .nav_en{ font-family:Arial}
@@ -59,7 +59,7 @@
   }
 #nav li ul li {
   float: none;
-  height:40px; border-bottom:dashed 1px #86C014;
+  height:40px; border-bottom:dashed 1px #0244a1;
   }
 #nav li ul li a {
   display: inline-block;
@@ -67,7 +67,7 @@
   }
 #nav li ul li a {display: block;}
 #nav li ul li a:hover {
-	color:#31a667;
+	color:#0244a1;
   }
 #nav li ul li img{ margin-top:3px}
 .nav_en{ font-family:Arial}

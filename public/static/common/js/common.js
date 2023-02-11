@@ -146,9 +146,9 @@ function isAdminLogin(secret) {
 // 用户是否已登录
 function isApiLogin() {
     $.ajax({
-        type: "POST",
+        type: "GET",
         contentType: "application/x-www-form-urlencoded",
-        url: api_domain + '/user/is_login',
+        url: api_domain + '/user/isLogin',
         async: true,
         beforeSend: function (request) {
             request.setRequestHeader("access-token", getApiToken());
@@ -190,9 +190,9 @@ function isAdminLogin() {
 function getUserById(uid) {
     let user = null;
     $.ajax({
-        type: "POST",
+        type: "GET",
         contentType: "application/x-www-form-urlencoded",
-        url: api_domain + '/user/get_user_by_id',
+        url: api_domain + '/user/getUserById',
         data: { id: uid },
         beforeSend: function (request) {
             request.setRequestHeader("access-token", getApiToken());
@@ -221,7 +221,7 @@ function getUserById(uid) {
 function getUser() {
     let user = null;
     $.ajax({
-        type: "POST",
+        type: "GET",
         contentType: "application/x-www-form-urlencoded",
         url: api_domain + '/user/getUserByToken',
         async: false,
@@ -232,7 +232,7 @@ function getUser() {
             if (res.code === config('goto')) {
                 layer.msg('登录凭证失效！', {}, function () {
                     $.removeCookie('api_login_token', { path: '/' });
-                    $(window).attr('location', '/api/View/user/login');
+                    $(window).attr('location', '/login');
                 });
             }
 

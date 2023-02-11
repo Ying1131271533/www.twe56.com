@@ -9,7 +9,8 @@ class Ajax extends BaseValidate
         'id|id'      => 'require|number',
         // 'value|修改值'  => '',
         'field|字段名称' => 'require|alphaDash',
-        'db|数据表名称'   => 'require|alphaDash'
+        'db|数据表名称'   => 'require|alphaDash',
+        // 'cache_keys|缓存key'   => 'alphaDash'
     ];
 
     // 验证消息
@@ -19,6 +20,6 @@ class Ajax extends BaseValidate
 
     // 验证场景
     protected $scene = [
-        'updateFieldValue' => ['id', 'value', 'field', 'db'],
+        'updateFieldValue' => ['id', 'value', 'field', 'db', 'cache_keys'],
     ];
 }

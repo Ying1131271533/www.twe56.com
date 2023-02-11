@@ -41,7 +41,12 @@
 	<script src="__COMMON__/js/common.js" charset="utf-8"></script>
 	<script src="__COMMON__/js/ajax_api.js" charset="utf-8"></script>
 	<script src="__FRONT__/js/common.js" charset="utf-8"></script>
-
+    <script>
+        let user = null;
+        if(!empty(getApiToken())){
+            user = getUser();
+        }
+    </script>
     {block name="load"}{/block}
 </head>
 
