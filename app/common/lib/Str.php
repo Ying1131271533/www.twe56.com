@@ -1,6 +1,6 @@
 <?php
 
-namespace app\common\logic\lib;
+namespace app\common\lib;
 
 class Str
 {

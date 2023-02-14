@@ -53,7 +53,7 @@ class User
     // 使用id获取用户信息
     public function getUserById(int $id)
     {
-        $user = UserModel::findUserById($id);
+        $user = UserModel::findUserByIdToCache($id);
         return success($user);
     }
 

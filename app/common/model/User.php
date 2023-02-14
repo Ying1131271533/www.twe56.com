@@ -24,6 +24,21 @@ class User extends BaseModel
         ->find($id);
     }
 
+    public static function findUserByIdToCache(int $id)
+    {
+        return self::cache('user:' . $id, cache_time())
+        ->withoutField([
+            'password',
+            'password_salt',
+            'last_login_token',
+            'login_number',
+            'last_login_ip',
+            'last_login_time',
+            'create_time'
+        ])
+        ->find($id);
+    }
+
     public static function findUserByUserName($username)
     {
         return self::where('username', $username)->find();

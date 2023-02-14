@@ -7,7 +7,7 @@ use think\Facade;
 /**
  * Class Str 静态
  * @package app\common\lib\facade
- * @mixin \app\common\logic\lib\Str
+ * @mixin \app\common\lib\Str
  */
 class Str extends Facade
 {

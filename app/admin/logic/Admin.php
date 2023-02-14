@@ -6,7 +6,7 @@ use app\common\lib\exception\Forbidden;
 use app\common\lib\exception\Miss;
 use app\common\lib\facade\Token;
 use app\common\logic\lib\Redis;
-use app\common\logic\lib\Str;
+use app\common\lib\Str;
 use app\common\model\Admin as AdminModel;
 use Exception;
 

@@ -6,7 +6,7 @@ use app\common\lib\facade\ApiToken;
 use app\common\lib\exception\Miss;
 use app\common\lib\facade\Redis;
 use app\common\lib\Hashids;
-use app\common\logic\lib\Str;
+use app\common\lib\Str;
 use app\common\model\User as UserModel;
 use Exception;
 
@@ -73,8 +73,8 @@ class User
                 'username' => $user['username'],
             ];
             
-            // 保存token，设置过期时间：一个月
-            Redis::drset(config('redis.token_api') . $token, $cache_token, cache_time('one_month'));
+            // 保存token，设置过期时间：一周
+            Redis::drset(config('redis.token_api') . $token, $cache_token, cache_time('one_week'));
 
             // 提交事务
             UserModel::commit();
@@ -130,8 +130,8 @@ class User
             'username' => $user['username'],
         ];
         
-        // 保存token，设置过期时间：一个月
-        Redis::set(config('redis.token_api') . $token, $data, cache_time('one_month'));
+        // 保存token，设置过期时间：一周
+        Redis::set(config('redis.token_api') . $token, $data, cache_time('one_week'));
 
         // 返回token
         return $token;

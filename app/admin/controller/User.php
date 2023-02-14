@@ -25,7 +25,7 @@ class User
         $userList       = $this->logic->getUserList($params);
         return layui($userList);
     }
-
+    
     // 单条
     public function read(int $id)
     {
@@ -55,12 +55,5 @@ class User
     {
         $this->logic->delete($id);
         return success('删除成功');
-    }
-
-    // 获取用户信息通过token
-    public function getUserByToken()
-    {
-        $user = Token::getUser();
-        return success($user);
     }
 }

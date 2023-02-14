@@ -132,7 +132,8 @@
           layer.msg(res.msg, { icon: 2 });
           return false;
         }
-        $.cookie('api_login_token', res.data.token, { expires: 100 * 365, path: '/' });
+        // 缓存一周
+        $.cookie('api_login_token', res.data.token, { expires: 1 * 7, path: '/' });
         layer.msg('登录成功！', { icon: 1, time: 500 }, function () {
           $(window).attr('location', '/');
         });
