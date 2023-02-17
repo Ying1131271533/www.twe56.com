@@ -8,340 +8,553 @@
 <!-- 主体内容 -->
 {block name="main"}
 <!-- 中间内容开始 -->
-  <script>
-    // 轮播图
-    slides(1);
-  </script>
-  <!-- 会员登录 -->
-  <div class="gzhl">
-    <div class="div_box1" id="style-15">
-      <div class="force-overflow">
-        <div class="div_cc4">
-          <div class="div_title"><span>会员登录</span></div>
-          <form action="http://www.gdwse.com:8083/signin.htm" method="post" target="_blank">
-            <div class="div_loggin">
-              <ul>
-                <li>
-                  <div class="divboer"><input type="text" class="inputloginz" placeholder="账号" name="username" id="">
-                  </div>
-                </li>
-                <li>
-                  <div class="divboer1"> <input type="password" class="inputloginm" placeholder="密码" name="password"
-                      id=""></div>
-                </li>
-                <li>
-                  <input class="div_input_input" type="submit" value="登 陆">
-                </li>
-                <li>
-                  <div class="divjizhu">
-                    <label><input class="divdivjizhu" name="Fruit" type="checkbox" value="2">记住密码 </label>
-                  </div>
-                  <div class="divzhuce">
-                    <a href="http://www.gdwse.com:8082/gotoRegister.htm" target="_blank">注册
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </form>
-        </div>
-
-        <div class="div_cc">
-          <div class="div_title"><span>物流跟踪查询</span></div>
-          <div class="div_trcak">
-            <form name="submitform2" action="http://www.gdwse.com:8082/trackIndex.htm" method="post" target="_blank">
-              <textarea name="documentCode" placeholder="在此输入您要查询的快递单号" id="Textarea1" cols=""
-                class="track_tex1"></textarea><br>
-              <div class="div_input">
-                <input class="div_input_input leftdiv" type="submit" value="查询快递">
-                <a href="http://www.17track.net/"> <img class="div17track" src="__FRONT__/images/17TRACK_160406123.png">
-                </a>
-
-              </div>
-            </form>
-
+<script>
+  // 轮播图
+  slides(1);
+</script>
+<!-- 会员登录 -->
+<div class="gzhl">
+  <div class="div_box1" id="style-15">
+    <div class="force-overflow">
+      <div class="div_cc4">
+        <div class="div_title"><span>会员登录</span></div>
+        <form action="http://www.gdwse.com:8083/signin.htm" method="post" target="_blank">
+          <div class="div_loggin">
+            <ul>
+              <li>
+                <div class="divboer"><input type="text" class="inputloginz" placeholder="账号" name="username" id="">
+                </div>
+              </li>
+              <li>
+                <div class="divboer1"> <input type="password" class="inputloginm" placeholder="密码" name="password"
+                    id=""></div>
+              </li>
+              <li>
+                <input class="div_input_input" type="submit" value="登 陆">
+              </li>
+              <li>
+                <div class="divjizhu">
+                  <label><input class="divdivjizhu" name="Fruit" type="checkbox" value="2">记住密码 </label>
+                </div>
+                <div class="divzhuce">
+                  <a href="http://www.gdwse.com:8082/gotoRegister.htm" target="_blank">注册
+                  </a>
+                </div>
+              </li>
+            </ul>
           </div>
+        </form>
+      </div>
 
-        </div>
+      <div class="div_cc">
+        <div class="div_title"><span>物流跟踪查询</span></div>
+        <div class="div_trcak">
+          <form name="submitform2" action="http://www.gdwse.com:8082/trackIndex.htm" method="post" target="_blank">
+            <textarea name="documentCode" placeholder="在此输入您要查询的快递单号" id="Textarea1" cols=""
+              class="track_tex1"></textarea><br>
+            <div class="div_input">
+              <input class="div_input_input leftdiv" type="submit" value="查询快递">
+              <a href="http://www.17track.net/"> <img class="div17track" src="__FRONT__/images/17TRACK_160406123.png">
+              </a>
 
-        <div class="div_cc2">
-          <div class="div_title"><span>价格查询</span></div>
-          <form id="Form1" name="theForm" action="http://www.gdwse.com:8082/defaultPriceSearch.htm" method="post"
-            target="_blank">
-            <div class="div_price">
-              <ul>
-                <li> 目的地：<input type="text" name="country" class="country" id="citySelect" placeholder="请输入目的地">
-                  <script type="text/javascript" src="__FRONT__/js/cityselect.js"></script>
-                  <script type="text/javascript">
-                    var test = new Vcity.CitySelector({ input: 'citySelect' });
-                  </script>
-                </li>
-                <li> 重&nbsp;&nbsp;&nbsp;&nbsp;量：<input type="text" name="weight" class="weight" value="1"
-                    placeholder="1" id="Text1"></li>
-                <li><input class="div_input_input " type="submit" value="查询报价"></li>
-              </ul>
             </div>
           </form>
+
         </div>
+
+      </div>
+
+      <div class="div_cc2">
+        <div class="div_title"><span>价格查询</span></div>
+        <form id="Form1" name="theForm" action="http://www.gdwse.com:8082/defaultPriceSearch.htm" method="post"
+          target="_blank">
+          <div class="div_price">
+            <ul>
+              <li> 目的地：<input type="text" name="country" class="country" id="citySelect" placeholder="请输入目的地">
+                <script type="text/javascript" src="__FRONT__/js/cityselect.js"></script>
+                <script type="text/javascript">
+                  var test = new Vcity.CitySelector({ input: 'citySelect' });
+                </script>
+              </li>
+              <li> 重&nbsp;&nbsp;&nbsp;&nbsp;量：<input type="text" name="weight" class="weight" value="1" placeholder="1"
+                  id="Text1"></li>
+              <li><input class="div_input_input " type="submit" value="查询报价"></li>
+            </ul>
+          </div>
+        </form>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- 新闻 -->
-  <div class="news">
-    <div class="content">
+<!-- 新闻 -->
+<div class="news">
+  <div class="content">
 
-      <div class="news_header">
-        <img src="__FRONT__/images/wse_18.jpg">
-      </div>
-      <div class="news-center">
-        <div class="news-center-right martght">
-          <div id="News1" class="">
-            <div class="newstielte">跨境咨询 </div>
-            <ul>
-            </ul>
-            <a class="showhide" href="/article">查看全部&gt;&gt;</a>
-          </div>
-          
-          <script>
-            // 获取跨境咨询列表
-            let articleList = ajax_list('/article/get_article_list?page=1&limit=6');
-            // console.log(articleList);
-            var html = '';
-            $.each(articleList, function (key, value) {
-                html += '<li>';
-                html += '<a href="/article/'+value['id']+'" title="'+value['title']+'" target="_blank">';
-                html += '<div class="nc-right">'+value['title']+'</div>';
-                html += '<div class="nc-left">';
-                html += '<p>'+timestampToTime(value['create_time'], true)+'</p>';
-                html += '</div>';
-                html += '</a>';
-                html += '</li>';
-            });
-            $('#News1 ul').append(html);
+    <div class="news_header">
+      <img src="__FRONT__/images/wse_18.jpg">
+    </div>
+    <div class="news-center">
+      <div class="news-center-right martght">
+        <div id="News1" class="">
+          <div class="newstielte">跨境咨询 </div>
+          <ul>
+          </ul>
+          <a class="showhide" href="/article">查看全部&gt;&gt;</a>
+        </div>
+
+        <script>
+          // 获取跨境咨询列表
+          let articleList = ajax_list('/article/get_article_list?page=1&limit=6');
+          // console.log(articleList);
+          var html = '';
+          $.each(articleList, function (key, value) {
+            html += '<li>';
+            html += '<a href="/article/' + value['id'] + '" title="' + value['title'] + '" target="_blank">';
+            html += '<div class="nc-right">' + value['title'] + '</div>';
+            html += '<div class="nc-left">';
+            html += '<p>' + timestampToTime(value['create_time'], true) + '</p>';
+            html += '</div>';
+            html += '</a>';
+            html += '</li>';
+          });
+          $('#News1 ul').append(html);
         </script>
-        </div>
-        <div class="div_middle">
-          <img src="__FRONT__/images/wse_middle.jpg">
-        </div>
-
-        <div class="news-center-right">
-          <div id="News2" class="">
-            <div class="newstielte">公司新闻 </div>
-            <ul>
-            </ul>
-            <a class="showhide" href="/news">查看全部&gt;&gt;</a>
-          </div>
-          <script>
-            // 获取公司新闻列表
-            let newsList = ajax_list('/news/get_news_list?page=1&limit=6');
-            // console.log(newsList);
-            var html = '';
-            $.each(newsList, function (key, value) {
-                html += '<li>';
-                html += '<a href="/news/'+value['id']+'" title="'+value['title']+'" target="_blank">';
-                html += '<div class="nc-right">'+value['title']+'</div>';
-                html += '<div class="nc-left">';
-                html += '<p>'+timestampToTime(value['create_time'], true)+'</p>';
-                html += '</div>';
-                html += '</a>';
-                html += '</li>';
-            });
-            $('#News2 ul').append(html);
-        </script>
-        </div>
       </div>
-      <div class="news-center1">
-        <div class="div_wsenew">
-          <img src="__FRONT__/images/wseip_03.gif">
-          <a href="http://www.gdwse.com/products/category-1.aspx"><img class="imgmore" src="__FRONT__/images/wseip_06.gif"></a>
+      <div class="div_middle">
+        <img src="__FRONT__/images/wse_middle.jpg">
+      </div>
+
+      <div class="news-center-right">
+        <div id="News2" class="">
+          <div class="newstielte">公司新闻 </div>
+          <ul>
+          </ul>
+          <a class="showhide" href="/news">查看全部&gt;&gt;</a>
         </div>
-        <div class="nTab">
-          <!-- 标题开始 -->
-          <div class="TabTitle">
-            <ul id="myTab0">
-              <li class="active" onmouseover="nTabs(this,0);">跨境咨询</li>
-              <li class="normal" onmouseover="nTabs(this,1);">行业新闻</li>
-            </ul>
-          </div>
-          <!-- 内容开始 -->
-          <div class="TabContent">
-            <div id="myTab0_Content0">
-              <div class="news-center-right">
+        <script>
+          // 获取公司新闻列表
+          let newsList = ajax_list('/news/get_news_list?page=1&limit=6');
+          // console.log(newsList);
+          var html = '';
+          $.each(newsList, function (key, value) {
+            html += '<li>';
+            html += '<a href="/news/' + value['id'] + '" title="' + value['title'] + '" target="_blank">';
+            html += '<div class="nc-right">' + value['title'] + '</div>';
+            html += '<div class="nc-left">';
+            html += '<p>' + timestampToTime(value['create_time'], true) + '</p>';
+            html += '</div>';
+            html += '</a>';
+            html += '</li>';
+          });
+          $('#News2 ul').append(html);
+        </script>
+      </div>
+    </div>
+    <div class="news-center1">
+      <div class="div_wsenew">
+        <img src="__FRONT__/images/wseip_03.gif">
+        <a href="http://www.gdwse.com/products/category-1.aspx"><img class="imgmore"
+            src="__FRONT__/images/wseip_06.gif"></a>
+      </div>
+      <div class="nTab">
+        <!-- 标题开始 -->
+        <div class="TabTitle">
+          <ul id="myTab0">
+            <li class="active" onmouseover="nTabs(this,0);">跨境咨询</li>
+            <li class="normal" onmouseover="nTabs(this,1);">行业新闻</li>
+          </ul>
+        </div>
+        <!-- 内容开始 -->
+        <div class="TabContent">
+          <div id="myTab0_Content0">
+            <div class="news-center-right">
 
 
-                <div id="News3" class="">
-                  <ul>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div id="myTab0_Content1" class="none">
-              <div class="news-center-right">
-                <div id="News4" class="">
-                  <ul>
-                    <li><a href="http://www.gdwse.com/products/2962.html" title="又“撒钱”了！拜登提6万亿美元计划……">
-                        <div class="nc-right">又“撒钱”了！拜登提6万亿美元计划……</div>
-                        <div class="nc-left">
-                          <p>2021-05-31</p>
-                        </div>
-                      </a></li>
-                    <li><a href="http://www.gdwse.com/products/2961.html" title="外媒：Prime Day日期已经确定！">
-                        <div class="nc-right">外媒：Prime Day日期已经确定！</div>
-                        <div class="nc-left">
-                          <p>2021-05-31</p>
-                        </div>
-                      </a></li>
-                    <li><a href="http://www.gdwse.com/products/2960.html" title="大批卖家清仓甩货，亚马逊新推库存清算计划">
-                        <div class="nc-right">大批卖家清仓甩货，亚马逊新推库存清算计划</div>
-                        <div class="nc-left">
-                          <p>2021-05-31</p>
-                        </div>
-                      </a></li>
-                    <li><a href="http://www.gdwse.com/products/2956.html" title="订单挂0有救了！美国$1400救济金将到账">
-                        <div class="nc-right">订单挂0有救了！美国$1400救济金将到账</div>
-                        <div class="nc-left">
-                          <p>2021-03-11</p>
-                        </div>
-                      </a></li>
-                    <li><a href="http://www.gdwse.com/products/2955.html" title="警惕！多个品牌侵权被查，已有卖家中招">
-                        <div class="nc-right">警惕！多个品牌侵权被查，已有卖家中招</div>
-                        <div class="nc-left">
-                          <p>2021-03-11</p>
-                        </div>
-                      </a></li>
-                  </ul>
-                </div>
+              <div id="News3" class="">
+                <ul>
+                </ul>
               </div>
             </div>
           </div>
+          <div id="myTab0_Content1" class="none">
+            <div class="news-center-right">
+              <div id="News4" class="">
+                <ul>
+                  <li><a href="http://www.gdwse.com/products/2962.html" title="又“撒钱”了！拜登提6万亿美元计划……">
+                      <div class="nc-right">又“撒钱”了！拜登提6万亿美元计划……</div>
+                      <div class="nc-left">
+                        <p>2021-05-31</p>
+                      </div>
+                    </a></li>
+                  <li><a href="http://www.gdwse.com/products/2961.html" title="外媒：Prime Day日期已经确定！">
+                      <div class="nc-right">外媒：Prime Day日期已经确定！</div>
+                      <div class="nc-left">
+                        <p>2021-05-31</p>
+                      </div>
+                    </a></li>
+                  <li><a href="http://www.gdwse.com/products/2960.html" title="大批卖家清仓甩货，亚马逊新推库存清算计划">
+                      <div class="nc-right">大批卖家清仓甩货，亚马逊新推库存清算计划</div>
+                      <div class="nc-left">
+                        <p>2021-05-31</p>
+                      </div>
+                    </a></li>
+                  <li><a href="http://www.gdwse.com/products/2956.html" title="订单挂0有救了！美国$1400救济金将到账">
+                      <div class="nc-right">订单挂0有救了！美国$1400救济金将到账</div>
+                      <div class="nc-left">
+                        <p>2021-03-11</p>
+                      </div>
+                    </a></li>
+                  <li><a href="http://www.gdwse.com/products/2955.html" title="警惕！多个品牌侵权被查，已有卖家中招">
+                      <div class="nc-right">警惕！多个品牌侵权被查，已有卖家中招</div>
+                      <div class="nc-left">
+                        <p>2021-03-11</p>
+                      </div>
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <script type="text/javascript">
-          function nTabs(thisObj, Num) {
-            if (thisObj.className == "active") return;
-            var tabObj = thisObj.parentNode.id;
-            var tabList = document.getElementById(tabObj).getElementsByTagName("li");
-            for (i = 0; i < tabList.length; i++) {
-              if (i == Num) {
-                thisObj.className = "active";
-                document.getElementById(tabObj + "_Content" + i).style.display = "block";
-              } else {
-                tabList[i].className = "normal";
-                document.getElementById(tabObj + "_Content" + i).style.display = "none";
-              }
+      </div>
+      <script type="text/javascript">
+        function nTabs(thisObj, Num) {
+          if (thisObj.className == "active") return;
+          var tabObj = thisObj.parentNode.id;
+          var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+          for (i = 0; i < tabList.length; i++) {
+            if (i == Num) {
+              thisObj.className = "active";
+              document.getElementById(tabObj + "_Content" + i).style.display = "block";
+            } else {
+              tabList[i].className = "normal";
+              document.getElementById(tabObj + "_Content" + i).style.display = "none";
             }
           }
-        </script>
-        <div class="news-center-right martght">
-          <div id="Div1" class=""></div>
-        </div>
-        <div class="div_middle">
-          <img src="__FRONT__/images/wse_middle.jpg">
-        </div>
-        <div class="news-center-right">
-          <div id="Div2" class=""></div>
-        </div>
+        }
+      </script>
+      <div class="news-center-right martght">
+        <div id="Div1" class=""></div>
+      </div>
+      <div class="div_middle">
+        <img src="__FRONT__/images/wse_middle.jpg">
+      </div>
+      <div class="news-center-right">
+        <div id="Div2" class=""></div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- 物流 -->
-  <div class="div_pn">
-    <div class="content">
-      
-      <div class="hot-recommended wow fadeInUp">
-        <div class="hot-recommended__header">
-          <div class="hot-recommended__header-des">
-            <div class="hot-recommended__title">优惠路线推荐</div>
+<!-- 物流 -->
+<div class="div_pn">
+  <div class="content">
+
+    <div class="hot-recommended wow fadeInUp">
+      <div class="hot-recommended__header">
+        <div class="hot-recommended__header-des">
+          <div class="hot-recommended__title">优惠路线推荐</div>
+        </div>
+        <div data-wow-offset="40" data-wow-duration=".8s" data-wow-delay="0.3s"
+          class="hot-recommended__nav wow fadeInUp"
+          style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s;">
+          <div class="hot-recommended__nav-item hot-recommended__nav-active">
+            <span>专线</span>
+            <span class="dian dian__nav-active"></span>
           </div>
-          <div data-wow-offset="40" data-wow-duration=".8s" data-wow-delay="0.3s" class="hot-recommended__nav wow fadeInUp"
-            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s;">
-            <div class="hot-recommended__nav-item hot-recommended__nav-active">
-              <span>专线</span>
-              <span class="dian dian__nav-active"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>快递</span>
-              <span class="dian"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>空派</span>
-              <span class="dian"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>铁派</span>
-              <span class="dian"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>海派</span>
-              <span class="dian"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>海卡</span>
-              <span class="dian"></span>
-            </div>
-            <div class="hot-recommended__nav-item">
-              <span>其他</span>
-              <span class="dian nodian"></span>
-            </div>
+          <div class="hot-recommended__nav-item">
+            <span>快递</span>
+            <span class="dian"></span>
+          </div>
+          <div class="hot-recommended__nav-item">
+            <span>空派</span>
+            <span class="dian"></span>
+          </div>
+          <div class="hot-recommended__nav-item">
+            <span>铁派</span>
+            <span class="dian"></span>
+          </div>
+          <div class="hot-recommended__nav-item">
+            <span>海派</span>
+            <span class="dian"></span>
+          </div>
+          <div class="hot-recommended__nav-item">
+            <span>海卡</span>
+            <span class="dian"></span>
+          </div>
+          <div class="hot-recommended__nav-item">
+            <span>其他</span>
+            <span class="dian nodian"></span>
           </div>
         </div>
-        <div class="hot-recommended__body wow fadeInUp">
-          <div class="hot-recommended__body-content">
-            <div class="hot-recommended__ul">
-              <div class="hot-recommended__ul-bg"></div>
-    
-              <!-- 卡片开始 -->
-              <div class="hot-recommended__item fadeInUp1">
-                <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
-                <p class="top"></p>
-                <p class="activeTop"></p>
-                <div class="hot-recommended__item-name">美国海派-美森限时达</div>
-                <div class="hot-recommended__item-code">
-                  <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
-                </div>
-                <div class="hot-recommended__subItem">
-                  <span class="flexs">
-                    <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
-                    <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
-                  </span>
-                  <span class="hot-recommended__value">16-21个自然日</span>
-                </div>
-                <div class="hot-recommended__subItem">
-                  <span class="hot-recommended__label flexs">
-                    <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
-                    <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
-                  </span>
-                  <span class="hot-recommended__value">美国</span>
-                </div>
-                <div class="hot-recommended__subItem">
-                  <span class="hot-recommended__label flexs">
-                    <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
-                    <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
-                  </span>
-                  <span class="hot-recommended__goods-attr">美森限时达，限时秒杀</span>
-                </div>
-                <div class="hot-recommended__confirm">
-                  <div class="hot-recommended__price">
-                    <p class="hot-recommended__box">
-                      <span class="hot-recommended__symbol" style="line-height: 1;">￥</span>
-                      <span class="hot-recommended__value">10.50</span>
-                      <span class="hot-recommended__des">/KG</span>
-                      <!---->
-                    </p>
-                  </div>
-                  <span class="hot-recommended__confirm-btn">立即下单</span>
-                </div>
+      </div>
+      <div class="hot-recommended__body wow fadeInUp">
+        <div class="hot-recommended__body-content">
+          <div class="hot-recommended__ul">
+            <div class="hot-recommended__ul-bg"></div>
+
+            <!-- 卡片开始 -->
+            <div class="hot-recommended__item fadeInUp1">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">美国特货专线小包</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
               </div>
-              <!-- 卡片结束 -->
-    
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">7-10个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">美国</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">时效快，服务稳定</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <span class="hot-recommended__symbol" style="line-height: 1;">低至：</span>
+                    <span class="hot-recommended__value">75元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
             </div>
+
+            <div class="hot-recommended__item fadeInUp2">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">UPS快递美国特货</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">3-5个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">美国</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">快递服务，时效稳</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <span class="hot-recommended__symbol" style="line-height: 1;">21kg以上低至：</span>
+                    <span class="hot-recommended__value">45元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
+            </div>
+
+            <div class="hot-recommended__item fadeInUp3">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">美国特货空派</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">7-10个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">美国</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">香港、韩国直飞</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <span class="hot-recommended__symbol" style="line-height: 1;">21kg以上低至：</span>
+                    <span class="hot-recommended__value">32元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
+            </div>
+
+            <div class="hot-recommended__item fadeInUp4">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">欧洲特货专线小包</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">8-15个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">欧洲</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">双清包税，每周2-3趟航班</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <!-- <span class="hot-recommended__symbol" style="line-height: 1;">21kg以上低至：</span> -->
+                    <span class="hot-recommended__value">65元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
+            </div>
+
+            <div class="hot-recommended__item fadeInUp4">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">巴西特货专线小包</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">8-15个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">巴西</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">邮政清关，单票10KG以内</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <!-- <span class="hot-recommended__symbol" style="line-height: 1;">21kg以上低至：</span> -->
+                    <span class="hot-recommended__value">85元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
+            </div>
+
+            <div class="hot-recommended__item fadeInUp4">
+              <div class="hot-recommended__item-top"><img src="__FRONT__/images/yunwuj_02.png" alt=""></div>
+              <p class="top"></p>
+              <p class="activeTop"></p>
+              <div class="hot-recommended__item-name">特邮宝专线小包</div>
+              <div class="hot-recommended__item-code">
+                <span class="hot-recommended__item-detail">查看方案 <img src="__FRONT__/images/yunwuj_03.png" alt=""></span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="flexs">
+                  <img src="__FRONT__/images/yunwuj_04.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_05.png" alt="" class="hoverIcon"> 时效：
+                </span>
+                <span class="hot-recommended__value">8-15个自然日</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_06.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_07.png" alt="" class="hoverIcon"> 国家：
+                </span>
+                <span class="hot-recommended__value">欧美9国</span>
+              </div>
+              <div class="hot-recommended__subItem">
+                <span class="hot-recommended__label flexs">
+                  <img src="__FRONT__/images/yunwuj_08.png" alt="" class="icon">
+                  <img src="__FRONT__/images/yunwuj_09.png" alt="" class="hoverIcon"> 优势：
+                </span>
+                <span class="hot-recommended__goods-attr">台湾出口，邮政清关</span>
+              </div>
+              <div class="hot-recommended__confirm">
+                <div class="hot-recommended__price">
+                  <p class="hot-recommended__box">
+                    <!-- <span class="hot-recommended__symbol" style="line-height: 1;">21kg以上低至：</span> -->
+                    <span class="hot-recommended__value">80元</span>
+                    <span class="hot-recommended__des">/KG</span>
+                    <!---->
+                  </p>
+                </div>
+                <span class="hot-recommended__confirm-btn">立即下单</span>
+              </div>
+            </div>
+
+            <!-- 卡片结束 -->
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>
 
-  <!--中间内容 结束-->
+
+<!--中间内容 结束-->
 {/block}
