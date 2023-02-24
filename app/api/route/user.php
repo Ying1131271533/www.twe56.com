@@ -3,14 +3,14 @@
 use think\facade\Route;
 
 // 管理员
-Route::group('user', function(){
+Route::group('user', function () {
     // 登录
     Route::rule('login', 'User/login', 'POST');
     // 注册
     Route::rule('register', 'User/register', 'POST');
 });
 
-Route::group('user', function(){
+Route::group('user', function () {
     // 验证登录
     Route::rule('isLogin', 'User/isLogin', 'GET');
     // 退出登录
