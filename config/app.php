@@ -50,6 +50,8 @@ return [
         'image'  => ['image' => 'fileSize:2097152|fileExt:jpg,jpeg,gif,png,bmp'],
         // 多张图片
         'images' => ['image' => 'fileSize:2097152|fileExt:jpg,jpeg,gif,png,bmp'],
+        // 头像
+        'avatar'  => ['image' => 'fileSize:2097152|fileExt:jpg,jpeg,gif,png,bmp'],
         // excel表格
         'excel'  => ['file' => 'fileSize:2097152|fileExt:xls,xlsx'],
         // word文档
