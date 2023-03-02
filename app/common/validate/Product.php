@@ -34,7 +34,7 @@ class Product extends BaseValidate
             'image',
             'content',
             'sort',
-            'status'
+            'status',
         ],
         'update'         => [
             'id',
@@ -42,7 +42,7 @@ class Product extends BaseValidate
             'image',
             'content',
             'sort',
-            'status'
+            'status',
         ],
         'delete'         => ['id'],
 
