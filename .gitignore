@@ -1,7 +1,8 @@
 # 禁止上传的文件
 /.idea
 /.vscode
-#/vendor
+/vendor
+/public/storage
 *.log
-#.env
+.env
 /runtime
