@@ -3,6 +3,7 @@
 /.vscode
 /vendor
 /public/storage
+/public/ueditor
 *.log
 .env
 /runtime
