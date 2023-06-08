@@ -29,7 +29,7 @@ class Admin
         if (empty($admin)) {
             throw new Fail('帐号不存在！');
         }
-
+        
         // 用户状态
         if ($admin['status'] == 0) {
             throw new Fail('该用户被禁止登录');
